@@ -1,0 +1,59 @@
+:root {
+  /*Colors names*/
+  /*https://www.htmlcsscolor.com/*/
+
+  --color-white: #fff;
+  --color-black: #000;
+
+  --color-solitude: #e7f0ff;
+  --color-rose-white: #feefea;
+  --color-blue-romance: #daefd5;
+  --color-lavender: #eae6ff;
+
+  --color-cobalt: #0c4ba0;
+  --color-tangerine: #e98509;
+  --color-forest-green: #319b17;
+  --color-light-slate-blue: #8b75ff;
+
+  --color-prussian-blue: #00275c;
+  --color-saddle-brown: #864a00;
+  --color-myrtle: #0e4900;
+  --color-purple-heart: #4935b5;
+
+  --color-royal-blue: #4183dc;
+
+  --color-white-smoke: #f5f5f5;
+  --color-gainsboro: #dadada;
+  --color-silver: #c4c4c4;
+  --color-night-rider: #333333;
+  --color-nero: #262626;
+
+  /*Color theme*/
+
+  --color-light-blue: var(--color-solitude);
+  --color-light-orange: var(--color-rose-white);
+  --color-light-green: var(--color-blue-romance);
+  --color-light-purple: var(--color-lavender);
+
+  --color-blue: var(--color-cobalt);
+  --color-orange: var(--color-tangerine);
+  --color-green: var(--color-forest-green);
+  --color-purple: var(--color-light-slate-blue);
+
+  --color-dark-blue: var(--color-prussian-blue);
+  --color-dark-orange: var(--color-saddle-brown);
+  --color-dark-green: var(--color-myrtle);
+  --color-dark-purple: var(--color-purple-heart);
+
+  --color-bright-blue: var(--color-royal-blue);
+
+  --color-grey: var(--color-silver);
+  --color-grey-transparent: rgba(var(--color-nero), 0.5);
+
+  --color-bg-main: var(--color-white);
+  --color-bg-light-grey: var(--color-white-smoke);
+
+  --color-text-main: var(--color-night-rider);
+  --color-text-black: var(--color-black);
+}
+
