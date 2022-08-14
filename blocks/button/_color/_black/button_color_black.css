@@ -1,0 +1,16 @@
+.button_color_black {
+  border: 1px solid #333333;
+  color: #333333;
+}
+.button_color_black:hover {
+  border: 2px solid #333333;
+}
+.button_color_black:visited {
+  background-color: #333333;
+  color: white;
+}
+.button_color_black:disabled {
+  border: 2px solid #c4c4c4;
+  background-color: #f5f5f5;
+  color: #c4c4c4;
+}

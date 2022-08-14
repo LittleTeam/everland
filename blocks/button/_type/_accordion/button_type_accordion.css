@@ -1,0 +1,17 @@
+.button_type_accordion {
+  width: 45px;
+  height: 45px;
+  background-image: url(../../../../images/Icon_plus.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #e7f0ff;
+  border-radius: 50%;
+  align-self: center;
+}
+
+.button_type_accordion:hover {
+  background-image: url(../../../../images/Accordeon_Hover_Icon.svg);
+}
+.button_type_accordion:disabled {
+  background-image: url(../../../../images/Accordeon_Disabled_Icon.svg);
+}

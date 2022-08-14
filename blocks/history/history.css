@@ -1,0 +1,16 @@
+.history {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1279px) {
+  .history {
+      max-width: 687px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .history {
+      max-width: 299px;
+  }
+}

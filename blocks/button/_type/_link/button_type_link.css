@@ -1,0 +1,12 @@
+.button_type_link {
+  border: 1px; 
+  transition: 0.9s ease-in-out;
+  position: relative;
+
+}
+.button_type_link::after {
+  content: "🠖";
+  position: absolute;
+  top: 13px;
+  right: 10px;
+}

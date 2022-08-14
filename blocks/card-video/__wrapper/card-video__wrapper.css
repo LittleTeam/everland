@@ -1,0 +1,19 @@
+.card-video__wrapper {
+  max-width: 1340px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1279px) {
+  .card-video__wrapper {
+      max-width: 668px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card-video__wrapper {
+      max-width: 300px;
+      flex-direction: column;
+  }
+}

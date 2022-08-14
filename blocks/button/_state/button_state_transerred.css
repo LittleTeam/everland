@@ -1,0 +1,18 @@
+.button_state_transferred {
+}
+
+@media screen and (max-width: 1279px) {
+    .button_state_transferred {
+        order: 1;
+        margin-top: 40px;
+        width: 200px;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .button_state_transferred {
+        margin-top: 24px;
+        width: 299px;
+    }
+}

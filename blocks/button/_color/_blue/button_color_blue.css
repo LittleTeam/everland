@@ -1,0 +1,29 @@
+.button_color_blue {
+  width: 240px;
+  background-color: #e7f0ff;
+  color: #0c4ba0;
+}
+.button_color_blue:hover {
+  background-color: #0c4ba0;
+  color: #ffffff;
+}
+.button_color_blue:visited {
+  background-color: #00275c;
+  color: #ffffff;
+}
+.button_color_blue:disabled {
+  background-color: #c4c4c4;
+  color: #26262680;
+}
+
+@media screen and (max-width: 1279px) {
+  .button_color_blue {
+      width: 220px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button_color_blue {
+      width: 175px;
+  }
+}
