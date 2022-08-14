@@ -1,0 +1,8 @@
+.support-links {
+  padding: 58px 30px;
+  display: flex;
+  gap: 40px;
+  background-color: var(--color-light-blue);
+  border-radius: 10px;
+  overflow: auto;
+}

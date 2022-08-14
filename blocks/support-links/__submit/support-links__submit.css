@@ -1,0 +1,11 @@
+.support-links__submit {
+  margin-left: 50px;
+  padding-left: 29px;
+  padding-right: 29px;
+}
+
+@media screen and (max-width: 1360px) {
+  .support-links__submit {
+    margin-left: 20px;
+  }
+}
