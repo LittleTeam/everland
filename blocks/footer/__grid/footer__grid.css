@@ -1,0 +1,24 @@
+.footer__grid {
+  column-gap: 60px;
+  display: grid;
+  grid-template-columns: 539px 629px;
+  max-width: 1228px;
+  row-gap: 90px;
+}
+
+@media screen and (max-width: 1279px) {
+  .footer__grid {
+    column-gap: 40px;
+    grid-template-columns: minmax(294px, 539px) minmax(336px, 629px);
+    row-gap: 56px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 695px) {
+  .footer__grid {
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+  }
+}
+

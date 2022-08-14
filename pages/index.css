@@ -3,3 +3,30 @@
 @import '../blocks/root/root.css';
 @import '../blocks/page/page.css';
 @import '../blocks/container/container.css';
+
+@import '../blocks/footer/footer.css';
+@import '../blocks/footer/__grid/footer__grid.css';
+@import '../blocks/footer/__paragraph/footer__paragraph.css';
+@import '../blocks/footer/__menu/footer__menu.css';
+@import '../blocks/footer/__menu-list/footer__menu-list.css';
+@import '../blocks/footer/__menu-link/footer__menu-link.css';
+@import '../blocks/footer/__menu-item/footer__menu-item.css';
+@import '../blocks/footer/__heading/footer__heading.css';
+@import '../blocks/logo/logo.css';
+@import '../blocks/logo/_place/logo_place_footer.css';
+
+@import '../blocks/footer/__logo/footer__logo.css';
+@import '../blocks/footer/__logo/_name/footer__logo_name_beeline.css';
+@import '../blocks/footer/__logo/_name/footer__logo_name_fund.css';
+@import '../blocks/footer/__logo/_name/footer__logo_name_yandex.css';
+
+@import '../blocks/footer/__wrapper-logo/footer__wrapper-logo.css';
+@import '../blocks/footer/__phones/footer__phones.css';
+@import '../blocks/footer/__container-address/footer__container-address.css';
+@import '../blocks/footer/__address/footer__address.css';
+@import '../blocks/footer/__container-logo-social/footer__container-logo-social.css';
+@import '../blocks/footer/__logo-social-link/footer__logo-social-link.css';
+@import '../blocks/footer/__logo-social/footer__logo-social.css';
+@import '../blocks/footer/__copyright/footer__copyright.css';
+@import '../blocks/footer/__wrapper-praktikum/footer__wrapper-praktikum.css';
+
