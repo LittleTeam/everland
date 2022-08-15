@@ -12,10 +12,12 @@
 @import '../blocks/button/_theme/button_theme_radio-link.css';
 @import '../blocks/button/_theme/button_theme_primary.css';
 
+@import '../blocks/support-nav/support-nav.css';
+
 @import '../blocks/support-links/support-links.css';
 @import '../blocks/support-links/__item/support-links__item.css';
 @import '../blocks/support-links/__item/_content/support-links__item_content_another.css';
-@import '../blocks/support-links/__radio/support-links__radio.css';
+@import '../blocks/support-links/__radio-input/support-links__radio-input.css';
 @import '../blocks/support-links/__radio-button/support-links__radio-button.css';
 @import '../blocks/support-links/__submit/support-links__submit.css';
 

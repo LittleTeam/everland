@@ -1,4 +1,4 @@
-.support-links__radio {
+.support-links__radio-input {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -6,10 +6,10 @@
   clip: rect(0 0 0 0);
 }
 
-.support-links__radio:checked + .support-links__radio-button {
+.support-links__radio-input:checked + .support-links__radio-button {
   border-color: var(--color-blue);
 }
 
-.support-links__radio:focus + .support-links__radio-button {
+.support-links__radio-input:focus + .support-links__radio-button {
   border-color: var(--color-bright-blue);
 }

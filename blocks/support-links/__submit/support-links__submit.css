@@ -9,3 +9,19 @@
     margin-left: 20px;
   }
 }
+
+@media screen and (max-width: 1279px) {
+  .support-links__submit {
+    margin-left: 12px;
+    padding-left: 23px;
+    padding-right: 23px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .support-links__submit {
+    margin-left: 0;
+    margin-top: 16px;
+    width: 100%;
+  }
+}

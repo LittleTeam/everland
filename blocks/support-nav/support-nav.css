@@ -1,0 +1,9 @@
+ .support-nav {
+   margin-bottom: 50px;
+ }
+
+ @media screen and (max-width: 767px) {
+   .support-nav {
+     margin-bottom: 32px;
+   }
+ }
