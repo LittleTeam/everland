@@ -1,0 +1,17 @@
+.amount {
+  padding-bottom: 150px;
+  max-width: 1360px;
+  margin: 0 auto
+}
+
+@media (min-width: 600px) and (max-width: 1280px) {
+  .amount {
+    padding-bottom: 100px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 599px) {
+  .amount {
+    padding-bottom: 64px;
+  }
+}

@@ -1,0 +1,23 @@
+.amount__number {
+  display: grid;
+  justify-content: end;
+  align-content: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px 20px;
+  max-width: 770px;
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .amount__number {
+    gap: 33px 22px;
+    max-width: 688px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 599px) {
+  .amount__number {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+  }
+}

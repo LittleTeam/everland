@@ -3,3 +3,13 @@
 @import '../blocks/root/root.css';
 @import '../blocks/page/page.css';
 @import '../blocks/container/container.css';
+
+@import url(../blocks/amount/amount.css);
+@import url(../blocks/amount/__color/amount__color.css);
+@import url(../blocks/amount/__container/amount__container.css);
+@import url(../blocks/amount/__heading/amount__heading.css);
+@import url(../blocks/amount/__img/amount__img.css);
+@import url(../blocks/amount/__numbers/amount__numbers.css);
+@import url(../blocks/amount/__text/amount__text.css);
+@import url(../blocks/amount/__title/amount__title.css);
+@import url(../blocks/amount/__number/amount__number.css);
