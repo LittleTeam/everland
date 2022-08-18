@@ -1,0 +1,15 @@
+.button_secondary {
+  color: #0C4BA0;
+  border: 1px solid #0C4BA0;
+}
+
+.button_secondary:hover {
+  border: 1px solid #00275C;
+  color: #00275C;
+}
+
+.button_secondary:focus {
+  background: #00275C;
+  border-radius: 10px;
+  color: #FFFFFF;
+}

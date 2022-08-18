@@ -1,0 +1,26 @@
+.about__title {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  max-width: 826px;
+}
+
+@media screen and (max-width: 1250px) {
+  .about__title {
+    font-size: 38px;
+    letter-spacing: -0.03em;
+    max-width: 424px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .about__title {
+    font-size: 28px;
+    min-width: 300px;
+  }
+}

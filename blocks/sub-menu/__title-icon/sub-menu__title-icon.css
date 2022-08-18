@@ -1,0 +1,7 @@
+.sub-menu__title-icon {
+    background-image: url(../../../images/Icon_shevron.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 7px;
+  }
