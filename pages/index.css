@@ -9,6 +9,7 @@
 @import url(../blocks/header/__menu-button/header__menu-button.css);
 @import url(../blocks/header/__menu-icon/header__menu-icon.css);
 @import url(../blocks/header/__menu-text/header__menu-text.css);
+@import url(../blocks/header/__menu-icon/_close/header__menu-icon_close.css);
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_primary/button_primary.css);
 @import url(../blocks/button/_secondary/button_secondary.css);
