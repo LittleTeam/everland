@@ -3,15 +3,15 @@
     min-width: 100%;
     opacity: 0;
   }
-  
+
   @media screen and (max-width: 1250px) {
     .about__slider-item {
       min-width: 728px;
     }
   }
-  
+
   @media screen and (max-width: 730px) {
     .about__slider-item {
-      min-width: 300px;
+      min-width: calc(100% - 20px);
     }
   }

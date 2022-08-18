@@ -1,21 +1,19 @@
-
 //Шторка меню
 
-const header = document.querySelector('.header')
-const subMenuHidden = document.querySelector('.sub-menu_hidden')
-const subMenuBtn = document.querySelector('#menuBtn')
-const subMenu = document.querySelector('.sub-menu')
-const MenuIcon = document.querySelector('.header__menu-icon')
-const column = document.querySelectorAll('.sub-menu__column-links')
-const columnIcon = document.querySelectorAll('.sub-menu__title-icon')
-
+const header = document.querySelector(".header");
+const subMenuHidden = document.querySelector(".sub-menu_hidden");
+const subMenuBtn = document.querySelector("#menuBtn");
+const subMenu = document.querySelector(".sub-menu");
+const MenuIcon = document.querySelector(".header__menu-icon");
+const column = document.querySelectorAll(".sub-menu__column-links");
+const columnIcon = document.querySelectorAll(".sub-menu__title-icon");
 
 const toggleMenu = function () {
   subMenuHidden.classList.toggle("sub-menu_hidden");
   MenuIcon.classList.toggle("header__menu-icon_close");
   column.forEach((e) => e.classList.add("sub-menu__column-links_hide"));
   columnIcon.forEach((e) => e.classList.remove("sub-menu__title-icon_hide"));
-}
+};
 
 subMenuBtn.addEventListener("click", function (e) {
   e.stopPropagation();
@@ -35,25 +33,25 @@ document.addEventListener("click", function (e) {
 
 //Аккорденон мобилный
 
-const titleBtn = document.querySelectorAll('.sub-menu__title')
+const titleBtn = document.querySelectorAll(".sub-menu__title");
 
-function click () {
+function click() {
   titleBtn.forEach(() => this.parentElement.nextElementSibling.classList.toggle("sub-menu__column-links_hide"));
   titleBtn.forEach(() => this.nextElementSibling.classList.toggle("sub-menu__title-icon_hide"));
-  console.log(this)
+  console.log(this);
 }
 
-titleBtn.forEach(e => {
-  e.addEventListener('click', click)
-})
+titleBtn.forEach((e) => {
+  e.addEventListener("click", click);
+});
 
 // Слайдер с анимациями
 
-const items = document.querySelectorAll('.about__slider-item');
-const btnPrev = document.querySelector('#btnPrev');
-const btnNext = document.querySelector('#btnNext');
+const items = document.querySelectorAll(".about__slider-item");
+const btnPrev = document.querySelector("#btnPrev");
+const btnNext = document.querySelector("#btnNext");
 // счетчик
-let btnPagination =  document.querySelector('#pagination');
+let btnPagination = document.querySelector("#pagination");
 let savedIndex = 0;
 
 function printPagination() {
@@ -61,19 +59,19 @@ function printPagination() {
 }
 
 function calcSlideNext() {
-  savedIndex = savedIndex += 1
+  savedIndex = savedIndex += 1;
   savedIndex = items.length === savedIndex ? 0 : savedIndex;
-  items.forEach(el => el.classList.remove('about__slider-item_next'));
-  items.forEach(el => el.classList.remove('about__switcher-button_prev'));
-  items[savedIndex].classList.add('about__slider-item_next');
+  items.forEach((el) => el.classList.remove("about__slider-item_next"));
+  items.forEach((el) => el.classList.remove("about__switcher-button_prev"));
+  items[savedIndex].classList.add("about__slider-item_next");
 }
 
 function calcSlidePrev() {
-  savedIndex = savedIndex -= 1
+  savedIndex = savedIndex -= 1;
   savedIndex = savedIndex < 0 ? items.length - 1 : savedIndex;
-  items.forEach(el => el.classList.remove('about__switcher-button_prev'));
-  items.forEach(el => el.classList.remove('about__slider-item_next'));
-  items[savedIndex].classList.add('about__switcher-button_prev');
+  items.forEach((el) => el.classList.remove("about__switcher-button_prev"));
+  items.forEach((el) => el.classList.remove("about__slider-item_next"));
+  items[savedIndex].classList.add("about__switcher-button_prev");
 }
 
 const clickSliderHandlerNext = () => {
@@ -81,17 +79,15 @@ const clickSliderHandlerNext = () => {
   printPagination();
 };
 
-
 const clickSliderHandlerPrev = () => {
   calcSlidePrev();
   printPagination();
 };
 
-btnPrev.addEventListener('click', clickSliderHandlerPrev);
-btnNext.addEventListener('click', clickSliderHandlerNext);
+btnPrev.addEventListener("click", clickSliderHandlerPrev);
+btnNext.addEventListener("click", clickSliderHandlerNext);
 
 //СЛАЙДЕР БЕЗ АНИМАЦИИ
-
 
 /*
 
