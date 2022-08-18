@@ -1,4 +1,4 @@
-.footer__container-address {
+.footer__contacts {
   align-items: flex-start;
   display: flex;
   font-size: 18px;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .footer__container-address {
+  .footer__contacts {
     flex-direction: column;
     font-size: 14px;
     font-weight: 500;
@@ -20,7 +20,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .footer__container-address {
+  .footer__contacts {
     font-size: 12px;
     gap: 10px;
   }
