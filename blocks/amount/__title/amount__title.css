@@ -1,0 +1,26 @@
+.amount__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 76.8px;
+  color: black;
+  white-space: nowrap;
+  max-width: 567px;
+  padding-bottom: 50px;
+}
+
+@media (min-width: 600px) and (max-width: 1030px) {
+  .amount__title {
+    font-size: 36px;
+    line-height: 43.2px;
+    padding-bottom: 32px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 599px) {
+  .amount__title {
+    font-size: 26px;
+    line-height: 31.2px;
+    padding-bottom: 24px;
+  }
+}

@@ -1,0 +1,24 @@
+.amount__heading {
+  margin: 0;
+  padding-bottom: 5px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 40.8px;
+  color: black;
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .amount__heading {
+    font-size: 34px;
+    line-height: 40.8px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 599px) {
+  .amount__heading {
+    font-size: 18px;
+    line-height: 21.6px;
+    padding-bottom: 5px;
+  }
+}
