@@ -4,6 +4,18 @@
 @import '../blocks/page/page.css';
 @import '../blocks/container/container.css';
 
+@import url(../blocks/accordion/accordion.css);
+@import url(../blocks/accordion/__container/accordion__container.css);
+@import url(../blocks/accordion/__item/accordion__item.css);
+@import url(../blocks/accordion/__subtitle/accordion__subtitle.css);
+@import url(../blocks/accordion/__text/accordion__text.css);
+@import url(../blocks/accordion/__title/accordion__title.css);
+@import url(../blocks/accordion/__wrapper/accordion__wrapper.css);
+@import url(../blocks/accordion/__text/_disabled/accordion__text_disabled.css);
+@import url(../blocks/accordion/__column/accordion__column.css);
+@import url(../blocks/accordion/__button/accordion__button.css);
+@import url(../blocks/accordion/__button/_active/accordion__button_active.css);
+
 @import url(../blocks/amount/amount.css);
 @import url(../blocks/amount/__color/amount__color.css);
 @import url(../blocks/amount/__container/amount__container.css);
