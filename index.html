@@ -18,8 +18,8 @@
     <p class="header__menu-text">Меню</p>
   </button>
   <div class="header__buttons">
-    <button aria-label="Платформа" class="button button_secondary" type="button">Платформа</button>
-    <button aria-label="Поддержать" class="button button_primary" type="button">Поддержать</button>
+    <button onclick="window.location.href = '#platform';" aria-label="Платформа" class="button button_secondary" type="button">Платформа</button>
+    <button onclick="window.location.href = '#support';" aria-label="Поддержать" class="button button_primary" type="button">Поддержать</button>
   </div>
   <div class="sub-menu sub-menu_hidden">
     <nav class="sub-menu__column">
@@ -73,14 +73,14 @@
 </header>
 <nav class="navigation">
   <ul class="navigation__menu">
-    <li class="navigation__list-item"><a class="navigation__link" href="#">Для кого</a></li>
-    <li class="navigation__list-item"><a class="navigation__link" href="#">Направления работы</a></li>
-    <li class="navigation__list-item"><a class="navigation__link" href="#">Преимущества</a></li>
-    <li class="navigation__list-item"><a class="navigation__link" href="#">Основные цифры</a></li>
-    <li class="navigation__list-item"><a class="navigation__link" href="#">Спецпроекты</a></li>
-    <li class="navigation__list-item"><a class="navigation__link" href="#">Истории</a></li>
-    <li class="navigation__list-item"><a class="navigation__link" href="#">Агентство</a></li>
-    <li class="navigation__list-item"><a class="navigation__link" href="#">Новости</a></li>
+    <li class="navigation__list-item"><a class="navigation__link" href="#who">Для кого</a></li>
+    <li class="navigation__list-item"><a class="navigation__link" href="#work">Направления работы</a></li>
+    <li class="navigation__list-item"><a class="navigation__link" href="#advantages">Преимущества</a></li>
+    <li class="navigation__list-item"><a class="navigation__link" href="#numbers">Основные цифры</a></li>
+    <li class="navigation__list-item"><a class="navigation__link" href="#project">Спецпроекты</a></li>
+    <li class="navigation__list-item"><a class="navigation__link" href="#stories">Истории</a></li>
+    <li class="navigation__list-item"><a class="navigation__link" href="#agency">Агентство</a></li>
+    <li class="navigation__list-item"><a class="navigation__link" href="#news">Новости</a></li>
   </ul>
 </nav>
 <section class="about">
@@ -88,38 +88,38 @@
     <div class="about__slider-item about__slider-item_next">
       <h1 class="about__title"><span class="about__title-color">Everland</span> — социальный предпринимательский проект</h1>
       <p class="about__description">Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью устойчиво интегрироваться в открытый рынок труда</p>
-      <img class="about__second-images" src="images/Image_2.png" />
-      <img class="about__main-images" src="images/Image_1.png" />
+      <img class="about__second-images" alt="socialProject" src="images/Image_2.png" />
+      <img class="about__main-images" alt="socialProject" src="images/Image_1.png" />
     </div>
     <div class="about__slider-item">
       <h1 class="about__title"><span class="about__title-color">Everland</span> — социальный предпринимательский проект</h1>
       <p class="about__description">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-      <img class="about__second-images" src="images/Image_2.png" />
-      <img class="about__main-images" src="images/Image_1.png" />
+      <img class="about__second-images" alt="socialProject" src="images/Image_2.png" />
+      <img class="about__main-images" alt="socialProject" src="images/Image_1.png" />
     </div>
     <div class="about__slider-item">
       <h1 class="about__title"><span class="about__title-color">Everland</span> — социальный предпринимательский проект</h1>
       <p class="about__description">3</p>
-      <img class="about__second-images" src="images/Image_2.png" />
-      <img class="about__main-images" src="images/Image_1.png" />
+      <img class="about__second-images" alt="socialProject" src="images/Image_2.png" />
+      <img class="about__main-images" alt="socialProject" src="images/Image_1.png" />
     </div>
     <div class="about__slider-item">
       <h1 class="about__title"><span class="about__title-color">Everland</span> — социальный предпринимательский проект</h1>
       <p class="about__description">4</p>
-      <img class="about__second-images" src="images/Image_2.png" />
-      <img class="about__main-images" src="images/Image_1.png" />
+      <img class="about__second-images" alt="socialProject" src="images/Image_2.png" />
+      <img class="about__main-images" alt="socialProject" src="images/Image_1.png" />
     </div>
     <div class="about__slider-item">
       <h1 class="about__title"><span class="about__title-color">Everland</span> — социальный предпринимательский проект</h1>
       <p class="about__description">5</p>
-      <img class="about__second-images" src="images/Image_2.png" />
-      <img class="about__main-images" src="images/Image_1.png" />
+      <img class="about__second-images" alt="socialProject" src="images/Image_2.png" />
+      <img class="about__main-images" alt="socialProject" src="images/Image_1.png" />
     </div>
     <div class="about__slider-item">
       <h1 class="about__title"><span class="about__title-color">Everland</span> — социальный предпринимательский проект</h1>
       <p class="about__description">6</p>
-      <img class="about__second-images" src="images/Image_2.png" />
-      <img class="about__main-images" src="images/Image_1.png" />
+      <img class="about__second-images" alt="socialProject" src="images/Image_2.png" />
+      <img class="about__main-images" alt="socialProject" src="images/Image_1.png" />
     </div>
   </div>
 
@@ -131,11 +131,10 @@
 </section>
 
 <main class="content">
-  RALEWAY RALEWAY
 </main>
 
 <footer class="footer"></footer>
 
-<script src="script/script.js"></script>
+<script src="script/script__header.js"></script>
 </body>
 </html>
