@@ -1,0 +1,22 @@
+.header__menu-text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  margin-left: 12px;
+}
+
+@media screen and (max-width: 1250px) {
+  .header__menu-text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .header__menu-text {
+    display: none;
+  }
+}

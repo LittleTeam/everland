@@ -1,0 +1,19 @@
+.header__menu-button {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+@media screen and (max-width: 1250px) {
+  .header__menu-button {
+    order: 2;
+    margin-left: -150px;
+    padding-bottom: 4px;
+  }
+}

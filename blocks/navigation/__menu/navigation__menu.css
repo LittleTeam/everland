@@ -1,0 +1,10 @@
+.navigation__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  min-height: 50px;
+  align-self: center;
+}
