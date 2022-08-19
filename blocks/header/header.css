@@ -11,12 +11,6 @@
     position: relative;
 }
 
-@media screen and (max-width: 1250px) {
-  .header {
-    max-width: 768px;
-  }
-}
-
 @media screen and (max-width: 730px) {
   .header {
     max-width: 100%;

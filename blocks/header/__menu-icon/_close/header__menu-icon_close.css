@@ -1,8 +1,6 @@
 @media screen and (max-width: 1250px) {
   .header__menu-icon_close {
-    background-image: url(../../../../images/close.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    content: url(../../../../images/close.svg);
     width: 17px;
     height: 17px;
   }

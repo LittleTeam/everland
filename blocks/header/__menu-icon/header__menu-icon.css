@@ -1,7 +1,4 @@
 .header__menu-icon {
-    background-image: url(../../../images/Menu.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
     width: 25px;
     height: 25px;
 }

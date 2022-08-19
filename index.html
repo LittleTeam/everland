@@ -10,13 +10,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="pages/index.css" />
   </head>
-
+  
   <body class="page">
     <header class="header">
       <div class="logo logo_place_header"></div>
       <button id="menuBtn" aria-label="Меню" class="header__menu-button" type="button">
-        <div class="header__menu-icon"></div>
-        <p class="header__menu-text">Меню</p>
+        <img class="header__menu-icon" src="images/мenu.svg">
+        <span class="header__menu-text">Меню</span>
       </button>
       <div class="header__buttons">
         <button onclick="window.location.href = '#platform';" class="button button_secondary" type="button">Платформа</button>
@@ -72,6 +72,7 @@
         </nav>
       </div>
     </header>
+    <main class="content">
     <nav class="navigation">
       <ul class="navigation__menu">
         <li class="navigation__list-item"><a class="navigation__link" href="#who">Для кого</a></li>
@@ -84,7 +85,6 @@
         <li class="navigation__list-item"><a class="navigation__link" href="#news">Новости</a></li>
       </ul>
     </nav>
-    <main class="content">
       <section class="about">
         <div class="about__slider-track">
           <div class="about__slider-item about__slider-item_next">
