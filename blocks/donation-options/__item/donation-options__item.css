@@ -1,0 +1,21 @@
+.donation-options__item {
+  width: 159px;
+  display: flex;
+  height: 48px;
+}
+
+@media screen and (max-width: 1279px) {
+  .donation-options__item {
+    min-width: 75px;
+    max-width: 130px;
+    height: 44px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donation-options__item {
+    min-width: auto;
+    max-width: none;
+    width: calc(50% - 8px);
+  }
+}

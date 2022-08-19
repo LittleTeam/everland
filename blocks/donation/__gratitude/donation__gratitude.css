@@ -1,0 +1,24 @@
+.donation__gratitude {
+  margin-top: 0;
+  margin-bottom: 74px;
+
+  font-size: 34px;
+  line-height: 1.2;
+  font-weight: 700;
+
+  text-align: center;
+}
+
+@media screen and (max-width: 1279px) {
+  .donation__gratitude {
+    margin-bottom: 32px;
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donation__gratitude {
+    margin-bottom: 36px;
+    font-size: 18px;
+  }
+}

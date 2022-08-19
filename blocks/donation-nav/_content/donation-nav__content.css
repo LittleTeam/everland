@@ -1,0 +1,35 @@
+.donation-nav__content {
+  display: flex;
+  gap: 90px;
+  justify-content: space-between;
+  padding: 58px 30px;
+  background-color: var(--color-light-blue);
+  border-radius: 10px;
+  overflow: auto;
+}
+
+@media screen and (max-width: 1360px) {
+  .donation-nav__content {
+    gap: 60px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .donation-nav__content {
+    gap: 22px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .donation-nav__content {
+    padding: 32px 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donation-nav__content {
+    flex-direction: column;
+    gap: 32px;
+    padding: 32px 20px;
+  }
+}

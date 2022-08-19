@@ -1,0 +1,4 @@
+.tooltip__button:hover + .tooltip__text {
+  visibility: visible;
+  opacity: 1;
+}

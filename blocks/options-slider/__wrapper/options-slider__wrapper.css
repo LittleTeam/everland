@@ -1,0 +1,9 @@
+.options-slider__wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  box-sizing: content-box;
+}

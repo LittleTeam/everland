@@ -1,0 +1,21 @@
+.button_type_primary {
+  color: var(--color-white);
+  background-color: var(--color-blue);
+  border: none;
+}
+
+.button_type_primary:hover {
+  background-color: var(--color-bright-blue);
+}
+
+.button_type_primary:active {
+  background-color: var(--color-dark-blue);
+}
+
+.button_type_primary:disabled {
+  color: var(--color-grey-transparent);
+  background-color: transparent;
+  border: 2px solid var(--color-grey);
+  cursor: auto;
+  pointer-events: none;
+}

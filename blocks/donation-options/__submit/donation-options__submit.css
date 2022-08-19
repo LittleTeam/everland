@@ -1,0 +1,18 @@
+.donation-options__submit {
+  padding-left: 29px;
+  padding-right: 29px;
+}
+
+@media screen and (max-width: 1279px) {
+  .donation-options__submit {
+    padding-left: 23px;
+    padding-right: 23px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donation-options__submit {
+    margin-left: 0;
+    width: 100%;
+  }
+}

@@ -1,0 +1,10 @@
+.button_type_radio-link {
+  padding: 10px;
+  border: 1px solid transparent;
+  color: var(--color-text-main);
+  background-color: var(--color-white);
+}
+
+.button_type_radio-link:hover {
+  border-color: var(--color-bright-blue);
+}

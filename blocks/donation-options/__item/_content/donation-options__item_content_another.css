@@ -1,0 +1,8 @@
+
+
+@media screen and (max-width: 767px) {
+  .donation-options__item_content_another {
+    width: 100%;
+    max-width: none;
+  }
+}

@@ -1,0 +1,9 @@
+.donation__title {
+  width: 100%;
+}
+
+@media screen and (max-width: 1279px) {
+  .donation__title {
+    text-align: center;
+  }
+}

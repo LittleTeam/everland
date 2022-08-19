@@ -1,0 +1,24 @@
+.button_type_tooltip {
+  width: 10px;
+  height: 10px;
+  padding: 2px;
+  border-radius: 50%;
+
+  /*background-color: var(--color-blue);*/
+  background-image: url(../../../images/tooltip.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  transition: background 0.3s ease-in-out;
+  outline: none;
+}
+
+.button_type_tooltip:hover,
+.button_type_tooltip:focus {
+  background-image: url(../../../images/tooltip_hover.svg);
+}
+
+.button_type_tooltip:active {
+  background-image: url(../../../images/tooltip_active.svg);
+}

@@ -1,0 +1,10 @@
+.donation-options_content_periodicity {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+}
+
+.donation-options_content_periodicity .donation-options__item {
+  width: auto;
+  max-width: none;
+}

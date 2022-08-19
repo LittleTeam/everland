@@ -4,6 +4,6 @@
   font-family: 'Rouble';
 
   font-display: swap;
-  src: url(../fonts/rouble/rouble.woff2) format('woff2'),
-        url(../fonts/rouble/rouble.woff) format('woff');
+  src: url(../fonts/rouble.woff2) format('woff2'),
+        url(../fonts/rouble.woff) format('woff');
 }

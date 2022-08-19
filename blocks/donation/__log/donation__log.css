@@ -1,0 +1,18 @@
+.donation__log {
+  margin: 0 auto;
+  max-width: 396px;
+  max-height: 640px;
+}
+
+@media screen and (max-width: 1149px) {
+  .donation__log {
+    max-width: 349px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donation__log {
+    max-width: 300px;
+  }
+}
+

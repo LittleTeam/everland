@@ -1,0 +1,24 @@
+.donation-nav__options {
+  width: 100%;
+  max-width: calc(100% - 269px);
+}
+
+@media screen and (max-width: 1360px) {
+  .donation-nav__options {
+    max-width: calc(100% - 239px);
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .donation-nav__options {
+    max-width: calc(100% - 165px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donation-nav__options {
+    max-width: none;
+  }
+}
+
+

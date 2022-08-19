@@ -1,0 +1,19 @@
+.donation-options_content_links {
+
+}
+
+
+@media screen and (min-width: 768px) {
+  .donation-options_content_links .donation-options__item_content_another {
+    width: 211px;
+  }
+}
+
+@media screen and (max-width: 1279px) and (min-width: 768px) {
+  .donation-options_content_links .donation-options__item_content_another {
+    flex-shrink: 0;
+    flex-grow: 1;
+    width: 135px;
+    max-width: 211px;
+  }
+}

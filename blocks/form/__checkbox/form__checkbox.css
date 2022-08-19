@@ -1,0 +1,17 @@
+.form__checkbox {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+
+  font-size: 20px;
+  line-height: 1.3;
+
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1279px) {
+  .form__checkbox {
+    font-size: 12px;
+    line-height: 1.2;
+  }
+}

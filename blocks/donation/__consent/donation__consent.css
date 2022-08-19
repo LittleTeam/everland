@@ -1,0 +1,10 @@
+.donation__consent {
+  margin-top: 39px;
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 1279px) {
+  .donation__consent {
+    margin-bottom: 24px;
+  }
+}

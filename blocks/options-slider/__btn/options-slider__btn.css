@@ -1,0 +1,37 @@
+.options-slider__btn {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  margin-top: -9px;
+
+  width: 13px;
+  height: 19px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0;
+
+  color: var(--color-text-main);
+
+  background-color: transparent;
+
+  /*background-size: 8px 14px;*/
+  /*background-image: url(../../../images/icon-shevron.svg);*/
+  /*background-repeat: no-repeat;*/
+  /*background-position: center;*/
+
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.options-slider__btn:hover,
+.options-slider__btn:focus {
+  color: var(--color-dark-blue);
+}
+
+.options-slider__btn:active {
+  color: var(--color-bright-blue);
+}

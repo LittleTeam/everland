@@ -1,0 +1,4 @@
+.donation-log__info {
+  display: flex;
+  flex-direction: column;
+}
