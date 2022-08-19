@@ -9,6 +9,7 @@
   flex-direction: column;
   position: relative;
   max-width: 1440px;
+  overflow: hidden
 }
 
 @media screen and (max-width: 1250px) {
