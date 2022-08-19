@@ -1,0 +1,17 @@
+.amount__container {
+  display: flex;
+  gap: 135px;
+}
+
+@media (min-width: 600px) and (max-width: 1280px) {
+  .amount__container {
+    gap: 35px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 599px) {
+  .amount__container {
+    flex-direction: column-reverse;
+    gap: 24px;
+  }
+}

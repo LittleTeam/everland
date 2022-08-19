@@ -1,0 +1,12 @@
+.footer__logo_name_yandex {
+  background-image: url('../../../../images/logo-yandex-praktikum.svg');
+  height: 28px;
+  width: 161px;
+}
+
+@media screen and (max-width: 1279px) {
+  .footer__logo_name_yandex {
+    height: 20px;
+    width: 115px;
+  }
+}

@@ -1,0 +1,24 @@
+.footer__paragraph {
+  color: #333333;
+  font-size: 18px;
+  line-height: 1.3;
+  margin: 0;
+  max-width: 483px;
+  padding: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .footer__paragraph {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2;
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__paragraph {
+    font-size: 12px;
+    max-width: 350px;
+  }
+}

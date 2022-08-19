@@ -1,0 +1,13 @@
+.footer__logo-social {
+  display: block;
+  height: 64px;
+  width: 64px;
+}
+
+@media screen and (max-width: 1279px) {
+  .footer__logo-social {
+    height: 40px;
+    width: 40px;
+  }
+}
+

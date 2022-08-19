@@ -4,7 +4,6 @@
 @import '../blocks/page/page.css';
 @import '../blocks/container/container.css';
 
-
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/_place_header/logo_place_header.css);
 @import url(../blocks/header/__buttons/header__buttons.css);
@@ -36,7 +35,6 @@
 @import url(../blocks/about/__slider-item/_next/about__slider-item_next.css);
 @import url(../blocks/about/__slider-item/_prev/about__switcher-button_prev.css);
 
-
 @import url(../blocks/sub-menu/sub-menu.css);
 @import url(../blocks/sub-menu/__columns/sub-menu__columns.css);
 @import url(../blocks/sub-menu/__title/sub-menu__title.css);
@@ -49,3 +47,52 @@
 @import url(../blocks/sub-menu/__title-slider/sub-menu__title-slider.css);
 @import url(../blocks/sub-menu/__title-icon/sub-menu__title-icon.css);
 @import url(../blocks/sub-menu/__title-icon/_hide/sub-menu__title-icon_hide.css);
+
+@import url(../blocks/accordion/accordion.css);
+@import url(../blocks/accordion/__container/accordion__container.css);
+@import url(../blocks/accordion/__item/accordion__item.css);
+@import url(../blocks/accordion/__subtitle/accordion__subtitle.css);
+@import url(../blocks/accordion/__text/accordion__text.css);
+@import url(../blocks/accordion/__title/accordion__title.css);
+@import url(../blocks/accordion/__wrapper/accordion__wrapper.css);
+@import url(../blocks/accordion/__text/_disabled/accordion__text_disabled.css);
+@import url(../blocks/accordion/__column/accordion__column.css);
+@import url(../blocks/accordion/__button/accordion__button.css);
+@import url(../blocks/accordion/__button/_active/accordion__button_active.css);
+
+@import url(../blocks/amount/amount.css);
+@import url(../blocks/amount/__color/amount__color.css);
+@import url(../blocks/amount/__container/amount__container.css);
+@import url(../blocks/amount/__heading/amount__heading.css);
+@import url(../blocks/amount/__img/amount__img.css);
+@import url(../blocks/amount/__numbers/amount__numbers.css);
+@import url(../blocks/amount/__text/amount__text.css);
+@import url(../blocks/amount/__title/amount__title.css);
+@import url(../blocks/amount/__number/amount__number.css);
+
+@import '../blocks/footer/footer.css';
+@import '../blocks/footer/__grid/footer__grid.css';
+@import '../blocks/footer/__paragraph/footer__paragraph.css';
+@import '../blocks/footer/__menu/footer__menu.css';
+@import '../blocks/footer/__menu-list/footer__menu-list.css';
+@import '../blocks/footer/__menu-link/footer__menu-link.css';
+@import '../blocks/footer/__menu-item/footer__menu-item.css';
+@import '../blocks/footer/__heading/footer__heading.css';
+@import '../blocks/logo/logo.css';
+@import '../blocks/logo/_place/logo_place_footer.css';
+
+@import '../blocks/footer/__logo/footer__logo.css';
+@import '../blocks/footer/__logo-link/footer__logo-link.css';
+@import '../blocks/footer/__logo/_name/footer__logo_name_beeline.css';
+@import '../blocks/footer/__logo/_name/footer__logo_name_fund.css';
+@import '../blocks/footer/__logo/_name/footer__logo_name_yandex.css';
+
+@import '../blocks/footer/__wrapper-logo/footer__wrapper-logo.css';
+@import '../blocks/footer/__contacts/footer__contacts.css';
+@import '../blocks/footer/__phones/footer__phones.css';
+@import '../blocks/footer/__address/footer__address.css';
+@import '../blocks/footer/__container-logo-social/footer__container-logo-social.css';
+@import '../blocks/footer/__logo-social-link/footer__logo-social-link.css';
+@import '../blocks/footer/__logo-social/footer__logo-social.css';
+@import '../blocks/footer/__copyright/footer__copyright.css';
+@import '../blocks/footer/__wrapper-praktikum/footer__wrapper-praktikum.css';
