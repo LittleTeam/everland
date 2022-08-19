@@ -1,4 +1,4 @@
-.accordion__column {
+/* .accordion__column {
   min-width: calc(50% - 10px);
   display: flex;
   flex-direction: column;
@@ -8,4 +8,4 @@
   .accordion__column {
       display: contents;
   }
-}
+} */

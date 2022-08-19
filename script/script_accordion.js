@@ -17,7 +17,7 @@ function subHandler(evt) {
     }
     else currentIcon = evt.target;
     let currentCard = evt.target.closest(".accordion__item");
-    let currentContent = currentCard.querySelector("#content");
+    let currentContent = currentCard.querySelector("[data-accordion]");
     currentIcon.classList.toggle("accordion__button_active");
     currentContent.classList.toggle("accordion__text_disabled");
 }
