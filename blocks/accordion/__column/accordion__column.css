@@ -1,5 +1,5 @@
-/* .accordion__column {
-  min-width: calc(50% - 10px);
+.accordion__column {
+  min-width: calc(50% - 10px); 
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -8,4 +8,4 @@
   .accordion__column {
       display: contents;
   }
-} */
+}

@@ -3,6 +3,7 @@
   height: 45px;
   padding: 0;
   background-image: url(../../../images/accordion_icon.svg);
+  background-color: #E7F0FF;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #e7f0ff;
@@ -12,11 +13,8 @@
 }
 
 .accordion__button:hover {
-  background-image: url(../../../../images/Accordeon_Hover_Icon.svg);
-}
-
-.accordion__button:disabled {
-  background-image: url(../../../../images/Accordeon_Disabled_Icon.svg);
+  background-image: url(../../../images/accordion_iconhover.svg);
+  background-color: #0C4BA0;
 }
 
 @media screen and (max-width: 1279px) {

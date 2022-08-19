@@ -1,9 +1,13 @@
 .accordion__button_active {
-    background-image: url(../../../../../images/Accordeon_Press_Icon.svg);
+    background-image: url(../../../../images/accordion_iconhover.svg);
+    background-color: #0C4BA0;
+    transform: rotate(45deg);
 }
 
 .accordion__button_active:hover {
-    background-image: url(../../../../../images/Accordeon_Press_Icon.svg);
-}
+    background-image: url(../../../../images/accordion_iconhover.svg);
+    background-color: #0C4BA0;
+    transform: rotate(45deg);
+}    
 
 
