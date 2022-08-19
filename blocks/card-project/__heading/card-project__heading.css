@@ -1,0 +1,27 @@
+.card-project__heading {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.2;
+  margin: 20px 0 0;
+  padding: 0;
+  letter-spacing: -0.01em;
+  min-width: 603px;
+}
+
+@media screen and (max-width: 1279px) {
+  .card-project__heading {
+    font-size: 36px;
+    margin-top: 12px;
+    min-width: 339px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card-project__heading {
+    font-size: 26px;
+    /* max-width: 254px; */
+    min-width: 245px;
+    min-height: 63px;
+    margin-bottom: 10px;
+  }
+}

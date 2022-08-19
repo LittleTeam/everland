@@ -1,0 +1,42 @@
+.card-project__button {
+  display: flex;
+  text-decoration: none;
+  color: #333333;
+  border-radius: 10px;
+  border: 1px solid #333333;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  width: 194px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.card-project__button:hover {
+  border-width: 2px;
+}
+
+.card-project__button:active {
+  color: white;
+  background-color: #333333;
+}
+
+@media screen and (max-width: 1279px) {
+  .card-project__button {
+    font-size: 16px;
+    padding: 12px 53px;
+    width: 200px;
+    height: 44px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card-project__button {
+    font-size: 14px;
+    width: 250px;
+    padding: 13px 83px;
+    align-self: center;
+  }
+}

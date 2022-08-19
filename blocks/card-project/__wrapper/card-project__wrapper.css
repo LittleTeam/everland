@@ -1,0 +1,18 @@
+.card-project__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1279px) {
+  .card-project__wrapper {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card-project__wrapper {
+    gap: 0;
+  }
+}

@@ -1,0 +1,24 @@
+.card-project__img {
+  grid-row: 1 / 3;
+  grid-column: 2 / 3;
+  width: 100%;
+  height: 393px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 1279px) {
+  .card-project__img {
+    height: 284px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card-project__img {
+    grid-row: 2 / 3;
+    grid-column: 1;
+    height: 180px;
+    /* max-width: 450px; */
+  }
+}

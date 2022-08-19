@@ -41,6 +41,16 @@
         </div>
       </div>
     </section>
+
+    <section class="container section-project">
+      <div class="slider-project">
+        <div class="slider-project__buttons">
+          <button class="slider-project__button slider-project__button_type_prev"></button>
+          <button class="slider-project__button slider-project__button_type_next"></button>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <footer class="footer">
@@ -104,6 +114,20 @@
     </div>
   </footer>
 
+  <template id="slide-for-project">
+    <article class="card-project">
+      <p class="card-project__rubric">Наши спецпроекты</p>
+      <img src="" alt="" class="card-project__img">
+      <div class="card-project__wrapper">
+        <h2 class="card-project__heading"></h2>
+        <p class="card-project__text"></p>
+        <a class="card-project__button" href="#">Посмотреть</a>
+      </div>
+    </article>
+  </template>
+
+  <script src="script/initial-slides-project.js"></script>
+  <script src="script/script-slider-project.js"></script>
   <script src="script/script.js"></script>
 </body>
 </html>
