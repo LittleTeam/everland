@@ -20,6 +20,12 @@ subMenuBtn.addEventListener("click", function (e) {
   toggleMenu();
 });
 
+subMenuBtn.addEventListener("mouseover", function (e) {
+  e.stopPropagation();
+  subMenuHidden.classList.remove("sub-menu_hidden");
+  MenuIcon.classList.add("header__menu-icon_close");
+});
+
 document.addEventListener("click", function (e) {
   const target = e.target;
   const its_menu = target === subMenu || subMenu.contains(target);
@@ -33,25 +39,25 @@ document.addEventListener("click", function (e) {
 
 //Аккорденон мобилный
 
-const titleBtn = document.querySelectorAll(".sub-menu__title");
+const titleBtns = document.querySelectorAll(".sub-menu__title");
 
 function click() {
-  titleBtn.forEach(() => this.parentElement.nextElementSibling.classList.toggle("sub-menu__column-links_hide"));
-  titleBtn.forEach(() => this.nextElementSibling.classList.toggle("sub-menu__title-icon_hide"));
+  titleBtns.forEach(() => this.parentElement.nextElementSibling.classList.toggle("sub-menu__column-links_hide"));
+  titleBtns.forEach(() => this.nextElementSibling.classList.toggle("sub-menu__title-icon_hide"));
   console.log(this);
 }
 
-titleBtn.forEach((e) => {
+titleBtns.forEach((e) => {
   e.addEventListener("click", click);
 });
 
 // Слайдер с анимациями
 
 const items = document.querySelectorAll(".about__slider-item");
-const btnPrev = document.querySelector("#btnPrev");
-const btnNext = document.querySelector("#btnNext");
+const btnPrev = document.querySelector(".about__switcher-button_prev");
+const btnNext = document.querySelector(".about__switcher-button_next");
 // счетчик
-let btnPagination = document.querySelector("#pagination");
+let btnPagination = document.querySelector(".about__switcher-text");
 let savedIndex = 0;
 
 function printPagination() {

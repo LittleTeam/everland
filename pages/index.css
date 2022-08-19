@@ -4,7 +4,7 @@
 @import '../blocks/container/container.css';
 
 @import url(../blocks/header/header.css);
-@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place_header/logo_place_header.css);
 @import url(../blocks/header/__buttons/header__buttons.css);
 @import url(../blocks/header/__menu-button/header__menu-button.css);
 @import url(../blocks/header/__menu-icon/header__menu-icon.css);
