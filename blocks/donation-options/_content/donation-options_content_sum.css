@@ -1,13 +1,13 @@
 @media screen and (min-width: 768px) {
   .donation-options_content_sum {
-    margin-right: -5px;
+    margin-right: -16px;
     display: flex;
     flex-wrap: wrap;
-    grid-gap: 12px 5px;
+    gap: 12px 16px;
   }
 
   .donation-options_content_sum .donation-options__item {
-    width: calc(25% - 5px);
+    width: calc(25% - 16px);
     max-width: 159px;
     min-width: fit-content;
   }
@@ -20,3 +20,13 @@
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .donation-options_content_sum {
+    margin-right: -5px;
+    gap: 12px 5px;
+  }
+
+  .donation-options_content_sum .donation-options__item {
+    width: calc(25% - 5px);
+  }
+}

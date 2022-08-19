@@ -1,0 +1,9 @@
+.options-slider__btn_type_prev {
+  transform: rotate(180deg);
+}
+
+@media screen and (max-width: 767px) {
+  .options-slider__btn_type_prev {
+    transform: rotate(-90deg);
+  }
+}

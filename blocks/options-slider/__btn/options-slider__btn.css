@@ -1,11 +1,7 @@
 .options-slider__btn {
-  z-index: 1;
-  position: absolute;
-  top: 50%;
-  margin-top: -9px;
-
-  width: 13px;
-  height: 19px;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
 
   display: flex;
   align-items: center;
@@ -34,4 +30,13 @@
 
 .options-slider__btn:active {
   color: var(--color-bright-blue);
+}
+
+@media screen and (max-width: 767px) {
+  .options-slider__btn {
+    top: auto;
+    left: 50%;
+    margin-top: 0;
+    margin-left: -10px;
+  }
 }

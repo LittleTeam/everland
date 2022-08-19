@@ -4,6 +4,17 @@
   height: 100%;
   z-index: 1;
   display: flex;
+  gap: 0;
   transition: transform 0.3s ease-in-out;
   box-sizing: content-box;
+}
+
+@media screen and (max-width: 767px) {
+  .options-slider__wrapper {
+    flex-direction: column;
+  }
+
+  .options-slider__wrapper .options-slider__slide {
+    width: 100%;
+  }
 }

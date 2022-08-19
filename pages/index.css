@@ -69,8 +69,8 @@
 @import '../blocks/options-slider/__slide/options-slider__slide.css';
 @import '../blocks/options-slider/__btn/options-slider__btn.css';
 @import '../blocks/options-slider/__btn/_hide/options-slider__btn_hide.css';
-@import '../blocks/options-slider/__btn/_direction/options-slider__btn_direction_left.css';
-@import '../blocks/options-slider/__btn/_direction/options-slider__btn_direction_right.css';
+@import '../blocks/options-slider/__btn/_direction/options-slider__btn_type_prev.css';
+@import '../blocks/options-slider/__btn/_direction/options-slider__btn_type_next.css';
 
 
 

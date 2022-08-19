@@ -2,6 +2,16 @@
   position: relative;
   box-sizing: border-box;
 
-  padding-left: 30px;
-  padding-right: 30px;
+  display: flex;
+  align-items: center;
+
+  /*padding-left: 28px;*/
+  /*padding-right: 28px;*/
+}
+
+@media screen and (max-width: 767px) {
+  .options-slider {
+    flex-direction: column;
+    /*padding: 26px 0;*/
+  }
 }
