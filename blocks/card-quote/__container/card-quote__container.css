@@ -1,0 +1,10 @@
+.card-quote__container {
+  display: flex;
+}
+
+@media screen and (max-width: 1279px) {
+  .card-quote__container {
+      flex-direction: column;
+  }
+}
+
