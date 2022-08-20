@@ -1,5 +1,7 @@
 .amount {
   padding-bottom: 150px;
+  padding-left: 40px;
+  padding-right: 40px;
   max-width: 1360px;
   margin: 0 auto
 }
@@ -13,5 +15,7 @@
 @media (min-width: 320px) and (max-width: 599px) {
   .amount {
     padding-bottom: 64px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
