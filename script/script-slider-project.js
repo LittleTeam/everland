@@ -3,9 +3,6 @@ const buttonPrevSliderPrct = document.querySelector('.slider-project__button_typ
 const buttonNextSliderPrct = document.querySelector('.slider-project__button_type_next');
 
 const sliderProjectContainer = document.querySelector('.slider-project');
-// createInitialSlidesProject(initialSlidesProject);
-
-
 
 function createSlideProject(item) {
   const slideElement = slideProjectTemplate.querySelector('.card-project').cloneNode(true);
@@ -16,7 +13,7 @@ function createSlideProject(item) {
   const elementLink = slideElement.querySelector('.card-project__button');
 
   elementImage.setAttribute('src', item.image);
-  elementImage.setAttribute('alt', item.alt);
+  elementImage.setAttribute('alt', item.heading);
   elementHeading.textContent = item.heading;
   elementText.textContent = item.text;
   elementLink.setAttribute('href', item.link);
