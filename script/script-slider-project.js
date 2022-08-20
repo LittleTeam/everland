@@ -9,14 +9,14 @@ const sliderProjectContainer = document.querySelector('.slider-project');
 
 function createSlideProject(item) {
   const slideElement = slideProjectTemplate.querySelector('.card-project').cloneNode(true);
-  
+
   const elementImage = slideElement.querySelector('.card-project__img');
   const elementHeading = slideElement.querySelector('.card-project__heading');
   const elementText = slideElement.querySelector('.card-project__text');
   const elementLink = slideElement.querySelector('.card-project__button');
 
   elementImage.setAttribute('src', item.image);
-  elementImage.setAttribute('alt', item.heading);
+  elementImage.setAttribute('alt', item.alt);
   elementHeading.textContent = item.heading;
   elementText.textContent = item.text;
   elementLink.setAttribute('href', item.link);

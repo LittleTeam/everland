@@ -1,24 +1,24 @@
 .slider-project__buttons {
-  display: flex;
-  position: absolute;
   bottom: 30px;
+  display: flex;
   gap: 8px;
-  width: 78px;
+  position: absolute;
   right: calc(50% - 39px);
+  width: 78px;
 }
 
 
 @media screen and (max-width: 1279px) {
   .slider-project__buttons {
-    width: 56px;
     right: calc(50% - 28px);
+    width: 56px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .slider-project__buttons {
-    top: 25px;
-    right: 25px;
     height: 24px;
+    right: 25px;
+    top: 25px;
   }
 }

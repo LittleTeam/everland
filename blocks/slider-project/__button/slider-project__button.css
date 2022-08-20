@@ -3,12 +3,12 @@
   background-position: center center;
   background-repeat: no-repeat;
   border-radius: 10px;
-  width: 35px;
-  height: 35px;
   border: none;
-  padding: 9px;
-  margin: none;
   cursor: pointer;
+  height: 35px;
+  margin: none;
+  padding: 9px;
+  width: 35px;
 }
 
 .slider-project__button:hover {
@@ -22,8 +22,8 @@
 @media screen and (max-width: 1279px) {
   .slider-project__button {
     background-size: 10px;
-    width: 24px;
-    height: 24px;
     border-radius: 6px;
+    height: 24px;
+    width: 24px;
   }
 }

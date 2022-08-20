@@ -1,17 +1,17 @@
 .card-project__button {
-  display: flex;
-  text-decoration: none;
-  color: #333333;
+  align-items: center;
   border-radius: 10px;
   border: 1px solid #333333;
-  font-weight: 500;
+  box-sizing: border-box;
+  color: #333333;
+  display: flex;
   font-size: 20px;
-  line-height: 1.2;
-  width: 194px;
+  font-weight: 500;
   height: 48px;
   justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
+  line-height: 1.2;
+  text-decoration: none;
+  width: 194px;
 }
 
 .card-project__button:hover {
@@ -19,24 +19,24 @@
 }
 
 .card-project__button:active {
-  color: white;
   background-color: #333333;
+  color: white;
 }
 
 @media screen and (max-width: 1279px) {
   .card-project__button {
     font-size: 16px;
+    height: 44px;
     padding: 12px 53px;
     width: 200px;
-    height: 44px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .card-project__button {
-    font-size: 14px;
-    width: 250px;
-    padding: 13px 83px;
     align-self: center;
+    font-size: 14px;
+    padding: 13px 83px;
+    width: 250px;
   }
 }

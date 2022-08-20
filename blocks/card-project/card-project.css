@@ -1,11 +1,11 @@
 .card-project {
+  column-gap: 30px;
   display: none;
   grid-template-columns: 603px 555px;
   grid-template-rows: auto 1fr;
   justify-content: space-between;
-  padding: 30px;
-  column-gap: 30px;
   overflow: hidden;
+  padding: 30px;
 }
 
 
@@ -18,7 +18,7 @@
 @media screen and (max-width: 767px) {
   .card-project {
     grid-template-columns: 1fr;
-    padding: 25px;
     margin: 0 auto;
+    padding: 25px;
   }
 }

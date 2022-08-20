@@ -1,8 +1,8 @@
 .card-project__wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   gap: 20px;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 1279px) {

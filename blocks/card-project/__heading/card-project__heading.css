@@ -1,11 +1,11 @@
 .card-project__heading {
-  font-weight: 700;
   font-size: 64px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
   line-height: 1.2;
   margin: 20px 0 0;
-  padding: 0;
-  letter-spacing: -0.01em;
   min-width: 603px;
+  padding: 0;
 }
 
 @media screen and (max-width: 1279px) {
@@ -19,9 +19,8 @@
 @media screen and (max-width: 767px) {
   .card-project__heading {
     font-size: 26px;
-    /* max-width: 254px; */
-    min-width: 245px;
-    min-height: 63px;
     margin-bottom: 10px;
+    min-height: 63px;
+    min-width: 245px;
   }
 }
