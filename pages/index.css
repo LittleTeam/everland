@@ -2,6 +2,7 @@
 
 @import '../vendor/fonts.css';
 
+@import '../blocks/html/html.css';
 @import '../blocks/rouble/rouble.css';
 @import '../blocks/root/root.css';
 @import '../blocks/page/page.css';
@@ -17,13 +18,13 @@
 @import '../blocks/donation-nav/donation-nav.css';
 @import '../blocks/donation-nav/_content/donation-nav__content.css';
 @import '../blocks/donation-nav/__options/donation-nav__options.css';
+@import '../blocks/donation-nav/__submit/donation-nav__submit.css';
 
 @import '../blocks/donation-options/donation-options.css';
 @import '../blocks/donation-options/__item/donation-options__item.css';
 @import '../blocks/donation-options/__item/_content/donation-options__item_content_another.css';
 @import '../blocks/donation-options/__radio-input/donation-options__radio-input.css';
 @import '../blocks/donation-options/__radio-button/donation-options__radio-button.css';
-@import '../blocks/donation-options/__submit/donation-options__submit.css';
 @import '../blocks/donation-options/__tooltip/donation-options__tooltip.css';
 @import '../blocks/donation-options/__image/donation-options__image.css';
 @import '../blocks/donation-options/_content/donation-options_content_periodicity.css';
@@ -48,7 +49,7 @@
 @import '../blocks/donation/__text/donation__text.css';
 @import '../blocks/donation/__options-slider/donation__options-slider.css';
 @import '../blocks/donation/__text-input-label/donation__text-input-label.css';
-@import '../blocks/donation/__text-input-label/__state/donation__text-label_state_hidden.css';
+@import '../blocks/donation/__text-input-label/__state/donation__text-input-label_state_hide.css';
 @import '../blocks/donation/__consent/donation__consent.css';
 @import '../blocks/donation/__checkbox/donation__checkbox.css';
 @import '../blocks/donation/__link/donation__link.css';

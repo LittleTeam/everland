@@ -8,6 +8,10 @@
   white-space: nowrap;
 }
 
+.form__checkbox-input:focus + .form__custom-checkbox {
+  border-color: var(--color-text-main);
+}
+
 .form__checkbox-input:checked + .form__custom-checkbox {
   background-image: url(../../../images/icon-check.svg);
 }

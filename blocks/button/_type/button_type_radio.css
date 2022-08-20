@@ -5,6 +5,11 @@
   background-color: var(--color-white);
 }
 
-.button_type_radio:hover {
+.button_type_radio:hover,
+.button_type_radio:focus {
   border-color: var(--color-bright-blue);
+}
+
+.button_type_radio:active {
+  border-color: var(--color-dark-blue);
 }

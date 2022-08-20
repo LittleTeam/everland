@@ -14,6 +14,10 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
+  .donation-options_content_sum {
+    gap: 16px;
+  }
+
   .donation-options_content_sum .donation-options__item_content_another {
     max-width: none;
     width: 190px;

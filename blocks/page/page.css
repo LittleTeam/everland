@@ -1,6 +1,17 @@
 .page {
   min-width: 320px;
+
+  color: var(--color-text-main);
+
   font-family: 'Raleway', 'Arial', sans-serif;
   font-weight: 400;
-  color: var(--color-text-main);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+
+  text-rendering: optimizeLegibility;
 }

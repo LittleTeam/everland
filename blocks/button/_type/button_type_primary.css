@@ -4,7 +4,8 @@
   border: none;
 }
 
-.button_type_primary:hover {
+.button_type_primary:hover,
+.button_type_primary:focus {
   background-color: var(--color-bright-blue);
 }
 
@@ -18,4 +19,10 @@
   border: 2px solid var(--color-grey);
   cursor: auto;
   pointer-events: none;
+}
+
+@media screen and (max-width: 767px) {
+  .button_type_primary {
+    height: 44px;
+  }
 }

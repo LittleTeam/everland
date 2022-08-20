@@ -11,3 +11,9 @@
     margin-bottom: 14px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .donation__checkbox {
+    margin-bottom: 11px;
+  }
+}

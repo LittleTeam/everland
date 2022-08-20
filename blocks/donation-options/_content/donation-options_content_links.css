@@ -1,21 +1,8 @@
-.donation-options_content_links .donation-options__item {
-
-}
-
-
-@media screen and (min-width: 768px) {
-  .donation-options_content_links .donation-options__item_content_another {
-    width: 211px;
-  }
-}
-
-@media screen and (max-width: 1279px) {
-  .donation-options_content_links .donation-options__item {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .donation-options_content_links {
+    overflow: auto;
   }
 
-}
-
-@media screen and (max-width: 1279px) and (min-width: 768px) {
   .donation-options_content_links .donation-options__item_content_another {
     flex-shrink: 0;
     flex-grow: 1;
@@ -24,4 +11,8 @@
   }
 }
 
-
+@media screen and (min-width: 1024px) {
+  .donation-options_content_links .donation-options__item_content_another {
+    width: 211px;
+  }
+}

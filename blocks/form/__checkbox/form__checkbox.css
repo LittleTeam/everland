@@ -9,6 +9,10 @@
   cursor: pointer;
 }
 
+.form__checkbox:hover .form__custom-checkbox {
+  border-color: var(--color-text-main);
+}
+
 @media screen and (max-width: 1279px) {
   .form__checkbox {
     font-size: 12px;

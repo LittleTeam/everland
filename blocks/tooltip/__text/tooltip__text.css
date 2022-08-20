@@ -22,3 +22,10 @@
 
   transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
 }
+
+@media screen and (max-width: 767px) {
+  .tooltip__text {
+    width: 280px;
+    left: -116px;
+  }
+}

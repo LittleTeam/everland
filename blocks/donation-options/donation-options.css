@@ -1,7 +1,6 @@
 .donation-options {
   display: flex;
   gap: 40px;
-  /*overflow: auto;*/
 }
 
 @media screen and (max-width: 1279px) {

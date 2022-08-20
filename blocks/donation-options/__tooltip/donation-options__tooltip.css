@@ -1,3 +1,9 @@
 .donation-options__tooltip {
   margin-left: 10px;
 }
+
+@media screen and (max-width: 767px) {
+  .donation-options__tooltip {
+    margin-left: 4px;
+  }
+}
