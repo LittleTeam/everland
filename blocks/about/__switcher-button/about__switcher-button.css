@@ -1,0 +1,27 @@
+.about__switcher-button {
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  background-color: #0C4BA0;
+  border-radius: 10px;
+  width: 35px;
+  height: 35px;
+  border: inherit;
+  background-image: url(../../../../images/arrow_backward.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1250px) {
+  .about__switcher-button {
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+    background-size: 10px;
+  }
+}
+
+.about__switcher-button:hover {
+  background-color: #4183DC;
+}

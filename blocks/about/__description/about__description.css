@@ -1,0 +1,31 @@
+.about__description {
+  max-width: 543px;
+  min-height: 251px;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  margin: 0px;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 1250px) {
+  .about__description {
+    max-width: 401px;
+    min-height: 104px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .about__description {
+    font-size: 14px;
+    min-width: 300px;
+  }
+}

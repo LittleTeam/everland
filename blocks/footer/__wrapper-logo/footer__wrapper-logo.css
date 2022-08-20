@@ -1,0 +1,14 @@
+.footer__wrapper-logo {
+  align-items: center;
+  display: flex;
+  gap: 50px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .footer__wrapper-logo {
+    gap: 21px;
+  }
+}

@@ -1,0 +1,19 @@
+.footer__logo_name_fund {
+  background-image: url(../../../../images/logo-fund-grants.svg);
+  height: 48px;
+  width: 100px;
+}
+
+@media screen and (max-width: 1279px) {
+  .footer__logo_name_fund  {
+    height: 42px;
+    width: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__logo_name_fund  {
+    height: 35px;
+    width: 73px;
+  }
+}

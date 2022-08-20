@@ -1,0 +1,24 @@
+.card-project {
+  column-gap: 30px;
+  display: none;
+  grid-template-columns: 603px 555px;
+  grid-template-rows: auto 1fr;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 30px;
+}
+
+
+@media screen and (max-width: 1439px) {
+  .card-project {
+    grid-template-columns: minmax(339px, 603px) minmax(259px, 555px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card-project {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    padding: 25px;
+  }
+}

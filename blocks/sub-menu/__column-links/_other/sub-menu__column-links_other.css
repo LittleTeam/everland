@@ -1,0 +1,20 @@
+.sub-menu__column-links_other {
+  padding-top: 0;
+}
+
+@media screen and (max-width: 1250px) {
+  .sub-menu__column-links_other {
+    display: grid;
+    grid-template-columns: 213px 217px;
+    padding-top: 64px;
+    column-gap: 30px;
+    row-gap: 8px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .sub-menu__column-links_other {
+    grid-template-columns: 300px;
+    padding-top: 0px;
+  }
+}
