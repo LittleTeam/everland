@@ -70,6 +70,22 @@
 @import url(../blocks/amount/__title/amount__title.css);
 @import url(../blocks/amount/__number/amount__number.css);
 
+@import url(../blocks/section-project/section-project.css);
+@import url(../blocks/slider-project/slider-project.css);
+@import url(../blocks/slider-project/__buttons/slider-project__buttons.css);
+@import url(../blocks/slider-project/__button/slider-project__button.css);
+@import url(../blocks/slider-project/__button/_type/slider-project__button_type_next.css);
+@import url(../blocks/slider-project/__button/_type/slider-project__button_type_prev.css);
+
+@import url(../blocks/card-project/card-project.css);
+@import url(../blocks/card-project/__rubric/card-project__rubric.css);
+@import url(../blocks/card-project/__heading/card-project__heading.css);
+@import url(../blocks/card-project/__text/card-project__text.css);
+@import url(../blocks/card-project/__wrapper/card-project__wrapper.css);
+@import url(../blocks/card-project/__img/card-project__img.css);
+@import url(../blocks/card-project/__button/card-project__button.css);
+@import url(../blocks/card-project/_visible/card-project_visible.css);
+
 @import '../blocks/footer/footer.css';
 @import '../blocks/footer/__grid/footer__grid.css';
 @import '../blocks/footer/__paragraph/footer__paragraph.css';
