@@ -1,0 +1,19 @@
+.sub-menu__columns {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 39px;
+  padding-right: 98px;
+  padding-top: 40px;
+
+}
+
+@media screen and (max-width: 1250px) {
+  .sub-menu__columns {
+    padding-right: 58px;
+  }
+}
+
+.sub-menu__columns:last-child {
+  flex-basis: 100%;
+}

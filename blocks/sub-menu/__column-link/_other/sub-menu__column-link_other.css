@@ -1,0 +1,21 @@
+.sub-menu__column-link_other {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 120%;
+    margin: 0;
+}
+
+@media screen and (max-width: 1250px) {
+    .sub-menu__column-link_other {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .sub-menu__column-link_other {
+        font-size: 18px;
+        cursor: pointer;
+    }
+}

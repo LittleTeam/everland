@@ -1,0 +1,7 @@
+@media screen and (max-width: 1250px) {
+  .header__menu-icon_close {
+    content: url(../../../../images/close.svg);
+    width: 17px;
+    height: 17px;
+  }
+}

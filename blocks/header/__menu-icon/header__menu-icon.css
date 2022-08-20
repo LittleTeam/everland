@@ -1,0 +1,12 @@
+.header__menu-icon {
+    width: 25px;
+    height: 25px;
+}
+
+@media screen and (max-width: 730px) {
+    .header__menu-icon {
+        width: 24px;
+        height: 20px;
+        background-repeat: initial;
+    }
+}
