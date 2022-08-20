@@ -4,17 +4,16 @@ const optionsSliderWrapper = optionsSlider.querySelector('.options-slider__wrapp
 const optionsSliderBtnPrev = optionsSlider.querySelector('.options-slider__btn_type_prev');
 const optionsSliderBtnNext = optionsSlider.querySelector('.options-slider__btn_type_next');
 const optionsSlides = optionsSlider.querySelectorAll('.options-slider__slide');
-const breakpointDt = window.matchMedia('(min-width: 1280px)');
-const breakpointTb = window.matchMedia('(min-width: 768px)');
 
 const optionsSliderSettings = {
   direction: 'vertical',
-  slidesPerView: 3,
+  slidesPerView: 'auto',
   gap: 16,
 
   breakpoints: {
     '768': {
       direction: 'horizontal',
+      slidesPerView: 3,
       gap: 16,
     },
     '1280': {
@@ -25,21 +24,24 @@ const optionsSliderSettings = {
 }
 
 const optionsSliderState = {
-  initialSettings: {},
+  initialSettings: {
+    direction: 'horizontal',
+    slidesPerView: 1,
+  },
   currentSettings: {},
   slideWidth: '',
+  slideHeight: '',
   containerWidth: '',
   wrapperWidth: '',
-  wrapperRightStop: '',
-  wrapperBottomStop: '',
   wrapperOffset: 0,
+  currentSlideIndex: 0,
 }
 
 const defineContainerWidth = () => {
   optionsSliderContainer.style.width = '';
   optionsSliderContainer.style.flexShrink = '';
 
-  let containerWidth = Math.round(optionsSliderContainer.clientWidth);
+  let containerWidth = Math.round(optionsSliderContainer.clientWidth); // чтобы избежать половинчатых пикселей, которые скрывают границы слайдов
 
   if (optionsSliderState.currentSettings.direction === 'horizontal') {
     optionsSliderContainer.style.width = containerWidth + 'px';
@@ -47,14 +49,6 @@ const defineContainerWidth = () => {
   }
 
   optionsSliderState.containerWidth = containerWidth;
-}
-
-const setWrapperStopPoints = () => {
-  if (optionsSliderState.currentSettings.direction === 'horizontal') {
-    optionsSliderState.wrapperRightStop = optionsSliderWrapper.scrollWidth - optionsSliderContainer.clientWidth;
-  } else {
-    optionsSliderState.wrapperBottomStop = optionsSliderWrapper.scrollHeight - optionsSliderContainer.clientHeight;
-  }
 }
 
 const calculateOptionsSlideWidth = () => {
@@ -89,12 +83,13 @@ const setCurrentSettings = () => {
 }
 
 const setSlidesWidth = () => {
-  console.log(optionsSliderState.currentSettings.direction);
   if (optionsSliderState.currentSettings.slidesPerView === 'auto' || optionsSliderState.currentSettings.direction === 'vertical') {
     optionsSliderState.slideWidth = '';
+    optionsSliderState.slideHeight = '';
 
     optionsSlides.forEach((slide) => {
       slide.style.width = '';
+      slide.style.height = '';
     })
   } else {
     optionsSliderState.slideWidth = calculateOptionsSlideWidth();
@@ -108,6 +103,7 @@ const resetOptionsSliderStyles = () => {
   console.log('reset');
   optionsSliderWrapper.style.transform = '';
   optionsSliderState.wrapperOffset = 0;
+  optionsSliderState.currentSlideIndex = 0;
 
   if (!optionsSliderBtnPrev.classList.contains('options-slider__btn_hide')) {
     optionsSliderBtnPrev.classList.add('options-slider__btn_hide');
@@ -136,65 +132,76 @@ optionsSliderBtnNext.addEventListener('click', (evt) => {
 
   optionsSliderBtnPrev.classList.remove('options-slider__btn_hide');
 
-  if (optionsSliderState.currentSettings.direction === 'horizontal') {
-    const newWrapperOffset = optionsSliderState.wrapperOffset - optionsSliderState.slideWidth - optionsSliderState.currentSettings.gap;
+  const nextSlideIndex = optionsSliderState.currentSlideIndex + 1;
+  let newWrapperOffset;
 
+  if (nextSlideIndex < optionsSlides.length) {
+    if (optionsSliderState.currentSettings.direction === 'horizontal') {
+      // const newWrapperOffset = optionsSliderState.wrapperOffset - optionsSliderState.slideWidth - optionsSliderState.currentSettings.gap;
+      newWrapperOffset = optionsSliderState.wrapperOffset - Math.abs(optionsSlides[optionsSliderState.currentSlideIndex].offsetLeft - optionsSlides[nextSlideIndex].offsetLeft);
+      optionsSliderWrapper.style.transform = `translateX(${newWrapperOffset}px)`;
 
-
-    optionsSliderWrapper.style.transform = `translateX(${newWrapperOffset}px)`;
-    optionsSliderState.wrapperOffset = newWrapperOffset;
-
-
-
-    setTimeout(() => {
-      console.log(optionsSlides[optionsSlides.length - 1].getBoundingClientRect().right);
-      console.log(optionsSliderContainer.getBoundingClientRect().right);
-      if (optionsSlides[optionsSlides.length - 1].getBoundingClientRect().right <= optionsSliderContainer.getBoundingClientRect().right) {
+      if ((optionsSliderContainer.clientWidth + Math.abs(newWrapperOffset)) >= optionsSliderWrapper.scrollWidth) {
         optionsSliderBtnNext.classList.add('options-slider__btn_hide');
       }
-    }, 310);
-  }
+    }
 
+    if (optionsSliderState.currentSettings.direction === 'vertical') {
+      newWrapperOffset = optionsSliderState.wrapperOffset - Math.abs(optionsSlides[optionsSliderState.currentSlideIndex].offsetTop - optionsSlides[nextSlideIndex].offsetTop);
+      optionsSliderWrapper.style.transform = `translateY(${newWrapperOffset}px)`;
+
+      if ((optionsSliderContainer.clientHeight + Math.abs(newWrapperOffset)) >= optionsSliderWrapper.scrollHeight) {
+        optionsSliderBtnNext.classList.add('options-slider__btn_hide');
+      }
+    }
+
+    optionsSliderState.currentSlideIndex = nextSlideIndex;
+    optionsSliderState.wrapperOffset = newWrapperOffset;
+  }
 })
 
 optionsSliderBtnPrev.addEventListener('click', (evt) => {
   evt.preventDefault();
   optionsSliderBtnNext.classList.remove('options-slider__btn_hide');
 
-  if (optionsSliderState.currentSettings.direction === 'horizontal') {
-    let newWrapperOffset = optionsSliderState.wrapperOffset + optionsSliderState.slideWidth + optionsSliderState.currentSettings.gap;
+  const prevSlideIndex = optionsSliderState.currentSlideIndex - 1;
+  let newWrapperOffset;
+
+  if (prevSlideIndex >= 0) {
+    const currentSlide = optionsSlides[optionsSliderState.currentSlideIndex]
+    const prevSlide = optionsSlides[prevSlideIndex];
+
+    if (optionsSliderState.currentSettings.direction === 'horizontal') {
+      newWrapperOffset = optionsSliderState.wrapperOffset + (currentSlide.offsetLeft + currentSlide.offsetWidth) - (prevSlide.offsetLeft + prevSlide.offsetWidth);
+      optionsSliderWrapper.style.transform = `translateX(${newWrapperOffset}px)`;
+    }
+
+    if (optionsSliderState.currentSettings.direction === 'vertical') {
+      newWrapperOffset = optionsSliderState.wrapperOffset + (currentSlide.offsetTop + currentSlide.offsetHeight) - (prevSlide.offsetTop + prevSlide.offsetHeight);
+      optionsSliderWrapper.style.transform = `translateY(${newWrapperOffset}px)`;
+    }
+
     if (newWrapperOffset >= 0) {
       newWrapperOffset = 0; // на всякий случай, если где-то затесались доли пикселей
       optionsSliderBtnPrev.classList.add('options-slider__btn_hide');
     }
 
-    optionsSliderWrapper.style.transform = `translateX(${newWrapperOffset}px)`;
+    optionsSliderState.currentSlideIndex = prevSlideIndex;
     optionsSliderState.wrapperOffset = newWrapperOffset;
   }
 })
 
-
 const setupOptionsSlider = () => {
-  setInitialSliderSettings();
   setCurrentSettings();
   setOptionsSliderStyles();
-  setWrapperStopPoints();
 }
 
 window.addEventListener('load', () => {
+  setInitialSliderSettings();
   setupOptionsSlider();
 })
 
 window.addEventListener('resize', () => {
-  if (breakpointTb.matches) {
-    resetOptionsSliderStyles();
-  }
+  resetOptionsSliderStyles();
   setupOptionsSlider();
-})
-
-breakpointTb.addEventListener('change', (evt) => {
-  if (!evt.matches) {
-    resetOptionsSliderStyles();
-    setupOptionsSlider();
-  }
 })
