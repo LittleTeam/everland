@@ -1,0 +1,23 @@
+.history__button {
+  height: 48px;
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  text-decoration: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+@media screen and (max-width: 1279px) {
+  .history__button {
+      font-size: 16px;
+      padding: 10px 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .history__button {
+      height: 44px;
+      font-size: 14px;
+  }
+}

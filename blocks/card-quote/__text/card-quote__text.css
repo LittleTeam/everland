@@ -1,0 +1,21 @@
+.card-quote__text {
+  margin: 0;
+  padding: 20px 0px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+}
+@media screen and (max-width: 1023px) {
+  .card-quote__text {
+      font-size: 16px;
+      line-height: 120%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card-quote__text {
+      font-size: 14px;
+      line-height: 120%;
+      padding-top: 16px;
+  }
+}

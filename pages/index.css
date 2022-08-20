@@ -86,6 +86,34 @@
 @import url(../blocks/card-project/__button/card-project__button.css);
 @import url(../blocks/card-project/_visible/card-project_visible.css);
 
+@import url(../blocks/history/history.css);
+@import url(../blocks/history/__wrapper/history__wrapper.css);
+@import url(../blocks/history/__title/history__title.css);
+@import url(../blocks/history/__button/history__button.css);
+@import url(../blocks/history/__button/_type/_link/history__button_type_link.css);
+@import url(../blocks/history/__button/_type/_secondary/history__button_type_secondary.css);
+@import url(../blocks/history/__button/_transferred/history__button_transferred.css);
+
+@import url(../blocks/card-quote/card-quote.css);
+@import url(../blocks/card-quote/__avatar/card-quote__avatar.css);
+@import url(../blocks/card-quote/__icon/card-quote__icon.css);
+@import url(../blocks/card-quote/__quote/card-quote__quote.css);
+@import url(../blocks/card-quote/__text/card-quote__text.css);
+@import url(../blocks/card-quote/__wrapper/card-quote__wrapper.css);
+@import url(../blocks/card-quote/__avatar/_reversed/card-quote__avatar_reversed.css);
+@import url(../blocks/card-quote/__container/card-quote__container.css);
+
+@import url(../blocks/card-video/card-video.css);
+@import url(../blocks/card-video/__avatar/card-video__avatar.css);
+@import url(../blocks/card-video/__content/card-video__content.css);
+@import url(../blocks/card-video/__description/card-video__description.css);
+@import url(../blocks/card-video/__icon/card-video__icon.css);
+@import url(../blocks/card-video/__link/card-video__link.css);
+@import url(../blocks/card-video/__name/card-video__name.css);
+@import url(../blocks/card-video/__text/card-video__text.css);
+
+@import url(../blocks/cards-wrapper/cards-wrapper.css);
+
 @import '../blocks/footer/footer.css';
 @import '../blocks/footer/__grid/footer__grid.css';
 @import '../blocks/footer/__paragraph/footer__paragraph.css';
