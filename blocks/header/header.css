@@ -11,12 +11,17 @@
     position: relative;
 }
 
+@media screen and (max-width: 1250px) {
+  .header {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  }
+}
+
 @media screen and (max-width: 730px) {
   .header {
     max-width: 100%;
     padding-left: 10px;
     padding-right: 10px;
     min-height: 54px;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
   }
 }
