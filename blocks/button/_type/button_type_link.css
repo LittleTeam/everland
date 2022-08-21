@@ -1,38 +1,37 @@
-.history__button_type_link {
+.button_type_link {
   border: 1px; 
-  transition: 0.9s ease-in-out;
   position: relative;
   width: 240px;
   background-color: #e7f0ff;
   color: #0c4ba0;
 }
-.history__button_type_link::after {
+.button_type_link::after {
   content: "🠖";
   position: absolute;
   top: 13px;
   right: 10px;
 }
-.history__button_type_link:hover {
+.button_type_link:hover {
   background-color: #0c4ba0;
   color: #ffffff;
 }
-.history__button_type_link:active {
+.button_type_link:active {
   background-color: #00275c;
   color: #ffffff;
 }
-.history__button_type_link:disabled {
+.button_type_link:disabled {
   background-color: #c4c4c4;
   color: #26262680;
 }
 
 @media screen and (max-width: 1279px) {
-  .history__button_type_link {
+  .button_type_link {
       width: 220px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .history__button_type_link {
+  .button_type_link {
       width: 175px;
   }
 }

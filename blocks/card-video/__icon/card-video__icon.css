@@ -1,7 +1,7 @@
 .card-video__icon {
   width: 40px;
   height: 40px;
-  background-image: url(../../../images/Icon_play.svg);
+  background-image: url(../../../images/icon_play.svg);
   margin-top: 7px;
   cursor: pointer;
 }

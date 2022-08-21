@@ -16,6 +16,7 @@
 @import '../blocks/button/_type/button_type_primary.css';
 @import '../blocks/button/_type/button_type_secondary.css';
 @import '../blocks/button/_type/button_type_tooltip.css';
+@import '../blocks/button/_type/button_type_link.css';
 
 @import '../blocks/header/header.css';
 @import '../blocks/logo/_place_header/logo_place_header.css';
@@ -103,9 +104,7 @@
 @import '../blocks/history/__wrapper/history__wrapper.css';
 @import '../blocks/history/__title/history__title.css';
 @import '../blocks/history/__button/history__button.css';
-@import '../blocks/history/__button/_type/_link/history__button_type_link.css';
-@import '../blocks/history/__button/_type/_secondary/history__button_type_secondary.css';
-@import '../blocks/history/__button/_transferred/history__button_transferred.css';
+
 
 @import '../blocks/card-quote/card-quote.css';
 @import '../blocks/card-quote/__avatar/card-quote__avatar.css';
