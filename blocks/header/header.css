@@ -1,14 +1,15 @@
 .header {
-    display: flex;
-    max-width: 1440px;
-    min-height: 80px;
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 40px;
-    padding-right: 40px;
-    align-items: center;
-    position: relative;
+  display: flex;
+  max-width: 1440px;
+  min-height: 80px;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1250px) {

@@ -2,6 +2,7 @@
   display: flex;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 90px;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 50px;
@@ -9,11 +10,13 @@
   flex-direction: column;
   position: relative;
   max-width: 1440px;
-  overflow: hidden
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1250px) {
   .about {
+    margin-bottom: 50px;
     padding-top: 56px;
     max-width: 768px;
     min-height: 286px;
@@ -22,6 +25,7 @@
 
 @media screen and (max-width: 730px) {
   .about {
+    margin-bottom: 40px;
     max-width: 100%;
     min-width: 300px;
     padding-left: 10px;

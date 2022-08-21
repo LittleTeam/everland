@@ -8,7 +8,7 @@
   width: 35px;
   height: 35px;
   border: inherit;
-  background-image: url(../../../../images/arrow_backward.svg);
+  background-image: url(../../../images/arrow_backward.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
