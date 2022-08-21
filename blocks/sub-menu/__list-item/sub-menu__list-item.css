@@ -1,0 +1,32 @@
+.sub-menu__list-item {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  padding-bottom: 20px;
+}
+
+.sub-menu__list-item:last-child {
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 1250px) {
+  .sub-menu__list-item {
+    font-size: 16px;
+    padding-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .sub-menu__list-item {
+    font-size: 14px;
+    padding-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .sub-menu__list-item {
+    padding-bottom: 10px;
+  }
+}

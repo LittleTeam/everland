@@ -1,0 +1,27 @@
+.about__main-images {
+  height: 407px;
+  width: 392px;
+  object-fit: cover;
+  position: absolute;
+  right: 128px;
+  top: 158px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1250px) {
+  .about__main-images {
+    width: 170px;
+    height: 175px;
+    top: 110px;
+    right: 114px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .about__main-images {
+    width: 170px;
+    height: 160px;
+    top: 286px;
+    right: 129px;
+  }
+}

@@ -5,6 +5,7 @@
 
   font-family: 'Raleway', 'Arial', sans-serif;
   font-weight: 400;
+<<<<<<< HEAD
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -14,4 +15,8 @@
   -moz-text-size-adjust: 100%;
 
   text-rendering: optimizeLegibility;
+=======
+  color: var(--color-text-main);
+
+>>>>>>> 7b99a09176dbe486e084fb3b8d62e94fd45ac55d
 }

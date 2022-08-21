@@ -1,0 +1,13 @@
+.footer__container-logo-social {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .footer__container-logo-social {
+    gap: 4px;
+  }
+}

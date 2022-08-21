@@ -1,0 +1,7 @@
+@media screen and (max-width: 730px) {
+    .sub-menu__title-slider {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+}

@@ -1,0 +1,18 @@
+.accordion__subtitle {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+  margin: 0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1279px) {
+  .accordion__subtitle {
+      font-size: 26px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .accordion__subtitle {
+      font-size: 18px;
+  }
+}

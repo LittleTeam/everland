@@ -1,0 +1,19 @@
+.card-video {
+  display: flex;
+  width: 670px;
+  margin: 0 auto;
+  background-color: #eae6ff;
+  border-radius: 30px;
+}
+@media screen and (max-width: 1279px) {
+  .card-video {
+      width: 334px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card-video {
+      width: 300px;
+  }
+}
+

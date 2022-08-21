@@ -1,0 +1,9 @@
+.about__switcher-button_prev {
+    opacity: 1;
+    animation: showLeft .5s;
+  }
+
+  @keyframes showLeft {
+    from {left:-100%;}
+    to {left:0;}
+  }

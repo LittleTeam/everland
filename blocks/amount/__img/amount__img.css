@@ -1,0 +1,24 @@
+.amount__img {
+  max-width: 555px;
+  max-height: 368px;
+}
+
+@media (min-width: 1030px) and (max-width: 1180px) {
+  .amount__img {
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1030px) {
+  .amount__img {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 599px) {
+  .amount__img {
+    display: block;
+    max-width: 300px;
+    max-height: 200px;
+  }
+}
