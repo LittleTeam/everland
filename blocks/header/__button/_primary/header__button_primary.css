@@ -1,6 +1,7 @@
 .header__button_primary {
   background: #0C4BA0;
   color: #FFFFFF;
+  border: 0px;
 }
 
 .header__button_primary:hover {
