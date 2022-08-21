@@ -9,6 +9,7 @@
   margin: none;
   padding: 9px;
   width: 35px;
+  transition: background-color 0.3s;
 }
 
 .slider-project__button:hover {

@@ -1,17 +1,8 @@
 .card-project__button {
-  align-items: center;
-  border-radius: 10px;
   border: 1px solid #333333;
-  box-sizing: border-box;
   color: #333333;
-  display: flex;
-  font-size: 20px;
-  font-weight: 500;
-  height: 48px;
-  justify-content: center;
-  line-height: 1.2;
-  text-decoration: none;
   width: 194px;
+  height: 48px;
 }
 
 .card-project__button:hover {
@@ -25,9 +16,7 @@
 
 @media screen and (max-width: 1279px) {
   .card-project__button {
-    font-size: 16px;
     height: 44px;
-    padding: 12px 53px;
     width: 200px;
   }
 }
@@ -35,8 +24,6 @@
 @media screen and (max-width: 767px) {
   .card-project__button {
     align-self: center;
-    font-size: 14px;
-    padding: 13px 83px;
     width: 250px;
   }
 }
