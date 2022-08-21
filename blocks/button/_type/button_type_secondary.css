@@ -1,3 +1,18 @@
 .button_type_secondary {
+  color: var(--color-blue);
   background-color: transparent;
+  border: 1px solid var(--color-blue);
+}
+
+.button_type_secondary:hover,
+.button_type_secondary:focus {
+  color: var(--color-dark-blue);
+  background-color: transparent;
+  border-color: var(--color-dark-blue);
+}
+
+.button_type_secondary:active {
+  color: var(--color-white);
+  background-color: var(--color-dark-blue);
+  border-color: var(--color-dark-blue);
 }

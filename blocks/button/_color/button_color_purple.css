@@ -1,0 +1,20 @@
+.button_color_purple {
+  color: var(--color-purple);
+  background-color: var(--color-light-purple);
+}
+
+.button_color_purple:hover,
+.button_color_purple:focus {
+  color: var(--color-white);
+  background-color: var(--color-purple);
+}
+
+.button_color_purple:active {
+  color: var(--color-white);
+  background-color: var(--color-dark-purple);
+}
+
+.button_color_purple:disabled {
+  color: var(--color-grey-transparent);
+  background-color: var(--color-grey);
+}

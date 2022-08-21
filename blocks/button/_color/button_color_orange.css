@@ -1,0 +1,24 @@
+.button_color_orange {
+  color: var(--color-orange);
+  background-color: var(--color-light-orange);
+}
+
+.button_color_orange::after {
+  background-image: url('../../../images/arrow-forward-orange.svg');
+}
+
+.button_color_orange:hover,
+.button_color_orange:focus {
+  color: var(--color-white);
+  background-color: var(--color-orange);
+}
+
+.button_color_orange:active {
+  color: var(--color-white);
+  background-color: var(--color-dark-orange);
+}
+
+.button_color_orange:disabled {
+  color: var(--color-grey-transparent);
+  background-color: var(--color-grey);
+}

@@ -1,0 +1,13 @@
+.info-card__image-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1279px) {
+  .info-card__image-wrapper {
+    border-radius: 20px;
+  }
+}

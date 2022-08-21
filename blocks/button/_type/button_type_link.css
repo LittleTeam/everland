@@ -1,27 +1,28 @@
 .button_type_link {
-  border: 1px; 
+  border: 1px;
   position: relative;
   width: 240px;
-  background-color: #e7f0ff;
-  color: #0c4ba0;
 }
+
 .button_type_link::after {
-  content: "🠖";
-  position: absolute;
-  top: 13px;
-  right: 10px;
+  flex-shrink: 0;
+  content: '';
+  margin-left: 14px;
+
+  width: 16px;
+  height: 16px;
+  transition: background-image 0.3s ease-in-out;
+
+  background-size: contain;
 }
-.button_type_link:hover {
-  background-color: #0c4ba0;
-  color: #ffffff;
+
+.button_type_link:hover::after,
+.button_type_link:focus::after {
+  background-image: url('../../../images/arrow_forward.svg');
 }
-.button_type_link:active {
-  background-color: #00275c;
-  color: #ffffff;
-}
-.button_type_link:disabled {
-  background-color: #c4c4c4;
-  color: #26262680;
+
+.button_type_link:disabled::after {
+  background-image: url('../../../images/arrow-forward-grey.svg');
 }
 
 @media screen and (max-width: 1279px) {

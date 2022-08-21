@@ -4,13 +4,13 @@
 }
 @media screen and (max-width: 1279px) {
   .accordion {
-      padding-top: 100px;
-      padding-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 @media screen and (max-width: 767px) {
   .accordion {
-      padding-top: 64px;
-      padding-top: 64px;
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
 }
