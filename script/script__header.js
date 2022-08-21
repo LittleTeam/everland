@@ -32,18 +32,29 @@ document.addEventListener("mouseover", function (e) {
   const its_btnMenu = target === header || header.contains(target);
   const menu_is_active = !subMenu.classList.contains("sub-menu_hidden");
 
-  if (!its_menu && !its_btnMenu && menu_is_active) {
+  if (!its_menu && !its_btnMenu && menu_is_active && window.screen.width > 1250) {
+    toggleMenu();
+  }
+});
+
+document.addEventListener("click", function (e) {
+  const target = e.target;
+  const its_menu = target === subMenu || subMenu.contains(target);
+  const its_btnMenu = target === header || header.contains(target);
+  const menu_is_active = !subMenu.classList.contains("sub-menu_hidden");
+
+  if (!its_menu && !its_btnMenu && menu_is_active && window.screen.width < 1250) {
     toggleMenu();
   }
 });
 
 //Аккорденон мобилный
 
-const titleBtns = document.querySelectorAll(".sub-menu__title");
+const titleBtns = document.querySelectorAll(".sub-menu__title-slider");
 
 function click() {
-  titleBtns.forEach(() => this.parentElement.nextElementSibling.classList.toggle("sub-menu__column-links_hide"));
-  titleBtns.forEach(() => this.nextElementSibling.classList.toggle("sub-menu__title-icon_hide"));
+  titleBtns.forEach(() => this.nextElementSibling.classList.toggle("sub-menu__column-links_hide"));
+  titleBtns.forEach(() => this.children[1].classList.toggle("sub-menu__title-icon_hide"));
   console.log(this);
 }
 
