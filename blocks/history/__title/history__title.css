@@ -8,13 +8,11 @@
 @media screen and (max-width: 1279px) {
   .history__title {
       font-size: 36px;
-      padding-top: 100px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .history__title {
       font-size: 26px;
-      padding-top: 64px;
   }
 }
