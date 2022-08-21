@@ -8,8 +8,8 @@
 
 @media screen and (max-width: 767px) {
   .info-cards_grid_one-row {
-    margin: 0 auto;
-    max-width: 430px;
+    /*margin: 0 auto;*/
+    /*max-width: 430px;*/
     gap: 30px;
   }
 }

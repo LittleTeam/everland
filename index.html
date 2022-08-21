@@ -163,9 +163,9 @@
       <ul class="info-cards info-cards_grid_centered">
         <li class="info-cards__item">
           <div class="info-card">
-            <span class="info-card__icon info-card__icon_type_disabled info-card__icon_color_blue">
+            <div class="info-card__icon info-card__icon_type_disabled info-card__icon_color_blue">
               <img src="images/icon-disabled.svg" alt="" class="info-card__icon-image" aria-hidden="true">
-            </span>
+            </div>
             <h3 class="info-card__title">Для людей с инвалидностью</h3>
             <p class="info-card__text">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
             <a href="#" class="info-card__link button button_type_link button_color_blue">Подробнее</a>
@@ -173,9 +173,9 @@
         </li>
         <li class="info-cards__item">
           <div class="info-card">
-            <span class="info-card__icon info-card__icon_type_employer info-card__icon_color_orange">
+            <div class="info-card__icon info-card__icon_type_employer info-card__icon_color_orange">
               <img src="images/icon-briefcase.svg" alt="" class="info-card__icon-image" aria-hidden="true">
-            </span>
+            </div>
             <h3 class="info-card__title">Для работодателей</h3>
             <p class="info-card__text">Помогаем создать устойчивые инклюзивные команды, вовлекаем интеллектуальных волонтеров </p>
             <a href="#" class="info-card__link button button_type_link button_color_blue">Подробнее</a>
@@ -183,9 +183,9 @@
         </li>
         <li class="info-cards__item">
           <div class="info-card">
-            <span class="info-card__icon info-card__icon_image_csr info-card__icon_color_green">
+            <div class="info-card__icon info-card__icon_image_csr info-card__icon_color_green">
               <img src="images/icon-following.svg" alt="" class="info-card__icon-image" aria-hidden="true">
-            </span>
+            </div>
             <h3 class="info-card__title">Для КСО-партнеров </h3>
             <p class="info-card__text">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
             <a href="#" class="info-card__link button button_type_link button_color_blue">Подробнее</a>
@@ -413,7 +413,7 @@
         <li class="info-cards__item">
           <a href="#" class="info-card info-card_content_figure">
             <figure class="info-card__figure">
-              <div class="info-card__image-wrapper">
+              <div class="info-card__image-wrapper info-card__image-wrapper_place_figure">
                 <img src="images/project-1.jpg" alt="DisQuestion" class="info-card__image">
               </div>
               <figcaption class="info-card__figcaption">Скрипты-рекомендации для бизнеса (DisQuestion)</figcaption>
@@ -423,7 +423,7 @@
         <li class="info-cards__item">
           <a href="#" class="info-card info-card_content_figure">
             <figure class="info-card__figure">
-              <div class="info-card__image-wrapper">
+              <div class="info-card__image-wrapper info-card__image-wrapper_place_figure">
                 <img src="images/project-2.jpg" alt="Онконавигатор" class="info-card__image">
               </div>
               <figcaption class="info-card__figcaption">Проект «Онконавигатор»</figcaption>
@@ -442,6 +442,46 @@
         </li>
       </ul>
       <a href="#" class="projects__all button button_type_secondary">Посмотреть все</a>
+    </section>
+
+    <section class="news section container">
+      <div class="news__content">
+        <h2 class="section__title">Новости</h2>
+        <ul class="info-cards info-cards_grid_one-row info-cards_content_news">
+          <li class="info-cards__item">
+            <div class="info-card info-card_color_white info-card_content_news">
+              <span class="info-card__tag">Тема</span>
+              <div class="info-card__image-wrapper">
+                <img src="images/event-1.jpg" alt="Миграции" class="info-card__image">
+              </div>
+              <h3 class="info-card__title">Ура! Новое партнерство — с PepsiCo</h3>
+              <p class="info-card__text">Everland совместно с PepsiCo приняли участие в акции «Благотворительность вместо сувениров»</p>
+              <p class="info-card__date">20 сентября 2021</p>
+            </div>
+          </li>
+          <li class="info-cards__item">
+            <div class="info-card info-card_color_green info-card_content_news">
+              <span class="info-card__tag">Тема</span>
+              <h3 class="info-card__title">Трехдневный интенсив для КСО-менеджеров «Бизнес и инклюзия: как строить эффективные программы»</h3>
+              <p class="info-card__text">Эксперты с инвалидностью, представители бизнеса и некоммерческих организаций поговорили о том, что такое инклюзия, рассмотрели подходы к трудоустройству людей с инвалидностью, обсудили проблемы, к которым нужно быть готовым, и поделились успешными кейсами</p>
+              <p class="info-card__date">20 сентября 2021</p>
+            </div>
+          </li>
+          <li class="info-cards__item">
+            <div class="info-card info-card_color_white info-card_content_news">
+              <span class="info-card__tag">Тема</span>
+              <h3 class="info-card__title">Тестируем супермаркеты на доступность</h3>
+              <p class="info-card__text">Everland совместно с торговой сетью «Перекресток» провели аудит продуктовых магазинов на доступность для людей с разными видами инвалидности</p>
+              <div class="info-card__image-wrapper info-card__image-wrapper_place_bottom">
+                <img src="images/event-2.jpg" alt="Миграции" class="info-card__image">
+              </div>
+              <p class="info-card__date">20 сентября 2021</p>
+            </div>
+          </li>
+        </ul>
+        <a href="#" class="news__all button button_type_secondary">Все новости</a>
+      </div>
+
     </section>
 
     <section class="donation container section section_bg_blue" id="support">
