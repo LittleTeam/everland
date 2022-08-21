@@ -1,4 +1,4 @@
-.button {
+.header__button {
   width: 180px;
   height: 48px;
   border: 1px solid #0C4BA0;
@@ -15,17 +15,17 @@
   line-height: 120%;
 }
 
-.button:last-child {
+.header__button:last-child {
   margin-left: 16px;
 }
 
 @media screen and (max-width: 1250px) {
-  .button {
+  .header__button {
     width: 134px;
     height: 44px;
     font-size: 16px;
   }
-  .button:last-child {
+  .header__button:last-child {
     margin-left: 8px;
   }
 }
