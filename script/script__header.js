@@ -26,7 +26,7 @@ subMenuBtn.addEventListener("mouseover", function (e) {
   MenuIcon.classList.add("header__menu-icon_close");
 });
 
-document.addEventListener("click", function (e) {
+document.addEventListener("mouseover", function (e) {
   const target = e.target;
   const its_menu = target === subMenu || subMenu.contains(target);
   const its_btnMenu = target === header || header.contains(target);
