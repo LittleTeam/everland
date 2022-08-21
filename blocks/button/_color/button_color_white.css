@@ -1,0 +1,35 @@
+.button_color_white {
+  color: var(--color-text-main);
+  background-color: var(--color-white);
+}
+
+.button_color_white::after {
+  background-image: url('../../../images/arrow-forward-black.svg');
+}
+
+.button_color_white:hover,
+.button_color_white:focus {
+  color: var(--color-dark-blue);
+}
+
+.button_color_white:hover::after,
+.button_color_white:focus::after {
+  background-image: url('../../../images/arrow-forward-dark-blue.svg');
+}
+
+.button_color_white:active {
+  color: var(--color-blue);
+}
+
+.button_color_white:active::after {
+  background-image: url('../../../images/arrow-forward-blue.svg');
+}
+
+.button_color_white:disabled {
+  color: var(--color-grey);
+  background-color: var(--color-grey);
+}
+
+.button_color_white:disabled::after {
+  background-image: url('../../../images/arrow-forward-light-grey.svg');
+}

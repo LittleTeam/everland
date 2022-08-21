@@ -10,8 +10,3 @@
       font-size: 36px;
   }
 }
-@media screen and (max-width: 767px) {
-  .accordion__title {
-      padding-top: 26px;
-  }
-}

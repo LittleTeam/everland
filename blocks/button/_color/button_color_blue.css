@@ -1,0 +1,24 @@
+.button_color_blue {
+  color: var(--color-blue);
+  background-color: var(--color-light-blue);
+}
+
+.button_color_blue::after {
+  background-image: url('../../../images/arrow-forward-blue.svg');
+}
+
+.button_color_blue:hover,
+.button_color_blue:focus {
+  color: var(--color-white);
+  background-color: var(--color-blue);
+}
+
+.button_color_blue:active {
+  color: var(--color-white);
+  background-color: var(--color-dark-blue);
+}
+
+.button_color_blue:disabled {
+  color: var(--color-grey-transparent);
+  background-color: var(--color-grey);
+}

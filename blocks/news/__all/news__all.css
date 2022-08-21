@@ -1,0 +1,23 @@
+@media screen and (min-width: 1280px) {
+  .news__all {
+    position: absolute;
+    top: 14px;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .news__all {
+    width: fit-content;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news__all {
+    margin-top: 22px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,21 @@
+.info-card__text {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1279px) {
+  .info-card__text {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .info-card__text {
+    font-size: 14px;
+  }
+}
+

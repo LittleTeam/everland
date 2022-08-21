@@ -1,0 +1,5 @@
+@media screen and (max-width: 767px) {
+  .info-cards_content_news {
+    gap: 16px;
+  }
+}

@@ -1,0 +1,7 @@
+.info-card__image-wrapper_place_bottom {
+  margin-top: auto;
+}
+
+.info-card__image-wrapper_place_bottom + .info-card__date {
+  margin-top: 0;
+}

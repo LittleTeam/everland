@@ -1,4 +1,4 @@
-.section-title {
+.section__title {
   margin-top: 0;
   margin-bottom: 50px;
 
@@ -12,13 +12,13 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .section-title {
+  .section__title {
     margin-bottom: 24px;
     font-size: 36px;
   }
 }
 @media screen and (max-width: 767px) {
-  .section-title {
+  .section__title {
     font-size: 26px;
   }
 }

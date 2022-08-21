@@ -1,0 +1,19 @@
+.info-card__date {
+  margin-top: auto;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 1.3;
+  color: var(--color-grey-transparent);
+}
+
+@media screen and (max-width: 1279px) {
+  .info-card__date {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .info-card__date {
+    font-size: 12px;
+  }
+}

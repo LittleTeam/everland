@@ -8,7 +8,12 @@
 @import '../blocks/page/page.css';
 @import '../blocks/container/container.css';
 
-@import '../blocks/section-title/section-title.css';
+@import '../blocks/section/section.css';
+@import '../blocks/section/_bg/section_bg_grey.css';
+@import '../blocks/section/_bg/section_bg_blue.css';
+@import '../blocks/section/__title/section__title.css';
+@import '../blocks/section/__title/_centered/section__title_centered.css';
+@import '../blocks/section/__subtitle/section__subtitle.css';
 
 @import '../blocks/button/button.css';
 @import '../blocks/button/_type/button_type_radio.css';
@@ -17,6 +22,12 @@
 @import '../blocks/button/_type/button_type_secondary.css';
 @import '../blocks/button/_type/button_type_tooltip.css';
 @import '../blocks/button/_type/button_type_link.css';
+@import '../blocks/button/_color/button_color_blue.css';
+@import '../blocks/button/_color/button_color_orange.css';
+@import '../blocks/button/_color/button_color_green.css';
+@import '../blocks/button/_color/button_color_purple.css';
+@import '../blocks/button/_color/button_color_white.css';
+@import '../blocks/button/__arrow/button__arrow.css';
 
 @import '../blocks/header/header.css';
 @import '../blocks/logo/_place_header/logo_place_header.css';
@@ -42,7 +53,6 @@
 @import '../blocks/about/__second-images/about__second-images.css';
 @import '../blocks/about/__main-images/about__main-images.css';
 @import '../blocks/about/__switcher-button/about__switcher-button.css';
-@import '../blocks/about/__switcher-button/_prev/about__switcher-button_prev.css';
 @import '../blocks/about/__switcher-button/_next/about__switcher-button_next.css';
 @import '../blocks/about/__slider-track/about__slider-track.css';
 @import '../blocks/about/__slider-item/about__slider-item.css';
@@ -61,6 +71,37 @@
 @import '../blocks/sub-menu/__title-slider/sub-menu__title-slider.css';
 @import '../blocks/sub-menu/__title-icon/sub-menu__title-icon.css';
 @import '../blocks/sub-menu/__title-icon/_hide/sub-menu__title-icon_hide.css';
+
+@import '../blocks/info-cards/info-cards.css';
+@import '../blocks/info-cards/__item/info-cards__item.css';
+@import '../blocks/info-cards/_grid/info-cards_grid_centered.css';
+@import '../blocks/info-cards/_grid/info-cards_grid_one-row.css';
+@import '../blocks/info-cards/_content/info-cards_content_news.css';
+
+@import '../blocks/info-card/info-card.css';
+@import '../blocks/info-card/__icon/info-card__icon.css';
+@import '../blocks/info-card/__icon-image/info-card__icon-image.css';
+@import '../blocks/info-card/__icon/_color/info-card__icon_color_blue.css';
+@import '../blocks/info-card/__icon/_color/info-card__icon_color_orange.css';
+@import '../blocks/info-card/__icon/_color/info-card__icon_color_green.css';
+@import '../blocks/info-card/__title/info-card__title.css';
+@import '../blocks/info-card/__text/info-card__text.css';
+@import '../blocks/info-card/__link/info-card__link.css';
+@import '../blocks/info-card/__figure/info-card__figure.css';
+@import '../blocks/info-card/__figcaption/info-card__figcaption.css';
+@import '../blocks/info-card/__image-wrapper/info-card__image-wrapper.css';
+@import '../blocks/info-card/__image-wrapper/_place/info-card__image-wrapper_place_figure.css';
+@import '../blocks/info-card/__image-wrapper/_place/info-card__image-wrapper_place_bottom.css';
+@import '../blocks/info-card/__image/info-card__image.css';
+@import '../blocks/info-card/__tag/info-card__tag.css';
+@import '../blocks/info-card/__date/info-card__date.css';
+@import '../blocks/info-card/_color/info-card_color_blue.css';
+@import '../blocks/info-card/_color/info-card_color_orange.css';
+@import '../blocks/info-card/_color/info-card_color_green.css';
+@import '../blocks/info-card/_color/info-card_color_purple.css';
+@import '../blocks/info-card/_color/info-card_color_white.css';
+@import '../blocks/info-card/_content/info-card_content_figure.css';
+@import '../blocks/info-card/_content/info-card_content_news.css';
 
 @import '../blocks/accordion/accordion.css';
 @import '../blocks/accordion/__container/accordion__container.css';
@@ -105,7 +146,6 @@
 @import '../blocks/history/__title/history__title.css';
 @import '../blocks/history/__button/history__button.css';
 
-
 @import '../blocks/card-quote/card-quote.css';
 @import '../blocks/card-quote/__avatar/card-quote__avatar.css';
 @import '../blocks/card-quote/__icon/card-quote__icon.css';
@@ -125,6 +165,14 @@
 @import '../blocks/card-video/__text/card-video__text.css';
 
 @import '../blocks/cards-wrapper/cards-wrapper.css';
+
+@import '../blocks/projects/projects.css';
+@import '../blocks/projects/__title/projects__title.css';
+@import '../blocks/projects/__subtitle/projects__subtitle.css';
+@import '../blocks/projects/__all/projects__all.css';
+
+@import '../blocks/news/__content/news__content.css';
+@import '../blocks/news/__all/news__all.css';
 
 @import '../blocks/donation-nav/donation-nav.css';
 @import '../blocks/donation-nav/_content/donation-nav__content.css';
@@ -152,7 +200,6 @@
 @import '../blocks/tooltip/__button/tooltip__button.css';
 @import '../blocks/tooltip/__text/tooltip__text.css';
 
-@import '../blocks/donation/donation.css';
 @import '../blocks/donation/__content/donation__content.css';
 @import '../blocks/donation/__title/donation__title.css';
 @import '../blocks/donation/__form/donation__form.css';

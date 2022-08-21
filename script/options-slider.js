@@ -45,9 +45,13 @@ const isOptionsSliderVertical = () => {
   return optionsSliderState.currentSettings.direction === 'vertical';
 }
 
-const defineContainerWidth = () => {
+const resetOptionsSliderContainerStyles = () => {
   optionsSliderContainer.style.width = '';
   optionsSliderContainer.style.flexShrink = '';
+}
+
+const defineContainerWidth = () => {
+  resetOptionsSliderContainerStyles();
 
   const containerWidth = Math.round(optionsSliderContainer.clientWidth); // чтобы избежать половинчатых пикселей, которые скрывают границы слайдов
   optionsSliderContainer.style.width = containerWidth + 'px';
@@ -96,6 +100,7 @@ const setSlidesWidth = () => {
 const resetSlidesStyles = () => {
   optionsSliderState.slideWidth = '';
   optionsSliderState.slideHeight = '';
+  resetOptionsSliderContainerStyles();
 
   optionsSlides.forEach((slide) => {
     slide.style.width = '';

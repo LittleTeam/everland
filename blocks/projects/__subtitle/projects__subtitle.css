@@ -1,0 +1,15 @@
+.projects__subtitle {
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1279px) {
+  .projects__subtitle {
+    margin-bottom: 22px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .projects__subtitle {
+    margin-bottom: 24px;
+  }
+}
