@@ -1,13 +1,13 @@
-.header__button_primary {
+.header__button_type_primary {
   background: #0C4BA0;
   color: #FFFFFF;
   border: 0px;
 }
 
-.header__button_primary:hover {
+.header__button_type_primary:hover {
   background: #4183DC;
 }
 
-.header__button_primary:focus {
+.header__button_type_primary:focus {
   background: #00275C;
 }
