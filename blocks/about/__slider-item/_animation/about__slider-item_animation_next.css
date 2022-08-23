@@ -1,4 +1,4 @@
-  .about__slider-item_next {
+  .about__slider-item_animation_next {
       opacity: 1;
       animation: showRight .5s;
     }

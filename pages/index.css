@@ -53,11 +53,11 @@
 @import '../blocks/about/__second-images/about__second-images.css';
 @import '../blocks/about/__main-images/about__main-images.css';
 @import '../blocks/about/__switcher-button/about__switcher-button.css';
-@import '../blocks/about/__switcher-button/_next/about__switcher-button_next.css';
+@import '../blocks/about/__switcher-button/_direction/about__switcher-button_next.css';
 @import '../blocks/about/__slider-track/about__slider-track.css';
 @import '../blocks/about/__slider-item/about__slider-item.css';
-@import '../blocks/about/__slider-item/_next/about__slider-item_next.css';
-@import '../blocks/about/__slider-item/_prev/about__switcher-button_prev.css';
+@import '../blocks/about/__slider-item/_animation/about__slider-item_animation_next.css';
+@import '../blocks/about/__slider-item/_animation/about__slider-item_animation_prev.css';
 
 @import '../blocks/sub-menu/sub-menu.css';
 @import '../blocks/sub-menu/__columns/sub-menu__columns.css';

@@ -65,8 +65,8 @@ titleBtns.forEach((e) => {
 // Слайдер с анимациями
 
 const items = document.querySelectorAll(".about__slider-item");
-const btnPrev = document.querySelector(".about__switcher-button_prev");
-const btnNext = document.querySelector(".about__switcher-button_next");
+const btnPrev = document.querySelector(".about__switcher-button_direction_prev");
+const btnNext = document.querySelector(".about__switcher-button_direction_next");
 // счетчик
 let btnPagination = document.querySelector(".about__switcher-text");
 let savedIndex = 0;
@@ -78,17 +78,17 @@ function printPagination() {
 function calcSlideNext() {
   savedIndex = savedIndex += 1;
   savedIndex = items.length === savedIndex ? 0 : savedIndex;
-  items.forEach((el) => el.classList.remove("about__slider-item_next"));
-  items.forEach((el) => el.classList.remove("about__switcher-button_prev"));
-  items[savedIndex].classList.add("about__slider-item_next");
+  items.forEach((el) => el.classList.remove("about__slider-item_animation_next"));
+  items.forEach((el) => el.classList.remove("about__slider-item_animation_prev"));
+  items[savedIndex].classList.add("about__slider-item_animation_next");
 }
 
 function calcSlidePrev() {
   savedIndex = savedIndex -= 1;
   savedIndex = savedIndex < 0 ? items.length - 1 : savedIndex;
-  items.forEach((el) => el.classList.remove("about__switcher-button_prev"));
-  items.forEach((el) => el.classList.remove("about__slider-item_next"));
-  items[savedIndex].classList.add("about__switcher-button_prev");
+  items.forEach((el) => el.classList.remove("about__slider-item_animation_prev"));
+  items.forEach((el) => el.classList.remove("about__slider-item_animation_next"));
+  items[savedIndex].classList.add("about__slider-item_animation_prev");
 }
 
 const clickSliderHandlerNext = () => {
