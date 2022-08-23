@@ -1,18 +1,24 @@
-.button_type_secondary {
+.button_type_secondary-blue {
   color: var(--color-blue);
   background-color: transparent;
   border: 1px solid var(--color-blue);
 }
 
-.button_type_secondary:hover,
-.button_type_secondary:focus {
+.button_type_secondary-blue:hover,
+.button_type_secondary-blue:focus {
   color: var(--color-dark-blue);
   background-color: transparent;
   border-color: var(--color-dark-blue);
 }
 
-.button_type_secondary:active {
+.button_type_secondary-blue:active {
   color: var(--color-white);
   background-color: var(--color-dark-blue);
   border-color: var(--color-dark-blue);
+}
+
+.button_type_secondary-blue:disabled {
+  color: var(--color-grey-transparent);
+  background-color: var(--color-light-grey);
+  border: 2px solid var(--color-grey);
 }

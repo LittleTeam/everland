@@ -15,7 +15,7 @@
 
 .button_type_primary:disabled {
   color: var(--color-grey-transparent);
-  background-color: transparent;
+  background-color: var(--color-light-grey);
   border: 2px solid var(--color-grey);
   cursor: auto;
   pointer-events: none;
