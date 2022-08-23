@@ -53,7 +53,7 @@
 @import '../blocks/about/__second-images/about__second-images.css';
 @import '../blocks/about/__main-images/about__main-images.css';
 @import '../blocks/about/__switcher-button/about__switcher-button.css';
-@import '../blocks/about/__switcher-button/_direction/about__switcher-button_direction_next.css';
+@import '../blocks/about/__switcher-button/_type/about__switcher-button_type_next.css';
 @import '../blocks/about/__slider-track/about__slider-track.css';
 @import '../blocks/about/__slider-item/about__slider-item.css';
 @import '../blocks/about/__slider-item/_animation/about__slider-item_animation_next.css';

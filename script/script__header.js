@@ -65,8 +65,8 @@ titleBtns.forEach((e) => {
 // Слайдер с анимациями
 
 const items = document.querySelectorAll(".about__slider-item");
-const btnPrev = document.querySelector(".about__switcher-button_direction_prev");
-const btnNext = document.querySelector(".about__switcher-button_direction_next");
+const btnPrev = document.querySelector(".about__switcher-button_type_prev");
+const btnNext = document.querySelector(".about__switcher-button_type_next");
 // счетчик
 let btnPagination = document.querySelector(".about__switcher-text");
 let savedIndex = 0;
