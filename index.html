@@ -11,6 +11,11 @@
   <link rel="stylesheet" href="pages/index.css">
 </head>
 <body class="page">
+  <div class="visually-hidden">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path id="arrow-forward" fill-rule="evenodd" clip-rule="evenodd" d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z" fill="currentColor"/>
+    </svg>
+  </div>
   <header class="header">
     <div class="logo logo_place_header"></div>
     <button id="menuBtn" aria-label="Меню" class="header__menu-button" type="button">
@@ -162,27 +167,39 @@
       <h2 class="purpose__title section__title section__title_centered">Для кого мы работаем</h2>
       <ul class="info-cards info-cards_grid_centered">
         <li class="info-cards__item">
-          <div class="info-card">
+          <div class="info-card info-card_size_auto-height">
             <span class="info-card__icon info-card__icon_type_disabled info-card__icon_color_blue"></span>
             <h3 class="info-card__title">Для людей с&nbsp;инвалидностью</h3>
             <p class="info-card__text">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
-            <a href="#" class="info-card__link button button_type_link button_color_blue">Подробнее</a>
+            <a href="#" class="info-card__link button button_type_link button_color_blue">Подробнее
+              <svg class="button__arrow" viewBox="0 0 16 16">
+                <use xlink:href="#arrow-forward"></use>
+              </svg>
+            </a>
           </div>
         </li>
         <li class="info-cards__item">
-          <div class="info-card">
+          <div class="info-card info-card_size_auto-height">
             <span class="info-card__icon info-card__icon_type_employer info-card__icon_color_orange"></span>
             <h3 class="info-card__title">Для работодателей</h3>
             <p class="info-card__text">Помогаем создать устойчивые инклюзивные команды, вовлекаем интеллектуальных волонтеров </p>
-            <a href="#" class="info-card__link button button_type_link button_color_blue">Подробнее</a>
+            <a href="#" class="info-card__link button button_type_link button_color_orange">Подробнее
+              <svg class="button__arrow" viewBox="0 0 16 16">
+                <use xlink:href="#arrow-forward"></use>
+              </svg>
+            </a>
           </div>
         </li>
         <li class="info-cards__item">
-          <div class="info-card">
+          <div class="info-card info-card_size_auto-height">
             <span class="info-card__icon info-card__icon_type_csr info-card__icon_color_green"></span>
             <h3 class="info-card__title">Для КСО-партнеров </h3>
             <p class="info-card__text">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
-            <a href="#" class="info-card__link button button_type_link button_color_blue">Подробнее</a>
+            <a href="#" class="info-card__link button button_type_link button_color_green">Подробнее
+              <svg class="button__arrow" viewBox="0 0 16 16">
+                <use xlink:href="#arrow-forward"></use>
+              </svg>
+            </a>
           </div>
         </li>
       </ul>
@@ -195,7 +212,11 @@
           <div class="info-card info-card_color_orange">
             <h3 class="info-card__title">Доступность услуг DisQuestion</h3>
             <p class="info-card__text">Сервисы для бизнеса по повышению доступности услуг для маломобильных клиентов ― контракты с крупнейшими компаниями в России</p>
-            <a href="#" class="info-card__link button button_type_link button_color_white">Подробнее</a>
+            <a href="#" class="info-card__link button button_type_link button_color_white">Подробнее
+            <svg class="button__arrow" viewBox="0 0 16 16">
+                <use xlink:href="#arrow-forward"></use>
+              </svg>
+            </a>
           </div>
         </li>
         <li class="info-cards__item">
@@ -203,35 +224,55 @@
             <h3 class="info-card__title">Трудоустройство</h3>
             <p class="info-card__text">Решение социальной проблемы с использованием предпринимательских инструментов: оказываем услуги разным компаниям и НКО, таким образом зарабатываем и даем работу людям с инвалидностью
             </p>
-            <a href="#" class="info-card__link button button_type_link button_color_white">Подробнее</a>
+            <a href="#" class="info-card__link button button_type_link button_color_white">Подробнее
+            <svg class="button__arrow" viewBox="0 0 16 16">
+                <use xlink:href="#arrow-forward"></use>
+              </svg>
+            </a>
           </div>
         </li>
         <li class="info-cards__item">
           <div class="info-card info-card_color_green">
             <h3 class="info-card__title">Биржа проектов и&nbsp;готовые решения</h3>
             <p class="info-card__text">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
-            <a href="#" class="info-card__link button button_type_link button_color_white">Подробнее</a>
+            <a href="#" class="info-card__link button button_type_link button_color_white">Подробнее
+            <svg class="button__arrow" viewBox="0 0 16 16">
+                <use xlink:href="#arrow-forward"></use>
+              </svg>
+            </a>
           </div>
         </li>
         <li class="info-cards__item">
           <div class="info-card info-card_color_blue">
             <h3 class="info-card__title">Агентство</h3>
             <p class="info-card__text">Услуги специалистов с инвалидностью для крупных компаний (дизайн, право, контент и другие</p>
-            <a href="#" class="info-card__link button button_type_link button_color_white">Подробнее</a>
+            <a href="#" class="info-card__link button button_type_link button_color_white">Подробнее
+            <svg class="button__arrow" viewBox="0 0 16 16">
+                <use xlink:href="#arrow-forward"></use>
+              </svg>
+            </a>
           </div>
         </li>
         <li class="info-cards__item">
           <div class="info-card info-card_color_green">
             <h3 class="info-card__title">Коворкинг</h3>
             <p class="info-card__text">Уникальное пространство, в котором специалисты с инвалидностью могут работать и офлайн – приходить, участвовать в образовательных мероприятиях, встречаться с заказчиками, работать в команде</p>
-            <a href="#" class="info-card__link button button_type_link button_color_white">Подробнее</a>
+            <a href="#" class="info-card__link button button_type_link button_color_white">Подробнее
+            <svg class="button__arrow" viewBox="0 0 16 16">
+                <use xlink:href="#arrow-forward"></use>
+              </svg>
+            </a>
           </div>
         </li>
         <li class="info-cards__item">
           <div class="info-card info-card_color_orange">
             <h3 class="info-card__title">Для людей с&nbsp;инвалидностью</h3>
             <p class="info-card__text">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
-            <a href="#" class="info-card__link button button_type_link button_color_white">Подробнее</a>
+            <a href="#" class="info-card__link button button_type_link button_color_white">Подробнее
+            <svg class="button__arrow" viewBox="0 0 16 16">
+                <use xlink:href="#arrow-forward"></use>
+              </svg>
+            </a>
           </div>
         </li>
       </ul>
@@ -343,7 +384,7 @@
     <section class="container history" id="stories">
       <div class="history__wrapper">
         <h2 class="history__title">Истории</h2>
-        <button type="button" class="button button_type_secondary history__button">Все истории</button>
+        <button type="button" class="button button_type_secondary-blue history__button">Все истории</button>
       </div>
       <article class="card-quote">
         <img class="card-quote__avatar" src="images/avatar_quote1.png" alt="Аватар героя истории" />
@@ -355,7 +396,12 @@
             </blockquote>
             <h3 class="card-quote__text">Максиму Гильфанову из Узбекистана 41 год. Диплом программиста и курсы по
               веб-дизайну не решили проблему с трудоустройством</h3>
-            <button type="button" class="card-quote__button button button_type_link button_color_blue">Истории Максима</button>
+            <button type="button" class="card-quote__button button button_type_link button_color_blue">
+              <span class="button__text">Истории Максима</span>
+              <svg class="button__arrow" viewBox="0 0 16 16">
+                <use xlink:href="#arrow-forward"></use>
+              </svg>
+            </button>
           </div>
         </div>
       </article>
@@ -370,7 +416,12 @@
             </blockquote>
             <h3 class="card-quote__text">Максиму Чернышову из Набережных Челнов 32 года. В детстве он неудачно сделал
               сальто и повредил позвоночник. С тех пор ему тяжело передвигаться на большие расстояния</h3>
-            <button type="button" class="card-quote__button button button_type_link button_color_blue">Истории Максима</button>
+            <button type="button" class="card-quote__button button button_type_link button_color_blue">
+              <span class="button__text">Истории Максима</span>
+              <svg class="button__arrow" viewBox="0 0 16 16">
+                <use xlink:href="#arrow-forward"></use>
+              </svg>
+            </button>
           </div>
         </div>
       </article>
@@ -435,7 +486,7 @@
           </a>
         </li>
       </ul>
-      <a href="#" class="projects__all button button_type_secondary">Посмотреть все</a>
+      <a href="#" class="button button_type_secondary-blue section__button-all">Посмотреть все</a>
     </section>
 
     <section class="news section container">
@@ -473,7 +524,7 @@
             </div>
           </li>
         </ul>
-        <a href="#" class="news__all button button_type_secondary">Все новости</a>
+        <a href="#" class="button button_type_secondary-blue section__button-all section__button-all_pos_title">Все новости</a>
       </div>
 
     </section>
@@ -745,7 +796,7 @@
       <div class="card-project__wrapper">
         <h2 class="card-project__heading"></h2>
         <p class="card-project__text"></p>
-        <a class="button button_type_secondary card-project__button" href="#">Посмотреть</a>
+        <a class="button button_type_secondary-black card-project__button" href="#">Посмотреть</a>
       </div>
     </article>
   </template>

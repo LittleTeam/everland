@@ -1,8 +1,6 @@
 .history__button {
   width: 194px;
   height: 48px;
-  border: 1px solid #0c4ba0;
-  color: #0c4ba0;
 }
 @media screen and (max-width: 1279px) {
   .history__button {
@@ -14,21 +12,7 @@
 
 @media screen and (max-width: 767px) {
   .history__button {
-      height: 44px; 
+      height: 44px;
       width: 300px;
   }
-}
-
-.history__button:hover {
-  border: 1px solid #00275c;
-  color: #00275c;
-}
-.history__button:active {
-  background-color: #00275c;
-  color: white;
-}
-.history__button:disabled {
-  border: 2px solid #c4c4c4;
-  background-color: #f5f5f5;
-  color: #c4c4c4;
 }

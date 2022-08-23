@@ -1,0 +1,22 @@
+.button_type_secondary-black {
+  color: var(--color-text-main);
+  background-color: transparent;
+  border: 1px solid var(--color-text-main);
+}
+
+.button_type_secondary-black:hover,
+.button_type_secondary-black:focus {
+  border-width: 2px;
+}
+
+.button_type_secondary-black:active {
+  color: var(--color-white);
+  background-color: var(--color-text-main);
+  border-color: var(--color-text-main);
+}
+
+.button_type_secondary-black:disabled {
+  color: var(--color-grey-transparent);
+  background-color: var(--color-light-grey);
+  border: 2px solid var(--color-grey);
+}

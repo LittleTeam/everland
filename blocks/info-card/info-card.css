@@ -1,6 +1,5 @@
 .info-card {
   box-sizing: border-box;
-  height: 100%;
   width: 100%;
 
   display: flex;
@@ -33,7 +32,7 @@
 
 @media screen and (max-width: 767px) {
   .info-card {
-    padding: 24px;
+    padding: 23px;
     border-radius: 20px;
   }
 }

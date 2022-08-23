@@ -1,9 +1,8 @@
 @media screen and (min-width: 1280px) {
-  .news__all {
+  .section__button-all_pos_title {
     position: absolute;
-    top: 14px;
+    top: 17px;
     right: 0;
+    margin-top: 0;
   }
 }
-
-
