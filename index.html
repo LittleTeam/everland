@@ -486,10 +486,12 @@
             <label class="donation-options__item">
               <input class="donation-options__radio-input" type="radio" name="support-periodicity" value="monthly" checked>
               <span class="donation-options__radio-button button button_type_radio">Ежемесячно
-            <span class="donation-options__tooltip tooltip">
-              <a href="#" class="tooltip__button button button_type_tooltip"></a>
-              <span class="tooltip__text">Ежемесячные пожертвования позволяют нам планировать бюджет на новые и текущие проекты. Мы запомним вашу карту и каждый месяц будем списывать выбранную вами сумму.</span>
-            </span>
+              <span class="donation-options__tooltip tooltip">
+                <span class="tooltip__button" role="button" aria-describedby="monthly-tooltip" tabindex="0"></span>
+                <span class="tooltip__text" role="tooltip" id="monthly-tooltip">
+                  <span class="visually-hidden">Тултип: </span>
+                  Ежемесячные пожертвования позволяют нам планировать бюджет на новые и текущие проекты. Мы запомним вашу карту и каждый месяц будем списывать выбранную вами сумму.</span>
+              </span>
           </span>
             </label>
             <label class="donation-options__item">
@@ -582,10 +584,10 @@
             <input type="text" class="form__text-input" placeholder="Иван Иванов" name="name">
           </label>
           <label class="donation__text-input-label">
-            <input type="email" class="form__text-input" placeholder="myemail@example.com" name="email" pattern="(\w\.?)+@[\w\.-]+\.\w{2,}">
+            <input type="email" class="form__text-input" placeholder="myemail@example.com" name="email" pattern="(\w\.?)+@[\w\.-]+\.\w{2,}" required>
           </label>
           <label class="donation__text-input-label donation__text-input-label_content_sum donation__text-input-label_state_hide">
-            <input type="number" class="form__text-input" placeholder="5000" name="custom-donation-sum">
+            <input type="number" class="form__text-input" placeholder="5000" name="custom-donation-sum" required>
           </label>
           <div class="donation__consent">
             <label class="donation__checkbox form__checkbox">
