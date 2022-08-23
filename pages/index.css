@@ -84,6 +84,9 @@
 @import '../blocks/info-card/__icon/_color/info-card__icon_color_blue.css';
 @import '../blocks/info-card/__icon/_color/info-card__icon_color_orange.css';
 @import '../blocks/info-card/__icon/_color/info-card__icon_color_green.css';
+@import '../blocks/info-card/__icon/_type/info-card__icon_type_disabled.css';
+@import '../blocks/info-card/__icon/_type/info-card__icon_type_employer.css';
+@import '../blocks/info-card/__icon/_type/info-card__icon_type_csr.css';
 @import '../blocks/info-card/__title/info-card__title.css';
 @import '../blocks/info-card/__text/info-card__text.css';
 @import '../blocks/info-card/__link/info-card__link.css';
