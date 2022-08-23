@@ -1,17 +1,17 @@
-.section__all-button {
+.section__button-all {
   margin: 50px auto 0;
   width: fit-content;
   min-width: 200px;
 }
 
 @media screen and (max-width: 1279px) {
-  .section__all-button {
+  .section__button-all {
     margin: 30px auto 0;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .section__all-button {
+  .section__button-all {
     margin-top: 22px;
     width: 100%;
   }
