@@ -1,5 +1,6 @@
 .history {
-  width: 100%; ;
+  width: 100%; 
+  margin: 0 auto;
   padding-top: 150px;
   padding-bottom: 100px;
   display: flex;
@@ -8,7 +9,7 @@
 
 @media screen and (max-width: 1279px) {
   .history {
-      max-width: 687px;
+      max-width: 100%;
       padding-top: 100px;
       padding-bottom: 50px;
   }
@@ -16,7 +17,7 @@
 
 @media screen and (max-width: 767px) {
   .history {
-      max-width: 300px;
+      max-width: 100%;
       padding-top: 64px;
       padding-bottom: 31px;
   }

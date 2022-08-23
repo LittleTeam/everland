@@ -1,13 +1,12 @@
 .card-quote {
-  max-width: 1360px;
+  width: 100%;
   display: flex;
   padding: 50px 0px;
+  margin: 0;
 }
 
 @media screen and (max-width: 1279px) {
   .card-quote {
-      margin: auto;
-      max-width: 687px;
       padding: 32px 0px;
   }
 }
@@ -15,8 +14,6 @@
 @media screen and (max-width: 767px) {
   .card-quote {
       flex-direction: column;
-      margin: auto;
-      max-width: 299px;
       padding: 24px 0px 31px 0px;
   }
 }

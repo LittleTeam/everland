@@ -3,6 +3,7 @@
   height: 45px;
   padding: 0;
   background-image: url(../../../images/accordion_icon.svg);
+  background-size: 21px; 
   background-color: #E7F0FF;
   background-position: center;
   background-repeat: no-repeat;
@@ -19,8 +20,9 @@
 
 @media screen and (max-width: 1279px) {
   .accordion__button  {
-      width: 32px;
-      height: 32px;
+    background-size: 15px;  
+    width: 32px;
+    height: 32px;
   }
 }
 
