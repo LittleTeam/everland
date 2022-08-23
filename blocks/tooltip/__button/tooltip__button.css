@@ -1,4 +1,37 @@
+.tooltip__button {
+  display: flex;
+  width: 10px;
+  height: 10px;
+  box-sizing: border-box;
+
+  padding: 2px;
+
+  background-image: url(../../../images/tooltip.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  border-radius: 50%;
+  border: none;
+
+  transition: background 0.3s ease-in-out;
+}
+
+.tooltip__button:hover,
+.tooltip__button:focus {
+  background-image: url(../../../images/tooltip_hover.svg);
+}
+
+.tooltip__button:active {
+  background-image: url(../../../images/tooltip_active.svg);
+}
+
 .tooltip__button:hover + .tooltip__text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltip__button:focus + .tooltip__text {
   visibility: visible;
   opacity: 1;
 }
