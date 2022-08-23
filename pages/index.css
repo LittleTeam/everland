@@ -7,6 +7,7 @@
 @import '../blocks/root/root.css';
 @import '../blocks/page/page.css';
 @import '../blocks/container/container.css';
+@import '../blocks/visually-hidden/visually-hidden.css';
 
 @import '../blocks/section/section.css';
 @import '../blocks/section/_bg/section_bg_grey.css';
@@ -20,7 +21,6 @@
 @import '../blocks/button/_type/button_type_radio-link.css';
 @import '../blocks/button/_type/button_type_primary.css';
 @import '../blocks/button/_type/button_type_secondary.css';
-@import '../blocks/button/_type/button_type_tooltip.css';
 @import '../blocks/button/_type/button_type_link.css';
 @import '../blocks/button/_color/button_color_blue.css';
 @import '../blocks/button/_color/button_color_orange.css';
@@ -210,7 +210,7 @@
 @import '../blocks/donation/__text/donation__text.css';
 @import '../blocks/donation/__options-slider/donation__options-slider.css';
 @import '../blocks/donation/__text-input-label/donation__text-input-label.css';
-@import '../blocks/donation/__text-input-label/__state/donation__text-input-label_state_hide.css';
+@import '../blocks/donation/__text-input-label/_state/donation__text-input-label_state_hide.css';
 @import '../blocks/donation/__consent/donation__consent.css';
 @import '../blocks/donation/__checkbox/donation__checkbox.css';
 @import '../blocks/donation/__link/donation__link.css';
@@ -231,8 +231,8 @@
 @import '../blocks/options-slider/__slide/options-slider__slide.css';
 @import '../blocks/options-slider/__btn/options-slider__btn.css';
 @import '../blocks/options-slider/__btn/_hide/options-slider__btn_hide.css';
-@import '../blocks/options-slider/__btn/_direction/options-slider__btn_type_prev.css';
-@import '../blocks/options-slider/__btn/_direction/options-slider__btn_type_next.css';
+@import '../blocks/options-slider/__btn/_type/options-slider__btn_type_prev.css';
+@import '../blocks/options-slider/__btn/_type/options-slider__btn_type_next.css';
 
 @import '../blocks/footer/footer.css';
 @import '../blocks/footer/__grid/footer__grid.css';
