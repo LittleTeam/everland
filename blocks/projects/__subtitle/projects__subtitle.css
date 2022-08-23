@@ -1,5 +1,6 @@
 .projects__subtitle {
   margin-bottom: 50px;
+  max-width: 73%;
 }
 
 @media screen and (max-width: 1279px) {
@@ -11,5 +12,6 @@
 @media screen and (max-width: 767px) {
   .projects__subtitle {
     margin-bottom: 24px;
+    max-width: none;
   }
 }
