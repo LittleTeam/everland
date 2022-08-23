@@ -9,7 +9,7 @@
   padding-bottom: 50px;
 }
 
-@media (min-width: 600px) and (max-width: 1030px) {
+@media screen and (max-width: 1279px) {
   .amount__title {
     font-size: 36px;
     line-height: 43.2px;
@@ -17,7 +17,7 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 599px) {
+@media (max-width: 767px) {
   .amount__title {
     font-size: 26px;
     line-height: 31.2px;
