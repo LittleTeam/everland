@@ -5,13 +5,14 @@
   line-height: 120%;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1279px) {
   .card-quote__quote-text {
-      font-size: 20px;
+    font-size: 20px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .card-quote__quote-text {
-      font-size: 16px;
+    font-size: 16px;
+  }
 }

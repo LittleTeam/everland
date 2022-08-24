@@ -1,15 +1,29 @@
 .card-video {
-  display: flex;
-  width: calc(50% - 10px);
   margin: 0 auto;
-  background-color: #eae6ff;
+  width: calc(50% - 10px);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  padding: 30px;
+
+  background-color: var(--color-light-purple);
   border-radius: 30px;
 }
 
+@media screen and (max-width: 1279px) {
+  .card-video {
+    gap: 16px;
+    padding: 20px 13px 20px 20px;
+    border-radius: 20px;
+  }
+}
 
 @media screen and (max-width: 767px) {
   .card-video {
-      width: 100%
+    width: 100%;
+    padding: 16px;
   }
 }
 

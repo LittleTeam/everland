@@ -372,7 +372,7 @@
       </div>
     </section>
 
-    <section class="container section-project" id="project">
+    <section class="section-project container" id="project">
       <div class="slider-project">
         <div class="slider-project__buttons">
           <button class="slider-project__button slider-project__button_type_prev"></button>
@@ -381,7 +381,7 @@
       </div>
     </section>
 
-    <section class="container history" id="stories">
+    <section class="history container" id="stories">
       <div class="history__wrapper">
         <h2 class="history__title">Истории</h2>
         <button type="button" class="button button_type_secondary-blue history__button">Все истории</button>
@@ -396,7 +396,12 @@
             </blockquote>
             <h3 class="card-quote__text">Максиму Гильфанову из Узбекистана 41 год. Диплом программиста и курсы по
               веб-дизайну не решили проблему с трудоустройством</h3>
-            <button type="button" class="button button_type_link button_color_blue">Истории Максима</button>
+            <button type="button" class="button button_type_link button_color_blue">
+              <span class="button__text">История Максима</span>
+              <svg class="button__arrow" viewBox="0 0 16 16">
+                <use xlink:href="#arrow-forward"></use>
+              </svg>
+            </button>
           </div>
         </div>
       </article>
@@ -411,7 +416,12 @@
             </blockquote>
             <h3 class="card-quote__text">Максиму Чернышову из Набережных Челнов 32 года. В детстве он неудачно сделал
               сальто и повредил позвоночник. С тех пор ему тяжело передвигаться на большие расстояния</h3>
-            <button type="button" class="button button_type_link button_color_blue">Истории Максима</button>
+            <button type="button" class="button button_type_link button_color_blue">
+              <span class="button__text">История Максима</span>
+              <svg class="button__arrow" viewBox="0 0 16 16">
+                <use xlink:href="#arrow-forward"></use>
+              </svg>
+            </button>
           </div>
         </div>
       </article>
@@ -421,10 +431,10 @@
           <div class="card-video__content">
             <p class="card-video__name">Айслу Асан</p>
             <h3 class="card-video__text">Когда хочется жить</h3>
-            <div class="card-video__link">
-              <p class="card-video__description">История Айслу</p>
-              <a class="card-video__icon" href="#"></a>
-            </div>
+            <a href="#" class="card-video__link link">
+              <span class="card-video__description">История Айслу</span>
+              <span class="card-video__icon"></span>
+            </a>
             </div>
         </article>
         <article class="card-video">
@@ -432,10 +442,10 @@
           <div class="card-video__content">
             <p class="card-video__name">Артём Плаксин</p>
             <h3 class="card-video__text">Не видеть и смотреть в будущее</h3>
-            <div class="card-video__link">
-              <p class="card-video__description">История Артёма</p>
-              <a class="card-video__icon" href="#"></a>
-            </div>
+            <a href="#" class="card-video__link link">
+              <span class="card-video__description">История Артёма</span>
+              <span class="card-video__icon"></span>
+            </a>
           </div>
         </article>
       </div>

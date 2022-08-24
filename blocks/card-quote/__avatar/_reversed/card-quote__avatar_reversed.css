@@ -1,16 +1,15 @@
 .card-quote__avatar_reversed {
   order: 1;
-  margin: 0 0 0 80px;
 }
 
-@media screen and (max-width: 1279px) {
-  .card-quote__avatar_reversed {
-    margin: 24px 0px 0px 24px;
-  }
-}
 @media screen and (max-width: 767px) {
   .card-quote__avatar_reversed {
-      order: -1;
-      margin: 0px 0px 10px 0px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .card-quote__avatar_reversed {
+    order: -1;
   }
 }

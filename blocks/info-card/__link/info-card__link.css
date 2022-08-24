@@ -1,7 +1,6 @@
 .info-card__link {
   margin-top: auto;
   display: inline-flex;
-  width: auto;
   min-width: 165px;
 }
 

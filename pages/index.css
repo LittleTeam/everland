@@ -31,6 +31,8 @@
 @import '../blocks/button/_color/button_color_white.css';
 @import '../blocks/button/__arrow/button__arrow.css';
 
+@import '../blocks/link/link.css';
+
 @import '../blocks/header/header.css';
 @import '../blocks/logo/_place/logo_place_header.css';
 @import '../blocks/header/__buttons/header__buttons.css';

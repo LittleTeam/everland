@@ -2,22 +2,19 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 130%;
-  padding-bottom: 20px;
   margin: 0;
 }
 
 @media screen and (max-width: 1279px) {
   .card-video__name {
-      font-size: 16px;
-      line-height: 120%;
-      padding-bottom: 6px;
+    font-size: 16px;
+    line-height: 120%;
   }
 }
 
 @media screen and (max-width: 767px) {
   .card-video__name {
-      font-size: 14px;
-      line-height: 120%;
-      padding-bottom: 1px;
+    font-size: 14px;
+    line-height: 120%;
   }
 }

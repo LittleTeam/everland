@@ -1,23 +1,21 @@
 .card-video__avatar {
   width: 225px;
   height: 225px;
-  padding: 30px 20px 30px 30px;
+  object-fit: cover;
   border-radius: 50%;
 }
 
 @media screen and (max-width: 1279px) {
   .card-video__avatar {
-      width: 120px;
-      height: 120px;
-      padding: 25px 16px 25px 20px;
+    width: 120px;
+    height: 120px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .card-video__avatar {
-      width: 80px;
-      height: 80px;
-      padding: 16px;
+    width: 80px;
+    height: 80px;
   }
 }
 

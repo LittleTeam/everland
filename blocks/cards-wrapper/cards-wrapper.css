@@ -7,13 +7,19 @@
 
 @media screen and (max-width: 1279px) {
   .cards-wrapper {
-      margin-bottom: 40px;
+    margin-bottom: 40px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cards-wrapper {
-      flex-direction: column;
-      margin-bottom: 24px;
+    margin-bottom: 24px;
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .cards-wrapper {
+    flex-direction: column;
   }
 }
