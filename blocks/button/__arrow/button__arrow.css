@@ -7,7 +7,7 @@
   color: inherit;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1279px) {
   .button__arrow {
     margin-left: 13px;
     width: 13px;

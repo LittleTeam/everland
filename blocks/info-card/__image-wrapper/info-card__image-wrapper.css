@@ -13,3 +13,12 @@
     border-radius: 20px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .info-card__image-wrapper {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 76.2%;
+  }
+}
+

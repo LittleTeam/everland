@@ -1,5 +1,4 @@
 @import '../vendor/normalize.css';
-
 @import '../vendor/fonts.css';
 
 @import '../blocks/html/html.css';
@@ -15,12 +14,15 @@
 @import '../blocks/section/__title/section__title.css';
 @import '../blocks/section/__title/_centered/section__title_centered.css';
 @import '../blocks/section/__subtitle/section__subtitle.css';
+@import '../blocks/section/__button-all/section__button-all.css';
+@import '../blocks/section/__button-all/_pos/section__button-all_pos_title.css';
 
 @import '../blocks/button/button.css';
 @import '../blocks/button/_type/button_type_radio.css';
 @import '../blocks/button/_type/button_type_radio-link.css';
 @import '../blocks/button/_type/button_type_primary.css';
-@import '../blocks/button/_type/button_type_secondary.css';
+@import '../blocks/button/_type/button_type_secondary-blue.css';
+@import '../blocks/button/_type/button_type_secondary-black.css';
 @import '../blocks/button/_type/button_type_link.css';
 @import '../blocks/button/_color/button_color_blue.css';
 @import '../blocks/button/_color/button_color_orange.css';
@@ -37,8 +39,6 @@
 @import '../blocks/header/__menu-text/header__menu-text.css';
 @import '../blocks/header/__menu-icon/_close/header__menu-icon_close.css';
 @import '../blocks/header/__button/header__button.css';
-@import '../blocks/header/__button/_type/header__button_primary.css';
-@import '../blocks/header/__button/_type/header__button_secondary.css';
 
 @import '../blocks/navigation/navigation.css';
 @import '../blocks/navigation/__menu/navigation__menu.css';
@@ -105,6 +105,7 @@
 @import '../blocks/info-card/_color/info-card_color_white.css';
 @import '../blocks/info-card/_content/info-card_content_figure.css';
 @import '../blocks/info-card/_content/info-card_content_news.css';
+@import '../blocks/info-card/_size/info-card_size_auto-height.css';
 
 @import '../blocks/accordion/accordion.css';
 @import '../blocks/accordion/__container/accordion__container.css';
@@ -173,7 +174,6 @@
 @import '../blocks/projects/projects.css';
 @import '../blocks/projects/__title/projects__title.css';
 @import '../blocks/projects/__subtitle/projects__subtitle.css';
-@import '../blocks/projects/__all/projects__all.css';
 
 @import '../blocks/news/__content/news__content.css';
 @import '../blocks/news/__all/news__all.css';

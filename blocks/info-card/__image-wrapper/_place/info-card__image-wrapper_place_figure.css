@@ -1,4 +1,10 @@
 .info-card__image-wrapper_place_figure {
   margin: 0;
-  padding-bottom: 100%;
+  padding-bottom: 104.5%;
+}
+
+@media screen and (max-width: 1279px) {
+  .info-card__image-wrapper_place_figure {
+    padding-bottom: 100%;
+  }
 }

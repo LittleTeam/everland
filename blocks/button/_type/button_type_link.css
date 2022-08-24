@@ -4,25 +4,8 @@
   width: 240px;
 }
 
-.button_type_link::after {
-  flex-shrink: 0;
-  content: '';
-  margin-left: 14px;
-
-  width: 16px;
-  height: 16px;
-  transition: background-image 0.3s ease-in-out;
-
-  background-size: contain;
-}
-
-.button_type_link:hover::after,
-.button_type_link:focus::after {
-  background-image: url('../../../images/arrow_forward.svg');
-}
-
-.button_type_link:disabled::after {
-  background-image: url('../../../images/arrow-forward-grey.svg');
+.button_type_link:disabled {
+  color: var(--color-grey-transparent);
 }
 
 @media screen and (max-width: 1279px) {

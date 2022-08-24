@@ -3,6 +3,12 @@
   align-items: center;
 }
 
+@media screen and (max-width: 1250px) {
+  .header__buttons {
+    margin-left: auto;
+  }
+}
+
 @media screen and (max-width: 730px) {
   .header__buttons {
     display: none;

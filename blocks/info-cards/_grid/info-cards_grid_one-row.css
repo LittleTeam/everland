@@ -3,6 +3,7 @@
     grid-template-rows: [first] 100%;
     grid-auto-rows: 0;
     overflow-y: hidden;
+    row-gap: 0;
   }
 }
 

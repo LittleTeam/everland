@@ -1,7 +1,8 @@
 .info-card_content_figure {
+  min-height: auto;
   padding: 0;
-  background-color: transparent;
   color: var(--color-text-main);
+  background-color: transparent;
   border-radius: 0;
 }
 
