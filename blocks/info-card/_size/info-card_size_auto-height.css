@@ -2,8 +2,4 @@
   .info-card_size_auto-height {
     min-height: auto;
   }
-
-  .info-card_size_auto-height .info-card__link {
-    margin-top: 10px;
-  }
 }

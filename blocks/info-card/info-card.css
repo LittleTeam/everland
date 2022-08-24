@@ -21,6 +21,7 @@
 @media screen and (max-width: 1279px) {
   .info-card {
     min-height: auto;
+    border-radius: 20px;
   }
 }
 
@@ -33,6 +34,6 @@
 @media screen and (max-width: 767px) {
   .info-card {
     padding: 23px;
-    border-radius: 20px;
+
   }
 }

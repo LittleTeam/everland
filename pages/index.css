@@ -44,6 +44,19 @@
 @import '../blocks/navigation/__menu/navigation__menu.css';
 @import '../blocks/navigation/__link/navigation__link.css';
 
+@import '../blocks/sub-menu/sub-menu.css';
+@import '../blocks/sub-menu/__columns/sub-menu__columns.css';
+@import '../blocks/sub-menu/__title/sub-menu__title.css';
+@import '../blocks/sub-menu/__column-links/sub-menu__column-links.css';
+@import '../blocks/sub-menu/__column/sub-menu__column.css';
+@import '../blocks/sub-menu/__list-item/sub-menu__list-item.css';
+@import '../blocks/sub-menu/__column-link/sub-menu__column-link.css';
+@import '../blocks/sub-menu/__column-link/_other/sub-menu__column-link_other.css';
+@import '../blocks/sub-menu/__column-links/_other/sub-menu__column-links_other.css';
+@import '../blocks/sub-menu/__title-slider/sub-menu__title-slider.css';
+@import '../blocks/sub-menu/__title-icon/sub-menu__title-icon.css';
+@import '../blocks/sub-menu/__title-icon/_hide/sub-menu__title-icon_hide.css';
+
 @import '../blocks/about/about.css';
 @import '../blocks/about/__title/about__title.css';
 @import '../blocks/about/__title-color/about__title-color.css';
@@ -58,19 +71,6 @@
 @import '../blocks/about/__slider-item/about__slider-item.css';
 @import '../blocks/about/__slider-item/_animation/about__slider-item_animation_next.css';
 @import '../blocks/about/__slider-item/_animation/about__slider-item_animation_prev.css';
-
-@import '../blocks/sub-menu/sub-menu.css';
-@import '../blocks/sub-menu/__columns/sub-menu__columns.css';
-@import '../blocks/sub-menu/__title/sub-menu__title.css';
-@import '../blocks/sub-menu/__column-links/sub-menu__column-links.css';
-@import '../blocks/sub-menu/__column/sub-menu__column.css';
-@import '../blocks/sub-menu/__list-item/sub-menu__list-item.css';
-@import '../blocks/sub-menu/__column-link/sub-menu__column-link.css';
-@import '../blocks/sub-menu/__column-link/_other/sub-menu__column-link_other.css';
-@import '../blocks/sub-menu/__column-links/_other/sub-menu__column-links_other.css';
-@import '../blocks/sub-menu/__title-slider/sub-menu__title-slider.css';
-@import '../blocks/sub-menu/__title-icon/sub-menu__title-icon.css';
-@import '../blocks/sub-menu/__title-icon/_hide/sub-menu__title-icon_hide.css';
 
 @import '../blocks/info-cards/info-cards.css';
 @import '../blocks/info-cards/__item/info-cards__item.css';
@@ -107,6 +107,8 @@
 @import '../blocks/info-card/_content/info-card_content_news.css';
 @import '../blocks/info-card/_size/info-card_size_auto-height.css';
 
+@import '../blocks/purpose/__title/purpose__title.css';
+
 @import '../blocks/accordion/accordion.css';
 @import '../blocks/accordion/__container/accordion__container.css';
 @import '../blocks/accordion/__item/accordion__item.css';
@@ -126,7 +128,6 @@
 @import '../blocks/amount/__img/amount__img.css';
 @import '../blocks/amount/__numbers/amount__numbers.css';
 @import '../blocks/amount/__text/amount__text.css';
-@import '../blocks/amount/__title/amount__title.css';
 @import '../blocks/amount/__number/amount__number.css';
 
 @import '../blocks/section-project/section-project.css';
