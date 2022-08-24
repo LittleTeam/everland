@@ -8,8 +8,8 @@
   }
 }
 
-@media (min-width:320px) and (max-width: 599px) {
+@media screen and (max-width: 599px) {
   .amount__numbers {
-    max-width: 300px;
+    max-width: none;
   }
 }
