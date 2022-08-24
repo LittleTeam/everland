@@ -1,5 +1,5 @@
 .history__title {
-  margin: 0;
+  margin: 0 0 100px 0;
   font-weight: 700;
   font-size: 64px;
   line-height: 120%;
@@ -8,6 +8,7 @@
 @media screen and (max-width: 1279px) {
   .history__title {
       font-size: 36px;
+      margin: 0 0 36px 0;
   }
 }
 

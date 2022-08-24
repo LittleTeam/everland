@@ -1,7 +1,7 @@
 .card-quote__avatar {
   width: 225px;
   height: 225px;
-  margin: 50px 93px 50px 0px;
+  margin-right: 93px;
   border-radius: 50%;
 }
 
@@ -9,7 +9,7 @@
   .card-quote__avatar {
       width: 204px;
       height: 204px;
-      margin: 23px 32px 23px 0px;
+      margin: 29px 32px 23px 0px;
   }
 }
 
