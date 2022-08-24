@@ -1,0 +1,14 @@
+.link {
+  text-decoration: none;
+  color: var(--color-text-main);
+  transition: color 0.3s ease-in-out;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--color-dark-blue);
+}
+
+.link:active {
+  color: var(--color-blue);
+}

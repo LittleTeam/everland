@@ -1,23 +1,28 @@
 .card-quote__avatar {
   width: 225px;
   height: 225px;
-  margin-right: 93px;
   border-radius: 50%;
 }
 
 @media screen and (max-width: 1279px) {
   .card-quote__avatar {
-      width: 204px;
-      height: 204px;
-      margin: 29px 32px 23px 0px;
+    margin: 0;
+    width: 204px;
+    height: 204px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .card-quote__avatar {
-      width: 80px;
-      height: 80px;
-      margin-bottom: 10px;
-      flex-shrink: 0;
+    width: 125px;
+    height: 125px;
+    flex-shrink: 0;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .card-quote__avatar {
+    width: 80px;
+    height: 80px;
   }
 }

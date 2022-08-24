@@ -1,23 +1,11 @@
 .button_type_link {
   border: 1px;
   position: relative;
-  width: 240px;
+  width: fit-content;
 
   padding: 12px 10px;
 }
 
 .button_type_link:disabled {
   color: var(--color-grey-transparent);
-}
-
-@media screen and (max-width: 1279px) {
-  .button_type_link {
-      width: 220px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .button_type_link {
-      width: 175px;
-  }
 }
