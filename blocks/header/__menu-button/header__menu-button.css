@@ -10,10 +10,24 @@
   margin-left: 100px;
 }
 
+@media screen and (min-width: 729px) and (max-width: 1250px) {
+  .header__menu-button {
+    min-width: 83px;
+    justify-content: flex-end;
+  }
+}
+
 @media screen and (max-width: 1250px) {
   .header__menu-button {
     order: 2;
     margin-left: 0;
     padding-bottom: 4px;
+  }
+}
+
+@media screen and (max-width: 729px) {
+  .header__menu-button {
+    min-width: 24px;
+    justify-content: center;
   }
 }
