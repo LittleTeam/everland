@@ -39,8 +39,6 @@
 @import '../blocks/header/__menu-text/header__menu-text.css';
 @import '../blocks/header/__menu-icon/_close/header__menu-icon_close.css';
 @import '../blocks/header/__button/header__button.css';
-@import '../blocks/header/__button/_type/header__button_primary.css';
-@import '../blocks/header/__button/_type/header__button_secondary.css';
 
 @import '../blocks/navigation/navigation.css';
 @import '../blocks/navigation/__menu/navigation__menu.css';
@@ -175,7 +173,6 @@
 @import '../blocks/projects/projects.css';
 @import '../blocks/projects/__title/projects__title.css';
 @import '../blocks/projects/__subtitle/projects__subtitle.css';
-@import '../blocks/projects/__all/projects__all.css';
 
 @import '../blocks/news/__content/news__content.css';
 @import '../blocks/news/__all/news__all.css';
