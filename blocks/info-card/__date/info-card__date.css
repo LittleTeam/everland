@@ -12,9 +12,9 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 599px) {
   .info-card__date {
-    margin-top: 10px;
+    margin-top: 0;
     font-size: 12px;
   }
 }

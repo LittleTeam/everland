@@ -14,5 +14,6 @@
   .section__button-all {
     margin-top: 22px;
     width: 100%;
+    max-width: 300px;
   }
 }

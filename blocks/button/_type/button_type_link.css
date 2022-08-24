@@ -2,6 +2,8 @@
   border: 1px;
   position: relative;
   width: 240px;
+
+  padding: 12px 10px;
 }
 
 .button_type_link:disabled {

@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 1279px) {
   .info-card__text {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 16px;
     line-height: 1.2;
   }
