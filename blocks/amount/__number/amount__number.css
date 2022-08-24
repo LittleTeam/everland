@@ -14,10 +14,10 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 599px) {
+@media screen and (max-width: 599px) {
   .amount__number {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
     gap: 16px;
   }
 }

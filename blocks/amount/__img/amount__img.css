@@ -1,18 +1,17 @@
 .amount__img {
-  max-width: 555px;
+  max-width: 41%;
   max-height: 368px;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1023px) {
   .amount__img {
     display: none;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 599px) {
   .amount__img {
     display: block;
-    max-width: 300px;
-    max-height: 200px;
+    max-width: none;
   }
 }
