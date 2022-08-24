@@ -1,4 +1,4 @@
 .footer__logo-social-link {
-  background-color: #0C4BA0;
+  background-color: var(--color-blue);
   border-radius: 12px;
 }
