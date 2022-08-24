@@ -1,17 +1,9 @@
 .header__button {
-  width: 180px;
-}
-
-.header__button:last-child {
-  margin-left: 16px;
+  min-width: 180px;
 }
 
 @media screen and (max-width: 1250px) {
   .header__button {
-    width: 134px;
-  }
-
-  .header__button:last-child {
-    margin-left: 8px;
+    min-width: 134px;
   }
 }

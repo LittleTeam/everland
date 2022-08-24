@@ -1,11 +1,13 @@
 .header__buttons {
   display: flex;
   align-items: center;
+  gap: 16px;
 }
 
 @media screen and (max-width: 1250px) {
   .header__buttons {
     margin-left: auto;
+    gap: 8px;
   }
 }
 
