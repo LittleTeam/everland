@@ -1,0 +1,16 @@
+.amount__img-wrapper {
+  max-width: 41%;
+}
+
+@media screen and (max-width: 1023px) {
+  .amount__img-wrapper {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .amount__img-wrapper {
+    display: block;
+    max-width: none;
+  }
+}

@@ -1,17 +1,4 @@
 .amount__img {
-  max-width: 41%;
-  max-height: 368px;
-}
-
-@media screen and (max-width: 1023px) {
-  .amount__img {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 599px) {
-  .amount__img {
-    display: block;
-    max-width: none;
-  }
+  width: 100%;
+  height: auto;
 }
