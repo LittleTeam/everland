@@ -5,21 +5,10 @@ const donationAnotherOption = donationForm.querySelector('.donation-options__ite
 const donationAnotherInputLabel = donationForm.querySelector('.donation__text-input-label_content_sum');
 const donationAnotherInput = donationAnotherInputLabel.querySelector('input');
 
-donationNavOptions.forEach((opt) => {
-  opt.addEventListener('change', () => {
-    donationFormOptions.forEach((formOpt) => {
-      if (opt.value === formOpt.value) {
-        formOpt.checked = 'true';
-        const event = new Event('change');
-        formOpt.dispatchEvent(event);
-      }
-    })
-  })
-})
-
-const unableAnotherInput = () => {
-  donationAnotherInputLabel.classList.remove('donation__text-input-label_state_hide');
-  donationAnotherInput.setAttribute('required', '');
+const checkRelatedOption = (radio) => {
+  radio.checked = 'true';
+  const event = new Event('change');
+  radio.dispatchEvent(event);
 }
 
 const disableAnotherInput = () => {
@@ -29,9 +18,30 @@ const disableAnotherInput = () => {
   }
 }
 
-donationFormOptions.forEach((opt) => {
+const unableAnotherInput = () => {
+  donationAnotherInputLabel.classList.remove('donation__text-input-label_state_hide');
+  donationAnotherInput.setAttribute('required', '');
+}
+
+donationNavOptions.forEach((opt) => {
   opt.addEventListener('change', () => {
-    if (opt === donationAnotherOption && donationAnotherOption.checked) {
+    donationFormOptions.forEach((formOpt) => {
+      if (opt.value === formOpt.value && !formOpt.checked) {
+        checkRelatedOption(formOpt);
+      }
+    })
+  })
+})
+
+donationFormOptions.forEach((formOpt) => {
+  formOpt.addEventListener('change', () => {
+    donationNavOptions.forEach((opt) => {
+      if (formOpt.value === opt.value && !opt.checked) {
+        checkRelatedOption(opt);
+      }
+    })
+
+    if (formOpt === donationAnotherOption && donationAnotherOption.checked) {
       unableAnotherInput();
     } else {
       disableAnotherInput();
