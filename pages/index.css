@@ -128,6 +128,7 @@
 @import '../blocks/amount/__color/amount__color.css';
 @import '../blocks/amount/__container/amount__container.css';
 @import '../blocks/amount/__heading/amount__heading.css';
+@import '../blocks/amount/__img-wrapper/amount__img-wrapper.css';
 @import '../blocks/amount/__img/amount__img.css';
 @import '../blocks/amount/__numbers/amount__numbers.css';
 @import '../blocks/amount/__text/amount__text.css';
@@ -145,6 +146,7 @@
 @import '../blocks/card-project/__heading/card-project__heading.css';
 @import '../blocks/card-project/__text/card-project__text.css';
 @import '../blocks/card-project/__wrapper/card-project__wrapper.css';
+@import '../blocks/card-project/__img-wrapper/card-project__img-wrapper.css';
 @import '../blocks/card-project/__img/card-project__img.css';
 @import '../blocks/card-project/__button/card-project__button.css';
 @import '../blocks/card-project/_visible/card-project_visible.css';
