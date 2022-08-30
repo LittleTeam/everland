@@ -1,6 +1,8 @@
 .donation-nav__submit {
-  padding-left: 29px;
-  padding-right: 29px;
+  /* padding-left: 29px;
+  padding-right: 29px; */
+  width: 180px;
+  margin-right: 24px;
 }
 
 @media screen and (max-width: 1279px) {
@@ -13,6 +15,7 @@
 @media screen and (max-width: 767px) {
   .donation-nav__submit {
     margin-left: 0;
+    margin-right: 0;
     width: 100%;
   }
 }
