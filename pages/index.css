@@ -73,6 +73,7 @@
 @import '../blocks/about/__slider-item/about__slider-item.css';
 @import '../blocks/about/__slider-item/_animation/about__slider-item_animation_next.css';
 @import '../blocks/about/__slider-item/_animation/about__slider-item_animation_prev.css';
+@import '../blocks/about/__slider-item/_block/about__slider-item_show.css';
 
 @import '../blocks/info-cards/info-cards.css';
 @import '../blocks/info-cards/__item/info-cards__item.css';
