@@ -1,8 +1,8 @@
 .card-quote__icon {
   width: 35px;
-  height: 28px;
+  height: 27.5px;
   background-image: url(../../../images/icon_quote.svg);
-  margin: 15px 32px 178px 0;
+  margin: 15px 32px 179.5px 12.5px;
   flex-shrink: 0;
   background-repeat: no-repeat;
   background-size: contain;
@@ -14,6 +14,7 @@
     height: 20px;
     margin-top: 0;
     margin-bottom: 13px;
+    margin-left: 0;
   }
 }
 

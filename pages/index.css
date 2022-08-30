@@ -30,6 +30,7 @@
 @import '../blocks/button/_color/button_color_purple.css';
 @import '../blocks/button/_color/button_color_white.css';
 @import '../blocks/button/__arrow/button__arrow.css';
+@import '../blocks/button/__text/button__text.css';
 
 @import '../blocks/link/link.css';
 
