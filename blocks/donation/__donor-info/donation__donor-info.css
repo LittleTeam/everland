@@ -1,0 +1,20 @@
+.donation__donor-info {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  padding-top: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .donation__donor-info {
+    gap: 17px;
+    padding-top: 23px;
+    margin-left: -5px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .donation__donor-info {
+    margin-left: -1px;
+  }
+}

@@ -1,6 +1,7 @@
 .donation-options__item {
   width: 159px;
   display: flex;
+  justify-content: center;
   height: 48px;
 }
 

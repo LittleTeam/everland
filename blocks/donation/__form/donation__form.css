@@ -1,9 +1,7 @@
 .donation__form {
   width: 50.8%;
   box-sizing: border-box;
-
-  padding: 30px 20px;
-
+  padding: 30px 17px;
   background-color: var(--color-white);
   border-radius: 30px;
   box-shadow: 0 4px 30px rgba(42, 48, 56, 0.1);
@@ -25,7 +23,14 @@
 
 @media screen and (max-width: 767px) {
   .donation__form {
+    width: 80%;
     padding: 32px 20px;
     border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .donation__form {
+    width: 100%;
   }
 }

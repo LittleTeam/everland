@@ -1,3 +1,9 @@
+@media screen and (max-width: 320px) {
+  .donation-options_content_sum {
+    margin-top: 18px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .donation-options_content_sum {
     margin-right: -16px;
@@ -16,6 +22,7 @@
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .donation-options_content_sum {
     gap: 16px;
+    margin-top: 24px;
   }
 
   .donation-options_content_sum .donation-options__item_content_another {

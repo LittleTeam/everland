@@ -1,9 +1,7 @@
 .donation-log__item {
   margin-bottom: 26px;
-
   display: grid;
-  grid-template-columns: auto max-content;
-
+  grid-template-columns: 247px max-content;
   font-size: 20px;
   line-height: 1.3;
 }
@@ -36,5 +34,11 @@
   .donation-log__item {
     margin-bottom: 14px;
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .donation-log__item {
+    grid-template-columns: 214px max-content;
   }
 }

@@ -2,10 +2,8 @@
   position: absolute;
   height: 1em;
   overflow: hidden;
-
   padding-left: 10px;
   padding-right: 10px;
-
   content: " . . . . . . . . . . . . . . . . . . . "
   ". . . . . . . . . . . . . . . . . . . . . . . "
   ". . . . . . . . . . . . . . . . . . . . . . . "
@@ -13,6 +11,5 @@
   ". . . . . . . . . . . . . . . . . . . . . . . "
   ". . . . . . . . . . . . . . . . . . . . . . . "
   ". . . . . . . . . . . . . . . . . . . . . . . ";
-
   text-align: right;
 }

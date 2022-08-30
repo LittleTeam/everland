@@ -653,7 +653,7 @@
               <div class="donation__options donation-options donation-options_content_payment options-slider__wrapper">
                 <label class="donation-options__item options-slider__slide">
                   <input class="donation-options__radio-input" type="radio" name="payment" value="card" required>
-                  <span class="donation-options__radio-button button button_type_radio">
+                  <span class="donation-options__radio-button donation-options__radio-button_location_payment button button_type_radio">
                   <img src="images/payment-mir.svg" alt="Платёжная система Мир." class="donation-options__image">
                   <img src="images/payment-maestro.svg" alt="Платёжная система Маэстро." class="donation-options__image">
                   <img src="images/payment-visa.svg" alt="Платёжная система Виза." class="donation-options__image">
@@ -662,31 +662,31 @@
                 </label>
                 <label class="donation-options__item options-slider__slide">
                   <input class="donation-options__radio-input" type="radio" name="payment" value="io">
-                  <span class="donation-options__radio-button button button_type_radio">
+                  <span class="donation-options__radio-butto donation-options__radio-button_location_payment button button_type_radio">
                   <img src="images/payment-io.svg" alt="Платёжная система Ио." class="donation-options__image">
                 </span>
                 </label>
                 <label class="donation-options__item options-slider__slide">
                   <input class="donation-options__radio-input" type="radio" name="payment" value="webmoney">
-                  <span class="donation-options__radio-button button button_type_radio">
+                  <span class="donation-options__radio-button donation-options__radio-button_location_payment button button_type_radio">
                   <img src="images/payment-webmoney.svg" alt="Платёжная система Вэбмани." class="donation-options__image">
                 </span>
                 </label>
                 <label class="donation-options__item options-slider__slide">
                   <input class="donation-options__radio-input" type="radio" name="payment" value="qiwi">
-                  <span class="donation-options__radio-button button button_type_radio">
+                  <span class="donation-options__radio-button donation-options__radio-button_location_payment button button_type_radio">
                   <img src="images/payment-qiwi.svg" alt="Платёжная система Киви." class="donation-options__image">
                 </span>
                 </label>
                 <label class="donation-options__item options-slider__slide">
                   <input class="donation-options__radio-input" type="radio" name="payment" value="io">
-                  <span class="donation-options__radio-button button button_type_radio">
+                  <span class="donation-options__radio-button donation-options__radio-button_location_payment button button_type_radio">
                   <img src="images/payment-io.svg" alt="Платёжная система Ио." class="donation-options__image">
                 </span>
                 </label>
                 <label class="donation-options__item options-slider__slide">
                   <input class="donation-options__radio-input" type="radio" name="payment" value="webmoney">
-                  <span class="donation-options__radio-button button button_type_radio">
+                  <span class="donation-options__radio-button donation-options__radio-button_location_payment button button_type_radio">
                   <img src="images/payment-webmoney.svg" alt="Платёжная система Вэбмани." class="donation-options__image">
                 </span>
                 </label>
@@ -698,6 +698,8 @@
           </div>
 
           <h4 class="donation__subtitle">Ваши данные</h4>
+
+          <div class="donation__donor-info">
           <label class="donation__text-input-label">
             <input type="text" class="form__text-input" placeholder="Иван Иванов" name="name" required>
           </label>
@@ -707,6 +709,8 @@
           <label class="donation__text-input-label donation__text-input-label_content_sum donation__text-input-label_state_hide">
             <input type="number" class="form__text-input" placeholder="5000" name="custom-donation-sum">
           </label>
+          </div>
+
           <div class="donation__consent">
             <label class="donation__checkbox form__checkbox">
               <input class="form__checkbox-input" type="checkbox" name="offer" required>

@@ -1,11 +1,6 @@
 .donation__text-input-label {
-  margin-top: 21px;
   max-width: 455px;
   display: block;
 }
 
-@media screen and (max-width: 1279px) {
-  .donation__text-input-label {
-    margin-top: 16px;
-  }
-}
+
