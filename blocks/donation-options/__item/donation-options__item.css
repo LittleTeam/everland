@@ -1,7 +1,8 @@
 .donation-options__item {
-  width: 159px;
   display: flex;
+  font-variant-numeric: lining-nums;
   height: 48px;
+  width: 159px;
 }
 
 @media screen and (max-width: 1279px) {
