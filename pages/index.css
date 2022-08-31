@@ -11,8 +11,10 @@
 @import '../blocks/section/section.css';
 @import '../blocks/section/_bg/section_bg_grey.css';
 @import '../blocks/section/_bg/section_bg_blue.css';
+@import '../blocks/section/_type/section_type_support.css';
 @import '../blocks/section/__title/section__title.css';
 @import '../blocks/section/__title/_centered/section__title_centered.css';
+@import '../blocks/section/__title/_type/section__titile_type_support.css';
 @import '../blocks/section/__subtitle/section__subtitle.css';
 @import '../blocks/section/__button-all/section__button-all.css';
 @import '../blocks/section/__button-all/_pos/section__button-all_pos_title.css';
@@ -74,7 +76,7 @@
 @import '../blocks/about/__slider-item/about__slider-item.css';
 @import '../blocks/about/__slider-item/_animation/about__slider-item_animation_next.css';
 @import '../blocks/about/__slider-item/_animation/about__slider-item_animation_prev.css';
-@import '../blocks/about/__slider-item/_block/about__slider-item_show.css';
+@import '../blocks/about/__slider-item/_visibility/about__slider-item_visibility_visible.css';
 
 @import '../blocks/info-cards/info-cards.css';
 @import '../blocks/info-cards/__item/info-cards__item.css';
@@ -163,9 +165,9 @@
 @import '../blocks/card-quote/__quote/card-quote__quote.css';
 @import '../blocks/card-quote/__text/card-quote__text.css';
 @import '../blocks/card-quote/__wrapper/card-quote__wrapper.css';
-@import '../blocks/card-quote/__avatar/_reversed/card-quote__avatar_reversed.css';
 @import '../blocks/card-quote/__container/card-quote__container.css';
 @import '../blocks/card-quote/__quote-text/card-quote__quote-text.css';
+@import '../blocks/card-quote/_reverse/card-quote_reverse.css';
 
 @import '../blocks/card-video/card-video.css';
 @import '../blocks/card-video/__avatar/card-video__avatar.css';
@@ -195,6 +197,7 @@
 @import '../blocks/donation-options/__item/_content/donation-options__item_content_another.css';
 @import '../blocks/donation-options/__radio-input/donation-options__radio-input.css';
 @import '../blocks/donation-options/__radio-button/donation-options__radio-button.css';
+@import '../blocks/donation-options/__radio-button/_location/donation-options__radio-button_location_payment.css';
 @import '../blocks/donation-options/__tooltip/donation-options__tooltip.css';
 @import '../blocks/donation-options/__image/donation-options__image.css';
 @import '../blocks/donation-options/_content/donation-options_content_periodicity.css';
@@ -211,6 +214,15 @@
 @import '../blocks/tooltip/__button/tooltip__button.css';
 @import '../blocks/tooltip/__text/tooltip__text.css';
 
+@import '../blocks/options-slider/options-slider.css';
+@import '../blocks/options-slider/__container/options-slider__container.css';
+@import '../blocks/options-slider/__wrapper/options-slider__wrapper.css';
+@import '../blocks/options-slider/__slide/options-slider__slide.css';
+@import '../blocks/options-slider/__btn/options-slider__btn.css';
+@import '../blocks/options-slider/__btn/_hide/options-slider__btn_hide.css';
+@import '../blocks/options-slider/__btn/_type/options-slider__btn_type_prev.css';
+@import '../blocks/options-slider/__btn/_type/options-slider__btn_type_next.css';
+
 @import '../blocks/donation/__content/donation__content.css';
 @import '../blocks/donation/__title/donation__title.css';
 @import '../blocks/donation/__form/donation__form.css';
@@ -226,21 +238,13 @@
 @import '../blocks/donation/__history/donation__history.css';
 @import '../blocks/donation/__gratitude/donation__gratitude.css';
 @import '../blocks/donation/__log/donation__log.css';
+@import '../blocks/donation/__donor-info/donation__donor-info.css';
 
 @import '../blocks/donation-log/donation-log.css';
 @import '../blocks/donation-log/__item/donation-log__item.css';
 @import '../blocks/donation-log/__name/donation-log__name.css';
 @import '../blocks/donation-log/__leaders/donation-log__leaders.css';
 @import '../blocks/donation-log/__info/donation-log__info.css';
-
-@import '../blocks/options-slider/options-slider.css';
-@import '../blocks/options-slider/__container/options-slider__container.css';
-@import '../blocks/options-slider/__wrapper/options-slider__wrapper.css';
-@import '../blocks/options-slider/__slide/options-slider__slide.css';
-@import '../blocks/options-slider/__btn/options-slider__btn.css';
-@import '../blocks/options-slider/__btn/_hide/options-slider__btn_hide.css';
-@import '../blocks/options-slider/__btn/_type/options-slider__btn_type_prev.css';
-@import '../blocks/options-slider/__btn/_type/options-slider__btn_type_next.css';
 
 @import '../blocks/footer/footer.css';
 @import '../blocks/footer/__grid/footer__grid.css';

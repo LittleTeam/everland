@@ -8,15 +8,22 @@
   max-width: none;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1279px) {
-  .donation-options_content_periodicity {
-    gap: 16px;
-  }
-}
-
-
 @media screen and (min-width: 1280px) {
   .donation-options_content_periodicity {
     gap: 20px;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .donation-options_content_periodicity {
+    gap: 16px;
+    margin-bottom: 33px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .donation-options_content_periodicity {
+    margin-bottom: 32px;
+  }
+}
+

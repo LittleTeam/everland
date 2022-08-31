@@ -1,7 +1,6 @@
 .donation__text {
   margin-top: 16px;
   margin-bottom: 16px;
-
   font-size: 18px;
   line-height: 1.28;
 }
@@ -9,6 +8,8 @@
 @media screen and (max-width: 1279px) {
   .donation__text {
     font-size: 14px;
+    margin-top: 18px;
+    margin-bottom: 10px;
   }
 }
 
@@ -18,3 +19,15 @@
     line-height: 1.16;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .donation__text {
+    margin-top: 16px;
+    margin-bottom: 32px;
+    letter-spacing: 0.009em;
+  }
+}
+
+
+
+

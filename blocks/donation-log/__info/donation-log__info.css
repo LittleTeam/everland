@@ -1,8 +1,13 @@
 .donation-log__info {
   position: relative;
   top: -2px;
-
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+
+@media screen and (max-width: 320px) {
+  .donation-log__info {
+    gap: 7px;
+  }
 }
