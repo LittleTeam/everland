@@ -1,5 +1,5 @@
 @media screen and (min-width: 600px) {
-  .card-quote_reversed {
+  .card-quote_reverse {
     flex-direction: row-reverse;
   }
 }

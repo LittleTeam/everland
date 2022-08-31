@@ -164,7 +164,7 @@
 @import '../blocks/card-quote/__wrapper/card-quote__wrapper.css';
 @import '../blocks/card-quote/__container/card-quote__container.css';
 @import '../blocks/card-quote/__quote-text/card-quote__quote-text.css';
-@import '../blocks/card-quote/_reversed/card-quote_reversed.css';
+@import '../blocks/card-quote/_reverse/card-quote_reverse.css';
 
 @import '../blocks/card-video/card-video.css';
 @import '../blocks/card-video/__avatar/card-video__avatar.css';
