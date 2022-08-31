@@ -1,5 +1,4 @@
 .about__slider-item_animation_prev {
-    opacity: 1;
     animation: showLeft .5s;
   }
 

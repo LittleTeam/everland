@@ -75,6 +75,7 @@
 @import '../blocks/about/__slider-item/about__slider-item.css';
 @import '../blocks/about/__slider-item/_animation/about__slider-item_animation_next.css';
 @import '../blocks/about/__slider-item/_animation/about__slider-item_animation_prev.css';
+@import '../blocks/about/__slider-item/_visibility/about__slider-item_visibility_visible.css';
 
 @import '../blocks/info-cards/info-cards.css';
 @import '../blocks/info-cards/__item/info-cards__item.css';
@@ -163,9 +164,9 @@
 @import '../blocks/card-quote/__quote/card-quote__quote.css';
 @import '../blocks/card-quote/__text/card-quote__text.css';
 @import '../blocks/card-quote/__wrapper/card-quote__wrapper.css';
-@import '../blocks/card-quote/__avatar/_reversed/card-quote__avatar_reversed.css';
 @import '../blocks/card-quote/__container/card-quote__container.css';
 @import '../blocks/card-quote/__quote-text/card-quote__quote-text.css';
+@import '../blocks/card-quote/_reverse/card-quote_reverse.css';
 
 @import '../blocks/card-video/card-video.css';
 @import '../blocks/card-video/__avatar/card-video__avatar.css';

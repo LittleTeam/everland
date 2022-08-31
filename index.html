@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="pages/index.css">
+  <link rel="shortcut icon" href="images/logo-everland-favicon.svg">
 </head>
 <body class="page">
   <div class="visually-hidden">
@@ -91,7 +92,7 @@
     </nav>
     <section class="about">
       <div class="about__slider-track">
-        <div class="about__slider-item about__slider-item_animation_next">
+        <div class="about__slider-item about__slider-item_visibility_visible">
           <h1 class="about__title"><span class="about__title-color">Everland</span> — социальный предпринимательский проект</h1>
           <p class="about__description">Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью устойчиво интегрироваться в открытый рынок труда</p>
           <picture>
@@ -419,6 +420,62 @@
           <button class="slider-project__button slider-project__button_type_prev"></button>
           <button class="slider-project__button slider-project__button_type_next"></button>
         </div>
+        <article class="card-project">
+          <p class="card-project__rubric">Наши спецпроекты</p>
+          <div class="card-project__img-wrapper">
+            <picture>
+              <source type="image/webp" srcset="images/project-slide_1@1x.webp 1x, images/project-slide_1@2x.webp 2x">
+              <img class="card-project__img" alt="Фотопроект «Семья как семья»." src="images/project-slide_1@1x.jpg" srcset="images/project-slide_1@2x.jpg 2x"/>
+            </picture>`
+          </div>
+          <div class="card-project__wrapper">
+            <h2 class="card-project__heading">Фотопроект «Семья как семья»</h2>
+            <p class="card-project__text">Фотопроект Алексея Горшенина включает в себя восемь историй людей и семей, где один или оба супруга имеют инвалидность</p>
+            <a class="button button_type_secondary-black card-project__button" href="#">Посмотреть</a>
+          </div>
+        </article>
+        <article class="card-project">
+          <p class="card-project__rubric">Наши спецпроекты</p>
+          <div class="card-project__img-wrapper">
+            <picture>
+              <source type="image/webp" srcset="images/image_amount@1x.webp 1x, images/image_amount@2x.webp 2x">
+              <img class="card-project__img" alt="Фотопроект." src="images/image_amount@1x.jpg" srcset="images/image_amount@2x.jpg 2x"/>
+            </picture>`
+          </div>
+          <div class="card-project__wrapper">
+            <h2 class="card-project__heading">t2Lorem ipsum, dolor sit ame</h2>
+            <p class="card-project__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero dolores quia nam alias autem repellendus, repudiandae debitis est.</p>
+            <a class="button button_type_secondary-black card-project__button" href="#">Посмотреть</a>
+          </div>
+        </article>
+        <article class="card-project">
+          <p class="card-project__rubric">Наши спецпроекты</p>
+          <div class="card-project__img-wrapper">
+            <picture>
+              <source type="image/webp" srcset="images/project-slide_1@1x.webp 1x, images/project-slide_1@2x.webp 2x">
+              <img class="card-project__img" alt="Фотопроект." src="images/project-slide_1@1x.jpg" srcset="images/project-slide_1@2x.jpg 2x"/>
+            </picture>`
+          </div>
+          <div class="card-project__wrapper">
+            <h2 class="card-project__heading">3Lorem ipsum, dolor sit ame</h2>
+            <p class="card-project__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero repudiandae debitis est.</p>
+            <a class="button button_type_secondary-black card-project__button" href="#">Посмотреть</a>
+          </div>
+        </article>
+        <article class="card-project">
+          <p class="card-project__rubric">Наши спецпроекты</p>
+          <div class="card-project__img-wrapper">
+            <picture>
+              <source type="image/webp" srcset="images/image_amount@1x.webp 1x, images/image_amount@2x.webp 2x">
+              <img class="card-project__img" alt="Фотопроект." src="images/image_amount@1x.jpg" srcset="images/image_amount@2x.jpg 2x"/>
+            </picture>`
+          </div>
+          <div class="card-project__wrapper">
+            <h2 class="card-project__heading">4Lorem ipsum, dolor sit amet</h2>
+            <p class="card-project__text">Lorem ipsum, dolor sit amet consectetur  quia nam alias autem repellendus, repudiandae debitis est.</p>
+            <a class="button button_type_secondary-black card-project__button" href="#">Посмотреть</a>
+          </div>
+        </article>
       </div>
     </section>
 
@@ -449,7 +506,7 @@
           </div>
         </div>
       </article>
-      <article class="card-quote">
+      <article class="card-quote card-quote_reverse">
         <picture>
           <source type="image/webp" srcset="images/avatar_quote2@1x.webp 1x, images/avatar_quote2@2x.webp 2x">
           <img class="card-quote__avatar" alt="Аватар героя истории." src="images/avatar_quote2@1x.jpg" srcset="images/avatar_quote2@2x.jpg 2x"/>
@@ -834,8 +891,8 @@
         </ul>
         <div class="footer__contacts">
           <ul class="footer__phones">
-            <li class="footer__phone-number">+7 (495) 646 04 28</li>
-            <li class="footer__phone-number">+7 (985) 473 08 93</li>
+            <li><a class="link" href="tel:+74956460428">+7 (495) 646 04 28</a></li>
+            <li><a class="link" href="tel:+79854730893">+7 (985) 473 08 93</a></li>
           </ul>
           <p class="footer__address">Гоголевский бульвар, дом&nbsp;8, строение&nbsp;2, офис 8, Москва, Россия.</p>
         </div>
@@ -860,21 +917,7 @@
     </div>
   </footer>
 
-  <template id="slide-for-project">
-    <article class="card-project">
-      <p class="card-project__rubric">Наши спецпроекты</p>
-      <div class="card-project__img-wrapper"></div>
-      <div class="card-project__wrapper">
-        <h2 class="card-project__heading"></h2>
-        <p class="card-project__text"></p>
-        <a class="button button_type_secondary-black card-project__button" href="#">Посмотреть</a>
-      </div>
-    </article>
-  </template>
-
-  <script src="script/initial-slides-project.js"></script>
   <script src="script/script-slider-project.js"></script>
-
   <script src="script/script_accordion.js"></script>
   <script src="script/script__header.js"></script>
   <script src="script/options-slider.js"></script>

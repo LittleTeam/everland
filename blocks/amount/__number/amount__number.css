@@ -1,9 +1,10 @@
 .amount__number {
-  display: grid;
-  justify-content: end;
   align-content: center;
-  grid-template-columns: 1fr 1fr;
+  display: grid;
+  font-variant-numeric: lining-nums;
   gap: 30px 20px;
+  grid-template-columns: 1fr 1fr;
+  justify-content: end;
   max-width: 770px;
 }
 

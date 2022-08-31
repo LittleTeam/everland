@@ -1,4 +1,5 @@
 .info-card__date {
+  font-variant-numeric: lining-nums;
   margin-top: auto;
   margin-bottom: 0;
   font-size: 18px;

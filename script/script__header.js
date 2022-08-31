@@ -80,7 +80,9 @@ function calcSlideNext() {
   savedIndex = items.length === savedIndex ? 0 : savedIndex;
   items.forEach((el) => el.classList.remove("about__slider-item_animation_next"));
   items.forEach((el) => el.classList.remove("about__slider-item_animation_prev"));
+  items.forEach((el) => el.classList.remove("about__slider-item_visibility_visible"));
   items[savedIndex].classList.add("about__slider-item_animation_next");
+  items[savedIndex].classList.add('about__slider-item_visibility_visible');
 }
 
 function calcSlidePrev() {
@@ -88,7 +90,9 @@ function calcSlidePrev() {
   savedIndex = savedIndex < 0 ? items.length - 1 : savedIndex;
   items.forEach((el) => el.classList.remove("about__slider-item_animation_prev"));
   items.forEach((el) => el.classList.remove("about__slider-item_animation_next"));
+  items.forEach((el) => el.classList.remove("about__slider-item_visibility_visible"));
   items[savedIndex].classList.add("about__slider-item_animation_prev");
+  items[savedIndex].classList.add('about__slider-item_visibility_visible');
 }
 
 const clickSliderHandlerNext = () => {
