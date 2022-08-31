@@ -1,3 +1,17 @@
-.donation__options-slider {
+@media screen and (max-width: 1279px) {
+  .donation__options-slider {
+    padding: 24px 0 49px;
+  }
+}
 
+@media screen and (max-width: 767px) {
+  .donation__options-slider {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .donation__options-slider {
+    margin-top: 2px;
+  }
 }

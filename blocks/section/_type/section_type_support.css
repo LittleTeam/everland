@@ -1,0 +1,11 @@
+@media screen and (max-width: 1279px) {
+  .section_type_support {
+    padding-top: 44px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section_type_support {
+    padding-top: 31px;
+  }
+}

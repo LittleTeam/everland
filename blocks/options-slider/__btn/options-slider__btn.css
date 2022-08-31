@@ -2,22 +2,10 @@
   flex-shrink: 0;
   width: 20px;
   height: 20px;
-
   display: flex;
   align-items: center;
-  justify-content: center;
-
-  padding: 0;
-
   color: var(--color-text-main);
-
   background-color: transparent;
-
-  /*background-size: 8px 14px;*/
-  /*background-image: url(../../../images/icon-shevron.svg);*/
-  /*background-repeat: no-repeat;*/
-  /*background-position: center;*/
-
   border: none;
   cursor: pointer;
   transition: color 0.3s ease-in-out;
@@ -37,6 +25,5 @@
     top: auto;
     left: 50%;
     margin-top: 0;
-    /*margin-left: -10px;*/
   }
 }

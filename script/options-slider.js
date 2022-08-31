@@ -18,7 +18,7 @@ const optionsSliderSettings = {
     },
     '1280': {
       direction: 'horizontal',
-      gap: 5,
+      gap: 7,
     }
   }
 }

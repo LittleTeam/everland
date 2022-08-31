@@ -1,13 +1,10 @@
 .donation__subtitle {
   margin-top: 24px;
   margin-bottom: 16px;
-
   font-size: 24px;
   line-height: 1.2;
   font-weight: 700;
-
   text-align: center;
-
   overflow: hidden;
 }
 
@@ -34,8 +31,7 @@
 
 @media screen and (max-width: 1279px) {
   .donation__subtitle {
-    margin-top: 32px;
-    margin-bottom: 24px;
+    margin: 0;
     font-size: 20px;
   }
 }
@@ -48,3 +44,8 @@
   }
 }
 
+@media screen and (max-width: 320px) {
+  .donation__subtitle {
+    margin: 0;
+  }
+}

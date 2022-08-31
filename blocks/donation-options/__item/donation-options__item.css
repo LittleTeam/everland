@@ -1,5 +1,6 @@
 .donation-options__item {
   display: flex;
+  justify-content: center;
   font-variant-numeric: lining-nums;
   height: 48px;
   width: 159px;
