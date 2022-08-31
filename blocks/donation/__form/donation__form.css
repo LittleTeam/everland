@@ -29,7 +29,7 @@
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 500px) {
   .donation__form {
     width: 100%;
   }
