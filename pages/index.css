@@ -11,8 +11,10 @@
 @import '../blocks/section/section.css';
 @import '../blocks/section/_bg/section_bg_grey.css';
 @import '../blocks/section/_bg/section_bg_blue.css';
+@import '../blocks/section/_type/section_type_support.css';
 @import '../blocks/section/__title/section__title.css';
 @import '../blocks/section/__title/_centered/section__title_centered.css';
+@import '../blocks/section/__title/_type/section__titile_type_support.css';
 @import '../blocks/section/__subtitle/section__subtitle.css';
 @import '../blocks/section/__button-all/section__button-all.css';
 @import '../blocks/section/__button-all/_pos/section__button-all_pos_title.css';
