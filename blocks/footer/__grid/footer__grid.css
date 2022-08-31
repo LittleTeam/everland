@@ -1,4 +1,5 @@
 .footer__grid {
+  font-variant-numeric: lining-nums;
   column-gap: 60px;
   display: grid;
   grid-template-columns: 539px 629px;

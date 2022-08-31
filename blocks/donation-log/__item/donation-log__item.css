@@ -3,7 +3,7 @@
 
   display: grid;
   grid-template-columns: auto max-content;
-
+  font-variant-numeric: lining-nums;
   font-size: 20px;
   line-height: 1.3;
 }

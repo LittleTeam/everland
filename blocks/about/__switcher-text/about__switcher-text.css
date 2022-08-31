@@ -1,10 +1,11 @@
 .about__switcher-text {
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 130%;
   align-self: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-variant-numeric: lining-nums;
+  font-weight: 700;
+  line-height: 130%;
   margin: 0px;
 }
 
