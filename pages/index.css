@@ -162,9 +162,9 @@
 @import '../blocks/card-quote/__quote/card-quote__quote.css';
 @import '../blocks/card-quote/__text/card-quote__text.css';
 @import '../blocks/card-quote/__wrapper/card-quote__wrapper.css';
-@import '../blocks/card-quote/__avatar/_reversed/card-quote__avatar_reversed.css';
 @import '../blocks/card-quote/__container/card-quote__container.css';
 @import '../blocks/card-quote/__quote-text/card-quote__quote-text.css';
+@import '../blocks/card-quote/_reversed/card-quote_reversed.css';
 
 @import '../blocks/card-video/card-video.css';
 @import '../blocks/card-video/__avatar/card-video__avatar.css';
