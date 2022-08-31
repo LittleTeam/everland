@@ -16,6 +16,6 @@
 @media screen and (max-width: 320px) {
   .donation__donor-info {
     margin-left: -1px;
-    gap: 20px;
+    padding-top: 25px;
   }
 }

@@ -22,6 +22,12 @@
 
 @media screen and (max-width: 320px) {
   .donation__text {
+    margin-top: 16px;
     margin-bottom: 32px;
+    letter-spacing: 0.009em;
   }
 }
+
+
+
+

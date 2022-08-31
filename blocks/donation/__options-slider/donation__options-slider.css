@@ -9,3 +9,9 @@
     padding: 0;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .donation__options-slider {
+    margin-top: 2px;
+  }
+}
