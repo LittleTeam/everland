@@ -3,6 +3,7 @@
   margin: 0 auto;
   display: flex;
   gap: 20px;
+  max-height: 285px;
 }
 
 @media screen and (max-width: 1279px) {
