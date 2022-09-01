@@ -1,5 +1,6 @@
 .card-quote__wrapper {
   display: flex;
   flex-direction: column;
+  max-height: 222px;
 }
 

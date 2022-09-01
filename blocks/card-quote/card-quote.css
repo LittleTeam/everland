@@ -3,7 +3,7 @@
   width: 100%;
   display: flex;
   gap: 80px;
-  padding-bottom: 150px;
+  padding-bottom: 149px;
 }
 
 @media screen and (max-width: 1279px) {

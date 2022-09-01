@@ -1,6 +1,7 @@
 .history__button {
   width: 194px;
   height: 48px;
+  margin-right: 18px;
 }
 @media screen and (max-width: 1279px) {
   .history__button {
