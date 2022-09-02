@@ -32,7 +32,6 @@
 @import '../blocks/button/_color/button_color_purple.css';
 @import '../blocks/button/_color/button_color_white.css';
 @import '../blocks/button/__arrow/button__arrow.css';
-@import '../blocks/button/__text/button__text.css';
 
 @import '../blocks/link/link.css';
 
@@ -161,7 +160,6 @@
 
 @import '../blocks/card-quote/card-quote.css';
 @import '../blocks/card-quote/__avatar/card-quote__avatar.css';
-@import '../blocks/card-quote/__height/card-quote__height.css';
 @import '../blocks/card-quote/__icon/card-quote__icon.css';
 @import '../blocks/card-quote/__quote/card-quote__quote.css';
 @import '../blocks/card-quote/__text/card-quote__text.css';
