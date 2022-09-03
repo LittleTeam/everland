@@ -12,13 +12,13 @@
 @media screen and (max-width: 1279px) {
   .footer__menu-list {
     max-width: 163px;
-    padding: 0 55px 0 0;
+    padding: 9px 53px 0 0;
   }
 }
 
 @media screen and (max-width: 767px) {
   .footer__menu-list {
     max-width: 140px;
-    padding: 0 18px 0 0;
+    padding: 7px 18px 0 0;
   }
 }

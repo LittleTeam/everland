@@ -1,0 +1,9 @@
+.footer__heading_small-margin {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__heading_small-margin {
+    margin-bottom: 0px;
+  }
+}

@@ -253,6 +253,7 @@
 @import '../blocks/footer/__menu-link/footer__menu-link.css';
 @import '../blocks/footer/__menu-item/footer__menu-item.css';
 @import '../blocks/footer/__heading/footer__heading.css';
+@import '../blocks/footer/__heading/_small-margin/footer__heading_small-margin.css';
 @import '../blocks/logo/logo.css';
 @import '../blocks/logo/_place/logo_place_footer.css';
 
