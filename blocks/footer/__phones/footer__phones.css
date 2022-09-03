@@ -6,6 +6,7 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  gap: 3px;
 }
 
 @media screen and (max-width: 1279px) {
