@@ -14,3 +14,12 @@
     gap: 21px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .footer__wrapper-logo {
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-bottom: 1px;
+    gap: 21px;
+  }
+}

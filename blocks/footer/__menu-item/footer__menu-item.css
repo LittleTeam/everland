@@ -11,3 +11,9 @@
     margin: 0 0 9px 0;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .footer__menu-item {
+    margin: 0 0 10.5px 0;
+  }
+}

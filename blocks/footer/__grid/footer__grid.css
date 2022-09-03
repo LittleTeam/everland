@@ -21,7 +21,7 @@
     margin: 0 auto;
     width: 300px;
     grid-template-columns: 1fr;
-    row-gap: 32px;
+    row-gap: 24px;
   }
 }
 

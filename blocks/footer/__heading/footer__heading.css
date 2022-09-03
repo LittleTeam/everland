@@ -15,5 +15,7 @@
 @media screen and (max-width: 767px) {
   .footer__heading {
     font-size: 16px;
+    max-width: 80%;
+    margin: 0;
   }
 }
