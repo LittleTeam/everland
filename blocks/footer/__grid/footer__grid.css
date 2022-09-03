@@ -9,8 +9,8 @@
 
 @media screen and (max-width: 1279px) {
   .footer__grid {
-    column-gap: 40px;
-    grid-template-columns: minmax(294px, 539px) minmax(336px, 629px);
+    column-gap: 59px;
+    grid-template-columns: minmax(295px, 539px) minmax(338px, 629px);
     row-gap: 56px;
     width: 100%;
   }

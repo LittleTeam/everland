@@ -7,7 +7,8 @@
 
 @media screen and (max-width: 1279px) {
   .footer__wrapper-praktikum {
-    gap: 10px;
+    margin-top: 34px;
+    gap: 11px;
   }
 }
 

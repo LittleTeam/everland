@@ -9,6 +9,8 @@
 
 @media screen and (max-width: 1279px) {
   .footer__container-logo-social {
+    padding-top: 2px;
+    padding-bottom: 0;
     gap: 4px;
   }
 }

@@ -10,6 +10,7 @@
 
 @media screen and (max-width: 1279px) {
   .footer__wrapper-logo {
+    padding-left: 15px;
     gap: 21px;
   }
 }

@@ -4,3 +4,9 @@
   padding: 0;
   padding-top: 1px;
 }
+
+@media screen and (max-width: 1279px){
+  .footer__address {
+    padding-top: 0;
+  }
+}
