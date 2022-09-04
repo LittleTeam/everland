@@ -1,6 +1,5 @@
 .donation-nav__content {
   display: flex;
-  gap: 90px;
   justify-content: space-between;
   padding: 58px 30px;
   background-color: var(--color-light-blue);
@@ -22,7 +21,11 @@
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
   .donation-nav__content {
-    padding: 34px 24px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    padding-right: 0px;
+    padding-left: 23px;
+    margin-right: 2px;
   }
 }
 
