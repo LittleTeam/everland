@@ -7,5 +7,6 @@
 @media screen and (max-width: 767px) {
   .section_type_support {
     padding-top: 31px;
+    padding-bottom: 38px;
   }
 }

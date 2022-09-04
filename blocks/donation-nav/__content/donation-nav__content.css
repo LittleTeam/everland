@@ -7,6 +7,12 @@
   overflow: auto;
 }
 
+@media screen and (min-width: 1440px) {
+  .donation-nav__content {
+    padding-right: 54px;
+  }
+}
+
 @media screen and (max-width: 1360px) {
   .donation-nav__content {
     gap: 60px;
@@ -21,7 +27,7 @@
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
   .donation-nav__content {
-    padding: 34px 0 34px 23px;
+    padding: 34px 23px;
   }
 }
 
