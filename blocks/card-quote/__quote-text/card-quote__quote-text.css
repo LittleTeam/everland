@@ -3,6 +3,7 @@
   font-weight: 700;
   font-size: 34px;
   line-height: 120%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 @media screen and (max-width: 1279px) {

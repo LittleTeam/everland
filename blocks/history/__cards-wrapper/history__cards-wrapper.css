@@ -1,0 +1,15 @@
+.history__cards-wrapper {
+  margin-top: 148px;
+}
+
+@media screen and (max-width: 1279px) {
+  .history__cards-wrapper {
+    margin-top: 38px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .history__cards-wrapper {
+    margin-top: 31px;
+  }
+}

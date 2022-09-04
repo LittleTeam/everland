@@ -156,6 +156,8 @@
 @import '../blocks/history/history.css';
 @import '../blocks/history/__wrapper/history__wrapper.css';
 @import '../blocks/history/__title/history__title.css';
+@import '../blocks/history/__card-quote/history__card-quote.css';
+@import '../blocks/history/__cards-wrapper/history__cards-wrapper.css';
 @import '../blocks/history/__button/history__button.css';
 
 @import '../blocks/card-quote/card-quote.css';

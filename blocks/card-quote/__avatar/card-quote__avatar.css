@@ -1,12 +1,12 @@
 .card-quote__avatar {
-  width: 225px;
-  height: 225px;
+  flex-shrink: 0;
+  width: 224px;
+  height: 224px;
   border-radius: 50%;
 }
 
 @media screen and (max-width: 1279px) {
   .card-quote__avatar {
-    margin: 0;
     width: 204px;
     height: 204px;
   }
@@ -16,7 +16,6 @@
   .card-quote__avatar {
     width: 125px;
     height: 125px;
-    flex-shrink: 0;
   }
 }
 

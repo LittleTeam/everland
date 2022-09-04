@@ -17,3 +17,7 @@
   color: var(--color-text-main);
 
 }
+
+.page picture {
+  line-height: 0;
+}

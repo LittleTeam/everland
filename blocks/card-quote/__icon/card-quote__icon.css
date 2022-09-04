@@ -1,8 +1,8 @@
 .card-quote__icon {
   width: 35px;
-  height: 28px;
+  height: 27.5px;
   background-image: url(../../../images/icon_quote.svg);
-  margin: 15px 32px 178px 0;
+  margin: 15px 32px 179.5px 12.5px;
   flex-shrink: 0;
   background-repeat: no-repeat;
   background-size: contain;
@@ -11,16 +11,17 @@
 @media screen and (max-width: 1279px) {
   .card-quote__icon {
     width: 29px;
-    height: 20px;
+    height: 21px;
     margin-top: 0;
-    margin-bottom: 13px;
+    margin-bottom: 12px;
+    margin-left: 0;
   }
 }
 
 @media screen and (max-width: 767px) {
   .card-quote__icon {
     width: 24px;
-    height: 17px;
-    margin-bottom: 14px;
+    height: 18px;
+    margin-bottom: 13px;
   }
 }
