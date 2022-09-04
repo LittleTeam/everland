@@ -1,15 +1,12 @@
 .card-quote {
-  margin: 0;
   width: 100%;
   display: flex;
   gap: 80px;
-  padding-bottom: 149px;
 }
 
 @media screen and (max-width: 1279px) {
   .card-quote {
     align-items: center;
-    padding-bottom: 30px;
   }
 }
 
@@ -19,16 +16,10 @@
   }
 }
 
-@media screen and (max-width: 767px) {
-  .card-quote {
-    padding-bottom: 30px;
-  }
-}
-
 @media screen and (max-width: 599px) {
   .card-quote {
     flex-direction: column;
     align-items: flex-start;
-    gap: 16px;
+    gap: 12px;
   }
 }

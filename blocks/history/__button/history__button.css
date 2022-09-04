@@ -1,10 +1,11 @@
 .history__button {
+  min-width: 200px;
   height: 48px;
-  margin-right: 18px;
 }
+
 @media screen and (max-width: 1279px) {
   .history__button {
-    width: 200px;
+    margin-top: 38px;
     order: 1;
     align-self: center;
   }
@@ -12,7 +13,8 @@
 
 @media screen and (max-width: 767px) {
   .history__button {
-      height: 44px;
-      width: 300px;
+    margin-top: 22px;
+    width: 100%;
+    max-width: 300px;
   }
 }

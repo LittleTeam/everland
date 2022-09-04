@@ -1,5 +1,6 @@
 .card-quote__container {
   display: flex;
+  padding-top: 1px;
 }
 
 @media screen and (max-width: 1279px) {

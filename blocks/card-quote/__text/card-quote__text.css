@@ -1,6 +1,7 @@
 .card-quote__text {
   margin: 0;
-  padding: 20px 0;
+  padding-top: 19px;
+  padding-bottom: 20px;
   font-weight: 400;
   font-size: 20px;
   line-height: 130%;

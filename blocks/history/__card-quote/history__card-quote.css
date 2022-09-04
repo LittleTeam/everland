@@ -1,0 +1,19 @@
+.history__card-quote {
+  margin-bottom: 150px;
+}
+
+.history__card-quote:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .history__card-quote {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .history__card-quote {
+    margin-bottom: 30px;
+  }
+}

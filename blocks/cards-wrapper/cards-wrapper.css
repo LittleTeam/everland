@@ -1,20 +1,13 @@
 .cards-wrapper {
   width: 100%;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   display: flex;
   gap: 20px;
   max-height: 285px;
 }
 
-@media screen and (max-width: 1279px) {
-  .cards-wrapper {
-    margin-bottom: 40px;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .cards-wrapper {
-    margin-bottom: 24px;
     gap: 16px;
   }
 }
