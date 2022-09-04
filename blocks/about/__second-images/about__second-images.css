@@ -3,8 +3,8 @@
   width: 352px;
   object-fit: cover;
   position: absolute;
-  right: 0px;
-  top: 0px;
+  right: 0;
+  top: 0;
   border-radius: 10px;
 }
 
@@ -13,7 +13,7 @@
     width: 184px;
     height: 152px;
     top: 15px;
-    right: 40px;
+    right: 0;
   }
 }
 
@@ -22,6 +22,6 @@
     width: 190px;
     height: 144px;
     top: 246px;
-    right: 0px;
+    right: 0;
   }
 }

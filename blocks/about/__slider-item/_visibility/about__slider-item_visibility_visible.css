@@ -1,3 +1,4 @@
 .about__slider-item_visibility_visible {
+  z-index: 1;
   opacity: 1;
 }
