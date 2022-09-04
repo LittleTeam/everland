@@ -189,7 +189,7 @@
 @import '../blocks/news/__all/news__all.css';
 
 @import '../blocks/donation-nav/donation-nav.css';
-@import '../blocks/donation-nav/_content/donation-nav__content.css';
+@import '../blocks/donation-nav/__content/donation-nav__content.css';
 @import '../blocks/donation-nav/__options/donation-nav__options.css';
 @import '../blocks/donation-nav/__submit/donation-nav__submit.css';
 
@@ -255,6 +255,7 @@
 @import '../blocks/footer/__menu-link/footer__menu-link.css';
 @import '../blocks/footer/__menu-item/footer__menu-item.css';
 @import '../blocks/footer/__heading/footer__heading.css';
+@import '../blocks/footer/__heading/_small-margin/footer__heading_small-margin.css';
 @import '../blocks/logo/logo.css';
 @import '../blocks/logo/_place/logo_place_footer.css';
 
