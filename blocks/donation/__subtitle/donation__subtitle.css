@@ -1,0 +1,51 @@
+.donation__subtitle {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+  overflow: hidden;
+}
+
+.donation__subtitle::before,
+.donation__subtitle::after {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-gainsboro);
+  position: relative;
+}
+
+.donation__subtitle::before {
+  margin-left: -100%;
+  left: -10px;
+}
+
+.donation__subtitle::after {
+  margin-right: -100%;
+  right: -10px;
+}
+
+@media screen and (max-width: 1279px) {
+  .donation__subtitle {
+    margin: 0;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donation__subtitle {
+    margin-top: 32px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .donation__subtitle {
+    margin: 0;
+  }
+}

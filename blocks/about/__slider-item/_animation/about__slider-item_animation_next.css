@@ -1,0 +1,8 @@
+  .about__slider-item_animation_next {
+      animation: showRight .5s;
+    }
+
+  @keyframes showRight {
+    from {right:-100%;}
+    to {right:0;}
+  }

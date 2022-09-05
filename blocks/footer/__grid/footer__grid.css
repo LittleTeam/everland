@@ -1,0 +1,27 @@
+.footer__grid {
+  font-variant-numeric: lining-nums;
+  column-gap: 60px;
+  display: grid;
+  grid-template-columns: 539px 629px;
+  max-width: 1228px;
+  row-gap: 90px;
+}
+
+@media screen and (max-width: 1279px) {
+  .footer__grid {
+    column-gap: 59px;
+    grid-template-columns: minmax(295px, 539px) minmax(338px, 629px);
+    row-gap: 56px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 695px) {
+  .footer__grid {
+    margin: 0 auto;
+    width: 300px;
+    grid-template-columns: 1fr;
+    row-gap: 24px;
+  }
+}
+

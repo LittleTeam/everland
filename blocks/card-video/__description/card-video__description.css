@@ -1,0 +1,19 @@
+.card-video__description {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+}
+@media screen and (max-width: 1279px) {
+  .card-video__description {
+    font-size: 16px;
+    line-height: 120%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card-video__description {
+    font-weight: 500;
+    font-size: 12px;
+  }
+}

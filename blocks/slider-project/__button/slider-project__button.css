@@ -1,0 +1,30 @@
+.slider-project__button {
+  background-color: #333333;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  height: 35px;
+  margin: none;
+  padding: 9px;
+  width: 35px;
+  transition: background-color 0.3s;
+}
+
+.slider-project__button:hover {
+  background-color: #0C4BA0;
+}
+
+.slider-project__button:active {
+  background-color: #00275C;;
+}
+
+@media screen and (max-width: 1279px) {
+  .slider-project__button {
+    background-size: 10px;
+    border-radius: 6px;
+    height: 24px;
+    width: 24px;
+  }
+}

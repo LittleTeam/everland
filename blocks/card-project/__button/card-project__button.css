@@ -1,0 +1,16 @@
+.card-project__button {
+  width: 194px;
+}
+
+@media screen and (max-width: 1279px) {
+  .card-project__button {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card-project__button {
+    align-self: center;
+    width: 250px;
+  }
+}

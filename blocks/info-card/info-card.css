@@ -1,0 +1,39 @@
+.info-card {
+  box-sizing: border-box;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-decoration: none;
+
+  padding: 30px;
+  background-color: var(--color-white);
+  border-radius: 30px;
+}
+
+@media screen and (min-width: 1440px) {
+  .info-card {
+    min-height: 428px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .info-card {
+    min-height: auto;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .info-card {
+    min-height: 294px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .info-card {
+    padding: 23px;
+
+  }
+}

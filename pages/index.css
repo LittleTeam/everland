@@ -1,5 +1,275 @@
 @import '../vendor/normalize.css';
 
+@import '../blocks/html/html.css';
+@import '../blocks/rouble/rouble.css';
 @import '../blocks/root/root.css';
 @import '../blocks/page/page.css';
 @import '../blocks/container/container.css';
+@import '../blocks/visually-hidden/visually-hidden.css';
+
+@import '../blocks/section/section.css';
+@import '../blocks/section/_bg/section_bg_grey.css';
+@import '../blocks/section/_bg/section_bg_blue.css';
+@import '../blocks/section/_type/section_type_support.css';
+@import '../blocks/section/__title/section__title.css';
+@import '../blocks/section/__title/_centered/section__title_centered.css';
+@import '../blocks/section/__title/_type/section__titile_type_support.css';
+@import '../blocks/section/__subtitle/section__subtitle.css';
+@import '../blocks/section/__button-all/section__button-all.css';
+@import '../blocks/section/__button-all/_pos/section__button-all_pos_title.css';
+
+@import '../blocks/button/button.css';
+@import '../blocks/button/_type/button_type_radio.css';
+@import '../blocks/button/_type/button_type_radio-link.css';
+@import '../blocks/button/_type/button_type_primary.css';
+@import '../blocks/button/_type/button_type_secondary-blue.css';
+@import '../blocks/button/_type/button_type_secondary-black.css';
+@import '../blocks/button/_type/button_type_link.css';
+@import '../blocks/button/_color/button_color_blue.css';
+@import '../blocks/button/_color/button_color_orange.css';
+@import '../blocks/button/_color/button_color_green.css';
+@import '../blocks/button/_color/button_color_purple.css';
+@import '../blocks/button/_color/button_color_white.css';
+@import '../blocks/button/__arrow/button__arrow.css';
+
+@import '../blocks/link/link.css';
+
+@import '../blocks/header/header.css';
+@import '../blocks/logo/_place/logo_place_header.css';
+@import '../blocks/header/__buttons/header__buttons.css';
+@import '../blocks/header/__menu-button/header__menu-button.css';
+@import '../blocks/header/__menu-icon/header__menu-icon.css';
+@import '../blocks/header/__menu-text/header__menu-text.css';
+@import '../blocks/header/__menu-icon/_close/header__menu-icon_close.css';
+@import '../blocks/header/__button/header__button.css';
+
+@import '../blocks/navigation/navigation.css';
+@import '../blocks/navigation/__menu/navigation__menu.css';
+@import '../blocks/navigation/__link/navigation__link.css';
+
+@import '../blocks/sub-menu/sub-menu.css';
+@import '../blocks/sub-menu/__columns/sub-menu__columns.css';
+@import '../blocks/sub-menu/__title/sub-menu__title.css';
+@import '../blocks/sub-menu/__column-links/sub-menu__column-links.css';
+@import '../blocks/sub-menu/__column/sub-menu__column.css';
+@import '../blocks/sub-menu/__list-item/sub-menu__list-item.css';
+@import '../blocks/sub-menu/__column-link/sub-menu__column-link.css';
+@import '../blocks/sub-menu/__column-link/_other/sub-menu__column-link_other.css';
+@import '../blocks/sub-menu/__column-links/_other/sub-menu__column-links_other.css';
+@import '../blocks/sub-menu/__title-slider/sub-menu__title-slider.css';
+@import '../blocks/sub-menu/__title-icon/sub-menu__title-icon.css';
+@import '../blocks/sub-menu/__title-icon/_hide/sub-menu__title-icon_hide.css';
+
+@import '../blocks/about/about.css';
+@import '../blocks/about/__title/about__title.css';
+@import '../blocks/about/__title-color/about__title-color.css';
+@import '../blocks/about/__description/about__description.css';
+@import '../blocks/about/__switcher-text/about__switcher-text.css';
+@import '../blocks/about/__slider/about__slider.css';
+@import '../blocks/about/__second-images/about__second-images.css';
+@import '../blocks/about/__main-images/about__main-images.css';
+@import '../blocks/about/__switcher-button/about__switcher-button.css';
+@import '../blocks/about/__switcher-button/_type/about__switcher-button_type_next.css';
+@import '../blocks/about/__slider-track/about__slider-track.css';
+@import '../blocks/about/__slider-item/about__slider-item.css';
+@import '../blocks/about/__slider-item/_animation/about__slider-item_animation_next.css';
+@import '../blocks/about/__slider-item/_animation/about__slider-item_animation_prev.css';
+@import '../blocks/about/__slider-item/_visibility/about__slider-item_visibility_visible.css';
+
+@import '../blocks/info-cards/info-cards.css';
+@import '../blocks/info-cards/__item/info-cards__item.css';
+@import '../blocks/info-cards/_grid/info-cards_grid_centered.css';
+@import '../blocks/info-cards/_grid/info-cards_grid_one-row.css';
+@import '../blocks/info-cards/_content/info-cards_content_news.css';
+
+@import '../blocks/info-card/info-card.css';
+@import '../blocks/info-card/__icon/info-card__icon.css';
+@import '../blocks/info-card/__icon-image/info-card__icon-image.css';
+@import '../blocks/info-card/__icon/_color/info-card__icon_color_blue.css';
+@import '../blocks/info-card/__icon/_color/info-card__icon_color_orange.css';
+@import '../blocks/info-card/__icon/_color/info-card__icon_color_green.css';
+@import '../blocks/info-card/__icon/_type/info-card__icon_type_disabled.css';
+@import '../blocks/info-card/__icon/_type/info-card__icon_type_employer.css';
+@import '../blocks/info-card/__icon/_type/info-card__icon_type_csr.css';
+@import '../blocks/info-card/__title/info-card__title.css';
+@import '../blocks/info-card/__text/info-card__text.css';
+@import '../blocks/info-card/__link/info-card__link.css';
+@import '../blocks/info-card/__figure/info-card__figure.css';
+@import '../blocks/info-card/__figcaption/info-card__figcaption.css';
+@import '../blocks/info-card/__image-wrapper/info-card__image-wrapper.css';
+@import '../blocks/info-card/__image-wrapper/_place/info-card__image-wrapper_place_figure.css';
+@import '../blocks/info-card/__image-wrapper/_place/info-card__image-wrapper_place_bottom.css';
+@import '../blocks/info-card/__image/info-card__image.css';
+@import '../blocks/info-card/__tag/info-card__tag.css';
+@import '../blocks/info-card/__date/info-card__date.css';
+@import '../blocks/info-card/_color/info-card_color_blue.css';
+@import '../blocks/info-card/_color/info-card_color_orange.css';
+@import '../blocks/info-card/_color/info-card_color_green.css';
+@import '../blocks/info-card/_color/info-card_color_purple.css';
+@import '../blocks/info-card/_color/info-card_color_white.css';
+@import '../blocks/info-card/_content/info-card_content_figure.css';
+@import '../blocks/info-card/_content/info-card_content_news.css';
+@import '../blocks/info-card/_size/info-card_size_auto-height.css';
+
+@import '../blocks/purpose/__title/purpose__title.css';
+
+@import '../blocks/accordion/accordion.css';
+@import '../blocks/accordion/__container/accordion__container.css';
+@import '../blocks/accordion/__item/accordion__item.css';
+@import '../blocks/accordion/__subtitle/accordion__subtitle.css';
+@import '../blocks/accordion/__text/accordion__text.css';
+@import '../blocks/accordion/__title/accordion__title.css';
+@import '../blocks/accordion/__wrapper/accordion__wrapper.css';
+@import '../blocks/accordion/__text/_disabled/accordion__text_disabled.css';
+@import '../blocks/accordion/__column/accordion__column.css';
+@import '../blocks/accordion/__button/accordion__button.css';
+@import '../blocks/accordion/__button/_active/accordion__button_active.css';
+
+@import '../blocks/amount/amount.css';
+@import '../blocks/amount/__color/amount__color.css';
+@import '../blocks/amount/__container/amount__container.css';
+@import '../blocks/amount/__heading/amount__heading.css';
+@import '../blocks/amount/__img-wrapper/amount__img-wrapper.css';
+@import '../blocks/amount/__img/amount__img.css';
+@import '../blocks/amount/__numbers/amount__numbers.css';
+@import '../blocks/amount/__text/amount__text.css';
+@import '../blocks/amount/__number/amount__number.css';
+
+@import '../blocks/section-project/section-project.css';
+@import '../blocks/slider-project/slider-project.css';
+@import '../blocks/slider-project/__buttons/slider-project__buttons.css';
+@import '../blocks/slider-project/__button/slider-project__button.css';
+@import '../blocks/slider-project/__button/_type/slider-project__button_type_next.css';
+@import '../blocks/slider-project/__button/_type/slider-project__button_type_prev.css';
+
+@import '../blocks/card-project/card-project.css';
+@import '../blocks/card-project/__rubric/card-project__rubric.css';
+@import '../blocks/card-project/__heading/card-project__heading.css';
+@import '../blocks/card-project/__text/card-project__text.css';
+@import '../blocks/card-project/__wrapper/card-project__wrapper.css';
+@import '../blocks/card-project/__img-wrapper/card-project__img-wrapper.css';
+@import '../blocks/card-project/__img/card-project__img.css';
+@import '../blocks/card-project/__button/card-project__button.css';
+@import '../blocks/card-project/_visible/card-project_visible.css';
+
+@import '../blocks/history/history.css';
+@import '../blocks/history/__wrapper/history__wrapper.css';
+@import '../blocks/history/__title/history__title.css';
+@import '../blocks/history/__card-quote/history__card-quote.css';
+@import '../blocks/history/__cards-wrapper/history__cards-wrapper.css';
+@import '../blocks/history/__button/history__button.css';
+
+@import '../blocks/card-quote/card-quote.css';
+@import '../blocks/card-quote/__avatar/card-quote__avatar.css';
+@import '../blocks/card-quote/__icon/card-quote__icon.css';
+@import '../blocks/card-quote/__quote/card-quote__quote.css';
+@import '../blocks/card-quote/__text/card-quote__text.css';
+@import '../blocks/card-quote/__wrapper/card-quote__wrapper.css';
+@import '../blocks/card-quote/__container/card-quote__container.css';
+@import '../blocks/card-quote/__quote-text/card-quote__quote-text.css';
+@import '../blocks/card-quote/_reverse/card-quote_reverse.css';
+
+@import '../blocks/card-video/card-video.css';
+@import '../blocks/card-video/__avatar/card-video__avatar.css';
+@import '../blocks/card-video/__content/card-video__content.css';
+@import '../blocks/card-video/__description/card-video__description.css';
+@import '../blocks/card-video/__icon/card-video__icon.css';
+@import '../blocks/card-video/__link/card-video__link.css';
+@import '../blocks/card-video/__name/card-video__name.css';
+@import '../blocks/card-video/__text/card-video__text.css';
+
+@import '../blocks/cards-wrapper/cards-wrapper.css';
+
+@import '../blocks/projects/projects.css';
+@import '../blocks/projects/__title/projects__title.css';
+@import '../blocks/projects/__subtitle/projects__subtitle.css';
+
+@import '../blocks/news/__content/news__content.css';
+@import '../blocks/news/__all/news__all.css';
+
+@import '../blocks/donation-nav/donation-nav.css';
+@import '../blocks/donation-nav/__content/donation-nav__content.css';
+@import '../blocks/donation-nav/__options/donation-nav__options.css';
+@import '../blocks/donation-nav/__submit/donation-nav__submit.css';
+
+@import '../blocks/donation-options/donation-options.css';
+@import '../blocks/donation-options/__item/donation-options__item.css';
+@import '../blocks/donation-options/__item/_content/donation-options__item_content_another.css';
+@import '../blocks/donation-options/__radio-input/donation-options__radio-input.css';
+@import '../blocks/donation-options/__radio-button/donation-options__radio-button.css';
+@import '../blocks/donation-options/__radio-button/_location/donation-options__radio-button_location_payment.css';
+@import '../blocks/donation-options/__tooltip/donation-options__tooltip.css';
+@import '../blocks/donation-options/__image/donation-options__image.css';
+@import '../blocks/donation-options/_content/donation-options_content_periodicity.css';
+@import '../blocks/donation-options/_content/donation-options_content_sum.css';
+@import '../blocks/donation-options/_content/donation-options_content_links.css';
+@import '../blocks/donation-options/_content/donation-options_content_payment.css';
+
+@import '../blocks/form/__text-input/form__text-input.css';
+@import '../blocks/form/__checkbox/form__checkbox.css';
+@import '../blocks/form/__checkbox-input/form__checkbox-input.css';
+@import '../blocks/form/__custom-checkbox/form__custom-checkbox.css';
+
+@import '../blocks/tooltip/tooltip.css';
+@import '../blocks/tooltip/__button/tooltip__button.css';
+@import '../blocks/tooltip/__text/tooltip__text.css';
+
+@import '../blocks/options-slider/options-slider.css';
+@import '../blocks/options-slider/__container/options-slider__container.css';
+@import '../blocks/options-slider/__wrapper/options-slider__wrapper.css';
+@import '../blocks/options-slider/__slide/options-slider__slide.css';
+@import '../blocks/options-slider/__btn/options-slider__btn.css';
+@import '../blocks/options-slider/__btn/_hide/options-slider__btn_hide.css';
+@import '../blocks/options-slider/__btn/_type/options-slider__btn_type_prev.css';
+@import '../blocks/options-slider/__btn/_type/options-slider__btn_type_next.css';
+
+@import '../blocks/donation/__content/donation__content.css';
+@import '../blocks/donation/__title/donation__title.css';
+@import '../blocks/donation/__form/donation__form.css';
+@import '../blocks/donation/__subtitle/donation__subtitle.css';
+@import '../blocks/donation/__text/donation__text.css';
+@import '../blocks/donation/__options-slider/donation__options-slider.css';
+@import '../blocks/donation/__text-input-label/donation__text-input-label.css';
+@import '../blocks/donation/__text-input-label/_state/donation__text-input-label_state_hide.css';
+@import '../blocks/donation/__consent/donation__consent.css';
+@import '../blocks/donation/__checkbox/donation__checkbox.css';
+@import '../blocks/donation/__link/donation__link.css';
+@import '../blocks/donation/__submit/donation__submit.css';
+@import '../blocks/donation/__history/donation__history.css';
+@import '../blocks/donation/__gratitude/donation__gratitude.css';
+@import '../blocks/donation/__log/donation__log.css';
+@import '../blocks/donation/__donor-info/donation__donor-info.css';
+
+@import '../blocks/donation-log/donation-log.css';
+@import '../blocks/donation-log/__item/donation-log__item.css';
+@import '../blocks/donation-log/__name/donation-log__name.css';
+@import '../blocks/donation-log/__leaders/donation-log__leaders.css';
+@import '../blocks/donation-log/__info/donation-log__info.css';
+
+@import '../blocks/footer/footer.css';
+@import '../blocks/footer/__grid/footer__grid.css';
+@import '../blocks/footer/__paragraph/footer__paragraph.css';
+@import '../blocks/footer/__menu/footer__menu.css';
+@import '../blocks/footer/__menu-list/footer__menu-list.css';
+@import '../blocks/footer/__menu-link/footer__menu-link.css';
+@import '../blocks/footer/__menu-item/footer__menu-item.css';
+@import '../blocks/footer/__heading/footer__heading.css';
+@import '../blocks/footer/__heading/_small-margin/footer__heading_small-margin.css';
+@import '../blocks/logo/logo.css';
+@import '../blocks/logo/_place/logo_place_footer.css';
+
+@import '../blocks/footer/__logo/footer__logo.css';
+@import '../blocks/footer/__logo-link/footer__logo-link.css';
+@import '../blocks/footer/__logo/_name/footer__logo_name_beeline.css';
+@import '../blocks/footer/__logo/_name/footer__logo_name_fund.css';
+@import '../blocks/footer/__logo/_name/footer__logo_name_yandex.css';
+
+@import '../blocks/footer/__wrapper-logo/footer__wrapper-logo.css';
+@import '../blocks/footer/__contacts/footer__contacts.css';
+@import '../blocks/footer/__phones/footer__phones.css';
+@import '../blocks/footer/__address/footer__address.css';
+@import '../blocks/footer/__container-logo-social/footer__container-logo-social.css';
+@import '../blocks/footer/__logo-social-link/footer__logo-social-link.css';
+@import '../blocks/footer/__logo-social/footer__logo-social.css';
+@import '../blocks/footer/__copyright/footer__copyright.css';
+@import '../blocks/footer/__wrapper-praktikum/footer__wrapper-praktikum.css';

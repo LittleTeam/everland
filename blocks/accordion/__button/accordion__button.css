@@ -1,0 +1,30 @@
+.accordion__button {
+  width: 45px;
+  height: 45px;
+  padding: 0;
+  background-image: url(../../../images/accordion_icon.svg);
+  background-size: 21px; 
+  background-color: #E7F0FF;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #e7f0ff;
+  border-radius: 50%;
+  align-self: center;
+  cursor: pointer;
+}
+
+.accordion__button:hover {
+  background-image: url(../../../images/accordion_iconhover.svg);
+  background-color: #0C4BA0;
+}
+
+@media screen and (max-width: 1279px) {
+  .accordion__button  {
+    background-size: 15px;  
+    width: 32px;
+    height: 32px;
+  }
+}
+
+
+

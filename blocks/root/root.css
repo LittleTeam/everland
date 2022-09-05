@@ -27,6 +27,7 @@
   --color-silver: #c4c4c4;
   --color-night-rider: #333333;
   --color-nero: #262626;
+  --color-nero-transparent: rgba(38,38,38,0.5);
 
   /*Color theme*/
 
@@ -47,8 +48,9 @@
 
   --color-bright-blue: var(--color-royal-blue);
 
+  --color-light-grey: var(--color-gainsboro);
   --color-grey: var(--color-silver);
-  --color-grey-transparent: rgba(var(--color-nero), 0.5);
+  --color-grey-transparent: var(--color-nero-transparent);
 
   --color-bg-main: var(--color-white);
   --color-bg-light-grey: var(--color-white-smoke);

@@ -1,0 +1,21 @@
+.history__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+}
+
+@media screen and (max-width: 1279px) {
+  .history__title {
+    margin-bottom: 34px;
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .history__title {
+    margin-bottom: 24px;
+    font-size: 26px;
+  }
+}

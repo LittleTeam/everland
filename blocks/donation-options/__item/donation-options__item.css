@@ -1,0 +1,22 @@
+.donation-options__item {
+  display: flex;
+  justify-content: center;
+  font-variant-numeric: lining-nums;
+  height: 48px;
+  width: 159px;
+}
+
+@media screen and (max-width: 1279px) {
+  .donation-options__item {
+    min-width: 75px;
+    height: 44px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donation-options__item {
+    min-width: auto;
+    max-width: none;
+    width: calc(50% - 8px);
+  }
+}

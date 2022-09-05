@@ -1,0 +1,15 @@
+.amount__numbers {
+  max-width: 325px;
+}
+
+@media (min-width: 600px) and (max-width: 1180px) {
+  .amount__numbers {
+    max-width: 334px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .amount__numbers {
+    max-width: none;
+  }
+}

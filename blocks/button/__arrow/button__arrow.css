@@ -1,0 +1,18 @@
+.button__arrow {
+  flex-shrink: 0;
+  margin-left: 10px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  color: inherit;
+  padding: 4px;
+}
+
+@media screen and (max-width: 1279px) {
+  .button__arrow {
+    margin-left: 10px;
+    width: 13px;
+    height: 13px;
+    padding: 3.5px;
+  }
+}

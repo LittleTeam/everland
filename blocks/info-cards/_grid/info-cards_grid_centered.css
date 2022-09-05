@@ -1,0 +1,9 @@
+@media screen and (max-width: 1279px) {
+  .info-cards_grid_centered {
+    margin: 0 auto;
+    max-width: 450px;
+
+    display: flex;
+    flex-direction: column;
+  }
+}

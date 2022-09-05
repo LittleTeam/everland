@@ -1,0 +1,19 @@
+.cards-wrapper {
+  width: 100%;
+  /*margin: 0 auto;*/
+  display: flex;
+  gap: 20px;
+  max-height: 285px;
+}
+
+@media screen and (max-width: 767px) {
+  .cards-wrapper {
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .cards-wrapper {
+    flex-direction: column;
+  }
+}

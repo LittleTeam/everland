@@ -1,0 +1,12 @@
+.footer__address {
+  margin: 0;
+  max-width: 313px;
+  padding: 0;
+  padding-top: 1px;
+}
+
+@media screen and (max-width: 1279px){
+  .footer__address {
+    padding-top: 0;
+  }
+}

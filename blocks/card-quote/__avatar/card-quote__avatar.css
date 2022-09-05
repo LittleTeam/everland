@@ -1,0 +1,27 @@
+.card-quote__avatar {
+  flex-shrink: 0;
+  width: 224px;
+  height: 224px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1279px) {
+  .card-quote__avatar {
+    width: 204px;
+    height: 204px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card-quote__avatar {
+    width: 125px;
+    height: 125px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .card-quote__avatar {
+    width: 80px;
+    height: 80px;
+  }
+}

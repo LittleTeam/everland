@@ -1,0 +1,13 @@
+.donation__link {
+  text-decoration: none;
+  color: var(--color-blue);
+  transition: color 0.3s ease-in-out;
+}
+
+.donation__link:hover {
+  color: var(--color-bright-blue);
+}
+
+.donation__link:active {
+  color: var(--color-dark-blue);
+}

@@ -1,0 +1,23 @@
+.footer__phones {
+  display: flex;
+  flex-basis: 151px;
+  flex-direction: column;
+  flex-shrink: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 3px;
+}
+
+@media screen and (max-width: 1279px) {
+  .footer__phones {
+    flex-basis: auto;
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__phones {
+    flex-direction: row;
+  }
+}

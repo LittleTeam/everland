@@ -1,0 +1,9 @@
+.options-slider__btn_type_next {
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .options-slider__btn_type_next {
+    transform: rotate(90deg);
+  }
+}

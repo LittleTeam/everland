@@ -1,0 +1,24 @@
+.slider-project__buttons {
+  bottom: 30px;
+  display: flex;
+  gap: 8px;
+  position: absolute;
+  right: calc(50% - 39px);
+  width: 78px;
+}
+
+
+@media screen and (max-width: 1279px) {
+  .slider-project__buttons {
+    right: calc(50% - 28px);
+    width: 56px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .slider-project__buttons {
+    height: 24px;
+    right: 25px;
+    top: 25px;
+  }
+}

@@ -1,0 +1,17 @@
+.donation-options__radio-button_location_payment {
+  height: 48px;
+  width: 186px;
+}
+
+@media screen and (max-width: 768px) {
+  .donation-options__radio-button_location_payment {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .donation-options__radio-button_location_payment {
+    height: 44px;
+    width: 260px
+  }
+}

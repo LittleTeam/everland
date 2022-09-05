@@ -1,0 +1,16 @@
+.accordion {
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+@media screen and (max-width: 1279px) {
+  .accordion {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .accordion {
+    padding-top: 32px;
+    padding-bottom: 64px;
+  }
+}

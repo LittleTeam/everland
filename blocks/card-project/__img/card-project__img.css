@@ -1,0 +1,19 @@
+.card-project__img {
+  border-radius: 30px;
+  height: 393px;
+  object-fit: cover;
+  width: 100%;
+}
+
+@media screen and (max-width: 1279px) {
+  .card-project__img {
+    border-radius: 10px;
+    height: 284px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card-project__img {
+    height: 180px;
+  }
+}

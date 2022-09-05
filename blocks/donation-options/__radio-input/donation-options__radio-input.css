@@ -1,0 +1,15 @@
+.donation-options__radio-input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.donation-options__radio-input:focus + .donation-options__radio-button {
+  border-color: var(--color-bright-blue);
+}
+
+.donation-options__radio-input:checked + .donation-options__radio-button {
+  border-color: var(--color-blue);
+}

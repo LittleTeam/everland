@@ -1,0 +1,19 @@
+.form__custom-checkbox {
+  flex-shrink: 0;
+
+  margin-right: 8px;
+  margin-top: -1px;
+
+  width: 25px;
+  height: 25px;
+  box-sizing: border-box;
+
+  background-color: var(--color-light-grey);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 10px;
+  border: 1px solid transparent;
+
+  transition: background-color 0.3s ease-in-out, background-image 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}

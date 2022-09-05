@@ -1,0 +1,5 @@
+.about__slider-item {
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+}

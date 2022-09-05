@@ -1,0 +1,21 @@
+.card-video__link {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  color: var(--color-text-main);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1279px) {
+  .card-video__link {
+    gap: 8px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card-video__link {
+    margin-top: 7px;
+  }
+}

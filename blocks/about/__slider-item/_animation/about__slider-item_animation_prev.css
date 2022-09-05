@@ -1,0 +1,8 @@
+.about__slider-item_animation_prev {
+    animation: showLeft .5s;
+  }
+
+  @keyframes showLeft {
+    from {left:-100%;}
+    to {left:0;}
+  }

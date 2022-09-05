@@ -1,0 +1,43 @@
+@media screen and (max-width: 320px) {
+  .donation-options_content_sum {
+    margin-top: 19px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .donation-options_content_sum {
+    margin-right: -16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 16px;
+  }
+
+  .donation-options_content_sum .donation-options__item {
+    width: calc(25% - 16px);
+    max-width: 159px;
+    min-width: fit-content;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .donation-options_content_sum {
+    gap: 16px;
+    margin-top: 24px;
+  }
+
+  .donation-options_content_sum .donation-options__item_content_another {
+    max-width: none;
+    width: 190px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .donation-options_content_sum {
+    margin-right: -5px;
+    gap: 12px 5px;
+  }
+
+  .donation-options_content_sum .donation-options__item {
+    width: calc(25% - 5px);
+  }
+}

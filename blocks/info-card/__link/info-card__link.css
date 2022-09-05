@@ -1,0 +1,11 @@
+.info-card__link {
+  margin-top: auto;
+  display: inline-flex;
+  min-width: 165px;
+}
+
+@media screen and (max-width: 1279px) {
+  .info-card__link {
+    min-width: auto;
+  }
+}

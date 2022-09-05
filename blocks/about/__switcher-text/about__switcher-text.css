@@ -1,0 +1,28 @@
+.about__switcher-text {
+  align-self: center;
+  margin: 0;
+  min-width: 38px;
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-variant-numeric: lining-nums;
+  font-weight: 700;
+  line-height: 130%;
+  text-align: right;
+}
+
+@media screen and (max-width: 1250px) {
+  .about__switcher-text {
+    min-width: 31px;
+    font-size: 16px;
+    line-height: 120%;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .about__switcher-text {
+    min-width: 27px;
+    font-size: 14px;
+  }
+}

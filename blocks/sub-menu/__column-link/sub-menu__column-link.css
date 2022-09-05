@@ -1,0 +1,14 @@
+.sub-menu__column-link {
+  text-decoration: none;
+  color: var(--color-text-main);
+  transition: color 0.3s ease-in-out;
+}
+
+.sub-menu__column-link:hover,
+.sub-menu__column-link:focus {
+  color: var(--color-dark-blue);
+}
+
+.sub-menu__column-link:active {
+  color: var(--color-blue);
+}

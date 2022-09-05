@@ -1,0 +1,16 @@
+.amount {
+  padding-top: 0;
+  padding-bottom: 150px;
+}
+
+@media screen and (max-width: 1279px) {
+  .amount {
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .amount {
+    padding-bottom: 64px;
+  }
+}

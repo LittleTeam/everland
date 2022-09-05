@@ -1,0 +1,19 @@
+.accordion__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  padding-top: 12px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .accordion__text {
+      font-size: 14px;
+      padding-top: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .accordion__text {
+      padding-top: 25px;
+  }
+}

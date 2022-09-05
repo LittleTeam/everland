@@ -1,0 +1,20 @@
+.amount__text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: black;
+}
+
+@media screen and (max-width: 1279px) {
+  .amount__text {
+    font-size: 16px;
+    line-height: 120%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .amount__text {
+    font-size: 14px;
+  }
+}

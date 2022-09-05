@@ -1,0 +1,27 @@
+.about__second-images {
+  height: 315px;
+  width: 352px;
+  object-fit: cover;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1250px) {
+  .about__second-images {
+    width: 184px;
+    height: 152px;
+    top: 15px;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .about__second-images {
+    width: 190px;
+    height: 144px;
+    top: 246px;
+    right: 0;
+  }
+}

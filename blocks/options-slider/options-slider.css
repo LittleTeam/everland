@@ -1,0 +1,13 @@
+.options-slider {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding-bottom: 19px;
+}
+
+@media screen and (max-width: 767px) {
+  .options-slider {
+    flex-direction: column;
+  }
+}

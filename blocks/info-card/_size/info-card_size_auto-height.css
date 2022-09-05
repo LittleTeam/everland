@@ -1,0 +1,5 @@
+@media screen and (max-width: 1279px) {
+  .info-card_size_auto-height {
+    min-height: auto;
+  }
+}

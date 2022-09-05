@@ -1,0 +1,4 @@
+.info-cards__item {
+  display: flex;
+  align-items: stretch;
+}

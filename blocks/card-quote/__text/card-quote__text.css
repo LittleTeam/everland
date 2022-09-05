@@ -1,0 +1,24 @@
+.card-quote__text {
+  margin: 0;
+  padding-top: 19px;
+  padding-bottom: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+@media screen and (max-width: 1279px) {
+  .card-quote__text {
+    font-size: 16px;
+    line-height: 120%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card-quote__text {
+    font-size: 14px;
+    line-height: 120%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}

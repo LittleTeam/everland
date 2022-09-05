@@ -1,0 +1,23 @@
+.donation-options {
+  display: flex;
+  gap: 40px;
+}
+
+@media screen and (max-width: 1279px) {
+  .donation-options {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .donation-options {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donation-options {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+}

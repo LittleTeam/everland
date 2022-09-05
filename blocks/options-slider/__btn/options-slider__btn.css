@@ -1,0 +1,29 @@
+.options-slider__btn {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  color: var(--color-text-main);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.options-slider__btn:hover,
+.options-slider__btn:focus {
+  color: var(--color-dark-blue);
+}
+
+.options-slider__btn:active {
+  color: var(--color-bright-blue);
+}
+
+@media screen and (max-width: 767px) {
+  .options-slider__btn {
+    top: auto;
+    left: 50%;
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,20 @@
+.button_color_green {
+  color: var(--color-green);
+  background-color: var(--color-light-green);
+}
+
+.button_color_green:hover,
+.button_color_green:focus {
+  color: var(--color-white);
+  background-color: var(--color-green);
+}
+
+.button_color_green:active {
+  color: var(--color-white);
+  background-color: var(--color-dark-green);
+}
+
+.button_color_green:disabled {
+  color: var(--color-grey-transparent);
+  background-color: var(--color-grey);
+}

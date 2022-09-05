@@ -1,0 +1,20 @@
+.navigation__link {
+  color: inherit;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  transition: color 0.3s ease-in-out;
+}
+
+.navigation__link:hover,
+.navigation__link:focus {
+  color: var(--color-dark-blue);
+}
+
+.navigation__link:active {
+  color: var(--color-blue);
+}
+

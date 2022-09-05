@@ -1,0 +1,26 @@
+.info-card__icon {
+  display: block;
+  margin-bottom: 40px;
+  width: 64px;
+  height: 64px;
+  box-sizing: border-box;
+
+  padding: 16px;
+
+  background-size: 32px 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1279px) {
+  .info-card__icon {
+    margin-bottom: 20px;
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+
+    background-size: 24px 24px;
+  }
+}

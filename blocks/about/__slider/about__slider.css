@@ -1,0 +1,28 @@
+.about__slider {
+  display: flex;
+  justify-self: end;
+  width: 126px;
+  height: 35px;
+  justify-content: space-between;
+  z-index: 3;
+  position: absolute;
+  bottom: 0;
+  left: 40px;
+}
+
+@media screen and (max-width: 1250px) {
+  .about__slider {
+    width: 97px;
+    height: 24px;
+    justify-self: end;
+    left: 40px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .about__slider {
+    width: 95px;
+    height: 24px;
+    left: calc(50% - 47.5px);
+  }
+}

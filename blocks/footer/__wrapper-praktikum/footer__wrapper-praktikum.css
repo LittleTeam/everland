@@ -1,0 +1,24 @@
+.footer__wrapper-praktikum {
+  align-items: flex-end;
+  display: flex;
+  gap: 20px;
+  margin-top: 36px;
+}
+
+@media screen and (max-width: 1279px) {
+  .footer__wrapper-praktikum {
+    margin-top: 34px;
+    gap: 11px;
+  }
+}
+
+@media screen and (max-width: 695px) {
+  .footer__wrapper-praktikum {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 7px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

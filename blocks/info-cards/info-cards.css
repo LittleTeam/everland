@@ -1,0 +1,25 @@
+.info-cards {
+  margin: 0;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+
+  padding-left: 0;
+  list-style: none;
+}
+
+@media screen and (max-width: 1150px) {
+  .info-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .info-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}

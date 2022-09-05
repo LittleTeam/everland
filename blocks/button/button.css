@@ -1,0 +1,37 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+
+  height: 48px;
+
+  padding: 12px 16px;
+
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;
+
+  border-radius: 10px;
+
+  transition-property: background-color, background-image, border-color, color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1279px) {
+  .button {
+    height: 44px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button {
+    font-size: 14px;
+  }
+}

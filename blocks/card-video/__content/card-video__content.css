@@ -1,0 +1,23 @@
+.card-video__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (min-width: 1280px) {
+  .card-video__content {
+    align-self: stretch;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .card-video__content {
+    gap: 6px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card-video__content {
+    gap: 0;
+  }
+}

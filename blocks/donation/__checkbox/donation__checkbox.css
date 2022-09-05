@@ -1,0 +1,19 @@
+.donation__checkbox {
+  margin-bottom: 20px;
+}
+
+.donation__checkbox:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .donation__checkbox {
+    margin-bottom: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donation__checkbox {
+    margin-bottom: 11px;
+  }
+}

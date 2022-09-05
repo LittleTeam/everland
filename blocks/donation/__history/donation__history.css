@@ -1,0 +1,28 @@
+.donation__history {
+  width: 45.3%;
+  box-sizing: border-box;
+  padding-top: 38px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+@media screen and (max-width: 1279px) {
+  .donation__history {
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 1149px) {
+  .donation__history {
+    margin-top: 50px;
+    width: 100%;
+    max-width: 531px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donation__history {
+    margin-top: 32px;
+  }
+}

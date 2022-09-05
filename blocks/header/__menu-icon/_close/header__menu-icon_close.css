@@ -1,0 +1,12 @@
+.header__menu-icon_close {
+  width: 25px;
+  height: 25px;
+  content: url(../../../../images/close.svg);
+}
+
+@media screen and (max-width: 1250px) {
+  .header__menu-icon_close {
+    width: 19px;
+    height: 19px;
+  }
+}

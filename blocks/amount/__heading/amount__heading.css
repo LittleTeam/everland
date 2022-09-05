@@ -1,0 +1,23 @@
+.amount__heading {
+  margin: 0;
+  padding-bottom: 5px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 40.8px;
+  color: black;
+}
+
+@media screen and (max-width: 1279px) {
+  .amount__heading {
+    font-size: 26px;
+    line-height: 120%;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .amount__heading {
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+}

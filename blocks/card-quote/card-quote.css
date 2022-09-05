@@ -1,0 +1,25 @@
+.card-quote {
+  width: 100%;
+  display: flex;
+  gap: 80px;
+}
+
+@media screen and (max-width: 1279px) {
+  .card-quote {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .card-quote {
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .card-quote {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+}
